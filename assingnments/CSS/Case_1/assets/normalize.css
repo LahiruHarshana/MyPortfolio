@@ -1,0 +1,235 @@
+main{
+    border: 1px cyan;
+}
+
+body>main>section:nth-child(1){
+    position: absolute;
+    background: red;
+    left: 0;
+    top: 0;
+    width:50vw;
+    height: 50vh;
+}
+
+body>main>section:nth-child(2){
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: green;
+    width: 50vw;
+    height: 50vh;
+}
+body>main>section:nth-child(3){
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: orange;
+    width: 50vw;
+    height: 50vh;
+}
+body>main>section:nth-child(4){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: deeppink;
+    width: 50vw;
+    height: 50vh;
+}
+
+body>main>section:nth-child(1)>div:nth-child(1){
+    position: absolute;
+    border-radius: 100%;
+    width: 10vw;
+    height: 10vw;
+    background: white;
+    left: -50px;
+    top: -50px;
+}
+
+body>main>section:nth-child(1)>div:nth-child(2){
+    position: absolute;
+    border-radius: 100%;
+    width: 10vw;
+    height: 10vw;
+    background: white;
+    left:0;
+    right:0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+body>main>section:nth-child(1)>div:nth-child(2)>div{
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    background: red;
+    left:0;
+    right:0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+body>main>section:nth-child(2)>div:nth-child(1){
+    position: absolute;
+    border-radius: 100%;
+    width: 10vw;
+    height: 10vw;
+    background: white;
+    right: -50px;
+    top: -50px;
+
+}
+
+body>main>section:nth-child(2)>div:nth-child(2){
+    position: absolute;
+    border-radius: 100%;
+    width: 10vw;
+    height: 10vw;
+    background: white;
+    left:0;
+    right:0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+body>main>section:nth-child(2)>div:nth-child(2)>div{
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    background: red;
+    left:0;
+    right:0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+body>main>section:nth-child(3)>div:nth-child(2){
+    position: absolute;
+    border-radius: 100%;
+    width: 10vw;
+    height: 10vw;
+    background: white;
+    left:0;
+    right:0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+body>main>section:nth-child(3)>div:nth-child(2)>div{
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    background: red;
+    left:0;
+    right:0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+body>main>section:nth-child(4)>div:nth-child(2){
+    position: absolute;
+    border-radius: 100%;
+    width: 10vw;
+    height: 10vw;
+    background: white;
+    left:0;
+    right:0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+body>main>section:nth-child(4)>div:nth-child(2)>div{
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    background: red;
+    left:0;
+    right:0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+body>main>section:nth-child(3)>div:nth-child(1){
+    position: absolute;
+    border-radius: 100%;
+    width: 10vw;
+    height: 10vw;
+    background: white;
+    left: -50px;
+    bottom: -50px;
+
+}
+
+body>main>section:nth-child(4)>div:nth-child(1){
+    position: absolute;
+    border-radius: 100%;
+    width: 10vw;
+    height: 10vw;
+    background: white;
+    right: -50px;
+    bottom: -50px;
+
+}
+
+body>main>div:nth-child(5){
+    position: absolute;
+    width: 15vw;
+    height: 15vh;
+    background: white;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+body>main>div:nth-child(5)>div{
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 100%;
+    background: red;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+body>main>div:nth-child(6){
+    position: absolute;
+    width: 10vw;
+    height: 10vh;
+    background: white;
+    border-radius: 100%;
+    right: 0;
+    left: 0;
+    top: -50px;
+    margin: auto;
+
+}
+
+body>main>div:nth-child(7){
+    position: absolute;
+    width: 10vw;
+    height: 10vh;
+    border-radius: 100%;
+    background: white;
+    right: 0;
+    left: 0;
+    bottom: -50px;
+    margin: auto;
+
+}
+
+
