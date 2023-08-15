@@ -38,12 +38,13 @@ body>main>section:nth-child(4){
 
 body>main>section:nth-child(1)>div:nth-child(1){
     position: absolute;
-    border-radius: 100%;
+    /*border-radius: 100%;*/
     width: 10vw;
     height: 10vw;
     background: white;
-    left: -50px;
-    top: -50px;
+    /*left: -5vw;*/
+    /*top: -5vw;*/
+    border-bottom-right-radius: 120px;
 }
 
 body>main>section:nth-child(1)>div:nth-child(2){
@@ -73,12 +74,13 @@ body>main>section:nth-child(1)>div:nth-child(2)>div{
 
 body>main>section:nth-child(2)>div:nth-child(1){
     position: absolute;
-    border-radius: 100%;
+    /*border-radius: 100%;*/
     width: 10vw;
     height: 10vw;
     background: white;
-    right: -50px;
-    top: -50px;
+    right: 0;
+    border-bottom-left-radius: 120px;
+
 
 }
 
@@ -159,30 +161,36 @@ body>main>section:nth-child(4)>div:nth-child(2)>div{
 
 body>main>section:nth-child(3)>div:nth-child(1){
     position: absolute;
-    border-radius: 100%;
+    /*border-radius: 100%;*/
     width: 10vw;
     height: 10vw;
     background: white;
-    left: -50px;
-    bottom: -50px;
+    left:0;
+    bottom: 0;
+    border-bottom-left-radius: 120px;
+    transform: rotate(180deg);
+
 
 }
 
 body>main>section:nth-child(4)>div:nth-child(1){
     position: absolute;
-    border-radius: 100%;
+    /*border-radius: 100%;*/
     width: 10vw;
     height: 10vw;
+    bottom: 0;
+    right: 0;
     background: white;
-    right: -50px;
-    bottom: -50px;
+    border-bottom-right-radius: 120px;
+    transform: rotate(180deg);
+
 
 }
 
 body>main>div:nth-child(5){
     position: absolute;
-    width: 15vw;
-    height: 15vh;
+    width: 14vw;
+    height: 14vw;
     background: white;
     right: 0;
     left: 0;
@@ -194,8 +202,8 @@ body>main>div:nth-child(5){
 
 body>main>div:nth-child(5)>div{
     position: absolute;
-    width: 6vw;
-    height: 6vw;
+    width: 8vw;
+    height: 8vw;
     border-radius: 100%;
     background: red;
     right: 0;
@@ -208,28 +216,30 @@ body>main>div:nth-child(5)>div{
 
 body>main>div:nth-child(6){
     position: absolute;
-    width: 10vw;
-    height: 10vh;
+    width: 12vw;
+    height: 6vw;
     background: white;
-    border-radius: 100%;
-    right: 0;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    top: 0;
     left: 0;
-    top: -50px;
+    right: 0;
     margin: auto;
 
 }
 
 body>main>div:nth-child(7){
     position: absolute;
-    width: 10vw;
-    height: 10vh;
-    border-radius: 100%;
+width: 12vw;
+    height: 6vw;
     background: white;
-    right: 0;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    transform: rotate(180deg);
+    bottom: 0;
     left: 0;
-    bottom: -50px;
+    right: 0;
     margin: auto;
-
 }
 
 
