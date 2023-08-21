@@ -42,28 +42,41 @@
     }
 
     footer{
-      text-align: center; /* Center the content horizontally */
+      text-align: center;
       background-color:darkgray;
-      /* Position the footer at the bottom of the viewport */
-      position: relative;
+      position: absolute;
       width: 100%;
       height: 5vh;
+      bottom: 0;
     }
     footer>p{
       text-align: center;
       color: white;
       margin: 0;
-      padding: 1.5vh;
     }
+
+    body>section{
+      position: relative;
+    }
+
     body>section>section:nth-child(1){
+      position: absolute;
       background-color: purple;
       width: 20vw;
-      height: 100vh;
+      height: 85vh;
+      left: 0;
     }
     body>section>section:nth-child(2){
+      position: absolute;
+      right: 0;
       width: 80vw;
-      height: 100vh;
+      height: 85vh;
     }
+    body>section>section:nth-child(2)>img{
+      display: inline-block;
+    }
+
+
 
 
 
