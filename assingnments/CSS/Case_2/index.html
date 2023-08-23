@@ -6,78 +6,94 @@
   <link rel="stylesheet" href="assets/normalize.css">
   <style>
     header{
+      border: 3px solid red;
       position: relative;
       width: 100vw;
       height: 10vh;
     }
 
+    header>img{
+      position: absolute;
+      left: 3vw;
+    }
+
     header>h1{
-      position: relative;
+      position: absolute;
       display: inline-block;
       font-size: 15px;
+      top:0;
+    }
+    body{
+      position: relative;
     }
 
     header>h1:nth-child(1){
-      left: 71vw;
+
+      left: 64vw;
+      top: 2vh;
 
     }
     header>h1:nth-child(2){
-      left: 74vw;
+      left: 72vw;
+      top: 2vh;
+
 
     }
     header>h1:nth-child(3){
-      left: 77vw;
-
-    }
-
-    header>h1:nth-child(4){
       left: 80vw;
+      top: 2vh;
+
 
     }
-    header>img{
-      position: absolute;
-      left: 4vw;
-      width: 12vw;
-      height: 6vh;
+
+    header>h1:nth-child(4) {
+      left: 88vw;
+      top: 2vh;
+
     }
 
-    footer{
-      position: fixed;
-      bottom:0;
-      text-align: center;
-      background-color:darkgray;
-      width: 100%;
-      height: 5vh;
-    }
-    footer>p{
-      text-align: center;
-      color: white;
-      margin: 0;
-    }
-
-
-
-    body>section{
-      position: relative;
-    }
-
-    body>section>section:nth-child(1){
+    body>section>div:nth-child(1){
       position: absolute;
       background-color: purple;
-      width: 20%;
-      height: 100%;
-      left: 0;
+      width: 20vw;
+      height: 100vh;
+      top: 0;
+      bottom: 0;
+
     }
-    body>section>section:nth-child(2){
+
+    body>section>div:nth-child(2){
+      width: 79.5vw;
+      height: 40vh;
       position: absolute;
       right: 0;
-      width: 80%;
-      height: 100%;
+      top: 12vh;
     }
-    body>section>section:nth-child(2)>img{
-      display: inline-block;
+
+    body>section>div:nth-child(2)>img:nth-child(1){
+      border: 1px solid greenyellow;
       width: 26vw;
-      height: 30vh;
+      height: 40vh;
+    }
+    body>section>div:nth-child(2)>img:nth-child(2){
+      border: 1px solid greenyellow;
+      width: 26vw;
+      height: 40vh;
+    }
+    body>section>div:nth-child(2)>img:nth-child(3){
+      border: 1px solid greenyellow;
+      width: 26vw;
+      height: 40vh;
+    }
+    body>section{
+      border:3px solid black;
+    }
+    body>section>div:nth-child(3){
+      position: absolute;
+      width: 79.5vw;
+      height: 58.5vh;
+      right: 0;
+      top: 52.5vh;
     }
 
 
@@ -98,18 +114,19 @@
 </header>
 <body>
 <section>
+<div>
 
-  <section></section>
-  <section>
+
+</div>
+
+  <div>
     <img src="assets/7IsB.gif">
     <img src="assets/7IsB.gif">
     <img src="assets/7IsB.gif">
+  </div>
 
-  </section>
-
+  <div></div>
 </section>
-
-
 </body>
 
 <footer>
