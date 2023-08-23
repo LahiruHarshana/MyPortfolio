@@ -52,50 +52,23 @@
 
     }
 
-    body>section>div:nth-child(1){
+    body>main>section:nth-child(1){
       position: absolute;
+      width: 100vw;
+      height: 90vh;
       background-color: purple;
-      width: 20vw;
-      height: 100vh;
-      top: 0;
-      bottom: 0;
-
+      left: 0;
+      top: 10.5vh;
     }
 
-    body>section>div:nth-child(2){
-      width: 79.5vw;
-      height: 40vh;
+    body>main>section:nth-child(1)>section{
       position: absolute;
+      width: 80vw;
+      height: 90vh;
+      background-color: white;
       right: 0;
-      top: 12vh;
+      top: 10.5vh;
     }
-
-    body>section>div:nth-child(2)>img:nth-child(1){
-      border: 1px solid greenyellow;
-      width: 26vw;
-      height: 40vh;
-    }
-    body>section>div:nth-child(2)>img:nth-child(2){
-      border: 1px solid greenyellow;
-      width: 26vw;
-      height: 40vh;
-    }
-    body>section>div:nth-child(2)>img:nth-child(3){
-      border: 1px solid greenyellow;
-      width: 26vw;
-      height: 40vh;
-    }
-    body>section{
-      border:3px solid black;
-    }
-    body>section>div:nth-child(3){
-      position: absolute;
-      width: 79.5vw;
-      height: 58.5vh;
-      right: 0;
-      top: 52.5vh;
-    }
-
 
 
 
@@ -113,22 +86,18 @@
 
 </header>
 <body>
-<section>
-<div>
-
-
-</div>
-
+<main>
+  <section>
+  <section>
   <div>
     <img src="assets/7IsB.gif">
     <img src="assets/7IsB.gif">
     <img src="assets/7IsB.gif">
   </div>
-
-  <div></div>
+  </section>
+  </section>
 </section>
-</body>
-
+</main>
 <footer>
 <p>Developed By IJSE</p>
 </footer>
