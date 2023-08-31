@@ -33,6 +33,10 @@
     }
     main{
       margin-top: 120px;
+      border: 2px solid deepskyblue;
+      border-radius: 10px;
+      padding-left: 25px;
+      color: cadetblue;
     }
     main>div{
       font-size: 100px;
@@ -41,6 +45,30 @@
       bottom: 100px;
       color: lightskyblue;
     }
+
+    main>div:hover{
+      font-size: 100px;
+      position:fixed;
+      left: 1500px;
+      bottom: 100px;
+      color: red;
+      animation: vibration 0.3s infinite;
+    }
+
+    @keyframes vibration {
+      0% { transform: translate(0, 0); }
+      10% { transform: translate(-2px, -2px); }
+      20% { transform: translate(2px, 2px); }
+      30% { transform: translate(-2px, 2px); }
+      40% { transform: translate(2px, -2px); }
+      50% { transform: translate(0, 0); }
+      60% { transform: translate(-2px, -2px); }
+      70% { transform: translate(2px, 2px); }
+      80% { transform: translate(-2px, 2px); }
+      90% { transform: translate(2px, -2px); }
+      100% { transform: translate(0, 0); }
+    }
+
   </style>
 </head>
 <header>
