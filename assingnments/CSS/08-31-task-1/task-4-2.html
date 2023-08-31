@@ -5,29 +5,46 @@
   <title>tasks</title>
   <style>
     main{
+      position: relative;
       width: 80vw;
       height: 80vh;
       border: 2px solid black;
     }
 
     main>div:nth-child(1){
+      position: absolute;
       width: 60vw;
       height: 60vh;
-
+      border: 2px solid black;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      margin: auto;
 
     }
 
+    main>div:nth-child(1)>div{
+      position: absolute;
+      border-radius: 100%;
+      width: 25px;
+      height: 25px;
+      background-color: #8cec77;
+      top: 0;
+      right: 0;
+    }
 
   </style>
 </head>
 <body>
 
 <main>
-</main>
+
 <div>
   <div></div>
 </div>
 <div></div>
 <div></div>
+</main>
 </body>
 </html>
