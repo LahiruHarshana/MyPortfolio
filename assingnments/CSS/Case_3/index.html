@@ -5,16 +5,49 @@
     <title>case_3</title>
   <link rel="stylesheet" href="assets/normalize.css">
   <style>
-    div{
 
+    body>section>div:last-child{
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin:auto;
+        width: 200px;
+        height: 200px;
+        border: 10px solid darkgray;
+        border-radius: 100%;
     }
+
+    body>section>div:nth-child(3){
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin:auto;
+        width: 180px;
+        height: 180px;
+        border: 10px solid red;
+        border-radius: 100%;
+    }
+    body>section>div:nth-child(2){
+        margin-left: 700px;
+        margin-top: 500px;
+        width: 180px;
+        height: 180px;
+        background-color: deepskyblue;
+        border-radius: 100%;
+    }
+
   </style>
 </head>
 <body>
+<section>
 <div></div>
 <div></div>
 <div></div>
 <div></div>
-
+</section>
 </body>
 </html>
