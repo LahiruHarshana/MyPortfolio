@@ -7,21 +7,12 @@
   <style>
 
 
-    body{
-      z-index: -10;
-      margin-top: 120px;
-    }
-
-
-    main{
-      position: absolute;
-      top: 10vh;
-    }
 
     *{
       scroll-behavior: smooth;
     }
     header{
+      z-index: 100;
       position: fixed;
       width: 80vw;
       height: 10vh;
@@ -65,6 +56,16 @@
       color: cadetblue;
     }
 
+    body>div:nth-child(1){
+      position: fixed;
+      top:0;
+      width: 100vw;
+      height: 10vh;
+      margin-top: 120px;
+      padding-left: 25px;
+      background-color: black
+    }
+
     main>section:nth-child(4){
       margin-top: 120px;
       padding-left: 25px;
@@ -92,7 +93,7 @@
     main>section:nth-child(3)>div:nth-child(1) {
       margin-left: -20px;
       position: sticky;
-      top: 0;
+      top: 120px;
       width: 98.5vw;
       height: 10vh;
       background-color: blue;
@@ -291,8 +292,15 @@
 
   </section>
 
+  <section>
+
+  </section>
+
 
 
 </main>
+<div>
+
+</div>
 </body>
 </html>
