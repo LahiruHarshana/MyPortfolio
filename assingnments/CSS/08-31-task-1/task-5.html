@@ -6,9 +6,7 @@
   <link rel="stylesheet" href="assets/fontawesome-free-6.4.2-web/css/all.min.css">
   <style>
 
-    p{
-      z-index: -100;
-    }
+
     body{
       margin-top: 100px;
     }
@@ -57,13 +55,17 @@
     }
 
     main>section:nth-child(2)>div:nth-child(1) {
-      z-index: -5;
+      z-index: -1;
       margin-left: -20px;
       position: sticky;
       top: 0;
       width: 98.5vw;
       height: 10vh;
       background-color: orangered;
+    }
+
+    main>section:nth-child(2)>div:nth-child(1)>p{
+      z-index: -10;
     }
     main>section:nth-child(1)>div:last-child{
       font-size: 100px;
@@ -83,7 +85,7 @@
       background-color: red;
     }
 
-    main>div:hover{
+    main>section>div:last-child:hover{
       font-size: 100px;
       position:fixed;
       left: 1500px;
@@ -188,10 +190,6 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci alias atque doloribus exercitationem fugit illo labore laudantium libero nisi perferendis provident, qui rerum, similique veritatis. Asperiores distinctio quisquam voluptatum!</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci alias atque doloribus exercitationem fugit illo labore laudantium libero nisi perferendis provident, qui rerum, similique veritatis. Asperiores distinctio quisquam voluptatum!</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci alias atque doloribus exercitationem fugit illo labore laudantium libero nisi perferendis provident, qui rerum, similique veritatis. Asperiores distinctio quisquam voluptatum!</p>
-    <div>
-      <i class="fa-regular fa-message"></i>
-
-    </div>
 
   </section>
 
