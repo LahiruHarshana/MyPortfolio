@@ -8,8 +8,10 @@
 
 
     body{
+      z-index: -10;
       margin-top: 120px;
     }
+
 
     main{
       position: absolute;
@@ -44,7 +46,10 @@
       padding: 20px;
       font-size: 20px;
     }
+
     main>section:nth-child(1){
+      z-index: -100;
+      top: 100px;
       padding-left: 25px;
       color: cadetblue;
     }
@@ -67,17 +72,15 @@
     }
 
     main>section:nth-child(4)>div:nth-child(1) {
-      z-index: -1;
       margin-left: -20px;
       position: sticky;
       top: 0;
       width: 98.5vw;
       height: 10vh;
-      background-color: orangered;
+      background-color: blueviolet;
     }
 
     main>section:nth-child(2)>div:nth-child(1) {
-      z-index: -1;
       margin-left: -20px;
       position: sticky;
       top: 0;
@@ -87,7 +90,6 @@
     }
 
     main>section:nth-child(3)>div:nth-child(1) {
-      z-index: -1;
       margin-left: -20px;
       position: sticky;
       top: 0;
@@ -96,9 +98,7 @@
       background-color: blue;
     }
 
-    main>section:nth-child(2)>div:nth-child(1)>p{
-      z-index: -10;
-    }
+
     main>section:nth-child(1)>div:last-child{
       font-size: 100px;
       position:fixed;
@@ -108,13 +108,13 @@
     }
 
     main>section:nth-child(1)>div:nth-child(1) {
-      z-index: -5;
       margin-left: -20px;
       position: sticky;
-      top: 0;
+      top: 120px;
       width: 98.5vw;
       height: 10vh;
       background-color: red;
+
     }
 
     main>section>div:last-child:hover{
