@@ -23,7 +23,8 @@ body{
     background-color: white;
 }
 
-body>section:nth-child(1){
+body>main>section:nth-child(1){
+    margin-top: -16px;
     width: 100vw;
     height: 100vh;
 }
