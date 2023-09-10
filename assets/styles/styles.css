@@ -96,3 +96,8 @@ body>main>section:nth-child(2)>h1{
     font-size: 60px;
     color: black;
 }
+
+body>main>section:nth-child(2)>section{
+    display: flex;
+
+}
