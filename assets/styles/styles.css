@@ -51,10 +51,13 @@ body>main>section:nth-child(1)>hgroup{
 body>main>section:nth-child(1)>hgroup>p{
     font-size: 50px;
     -webkit-text-fill-color: white;
+    margin-top: -50px;
+
 }
 
 body>main>section:nth-child(1)>hgroup>h2{
     font-size: 60px;
     -webkit-text-fill-color: white;
+    margin-top: -50px;
 }
 
