@@ -37,6 +37,8 @@ body>main>section:nth-child(1){
 
 body>main>section:nth-child(1)>hgroup{
     position: relative;
-    top: 100px;
+    top: 500px;
+    left: 300px;
+
 }
 
