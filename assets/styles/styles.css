@@ -7,4 +7,5 @@ header{
 }
 header>menu>ul>li{
     display: inline-block;
+    padding-left: 5vw;
 }
