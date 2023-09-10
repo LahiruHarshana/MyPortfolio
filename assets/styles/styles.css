@@ -99,5 +99,6 @@ body>main>section:nth-child(2)>h1{
 
 body>main>section:nth-child(2)>section{
     display: flex;
-
+    width: 100vw;
+    height: 40vh;
 }
