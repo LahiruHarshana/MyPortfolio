@@ -13,5 +13,5 @@ header>ul>li{
 header>ul{
     position: absolute;
     right: 10vw;
-
+    -webkit-text-fill-color: black;
 }
