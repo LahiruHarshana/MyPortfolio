@@ -106,7 +106,7 @@ body>main>section:nth-child(2)>section{
 }
 
 body>main>section:nth-child(2)>section>div{
-    border: 1px solid #5A8BC5;
+    border: 2px solid rgba(90, 139, 197, 0.28);
     width: 25vw;
     height: 40vh;
     border-radius: 10px;
