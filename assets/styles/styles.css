@@ -30,6 +30,7 @@ body{
 }
 
 body>main>section:nth-child(1){
+    margin-top: 0;
     width: 100vw;
     height: 110vh;
 }
@@ -80,4 +81,7 @@ body>main>section:nth-child(1)>hgroup>button{
 
 body>main>section:nth-child(2){
     text-align: center;
+    width: 100vw;
+    height: 70vh;
+    margin-top: -100px;
 }
