@@ -22,3 +22,7 @@ header>ul{
 body{
     background-color: white;
 }
+
+body>section:nth-child(1)>img{
+
+}
