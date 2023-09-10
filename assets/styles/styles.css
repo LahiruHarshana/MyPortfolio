@@ -34,3 +34,8 @@ body>main>section:nth-child(1){
     background-size: cover;
     background-position: center;
 }
+
+body>main>section:nth-child(1)>button{
+
+
+}
