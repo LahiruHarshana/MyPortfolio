@@ -102,3 +102,6 @@ body>main>section:nth-child(2)>section{
     width: 100vw;
     height: 40vh;
 }
+
+body>main>section:nth-child(2)>section>div{
+}
