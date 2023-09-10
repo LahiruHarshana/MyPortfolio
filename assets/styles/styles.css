@@ -9,3 +9,9 @@ header>menu>ul>li{
     display: inline-block;
     padding-left: 5vw;
 }
+
+header>menu{
+    position: absolute;
+    display: inline-block;
+    padding-left: 5vw;
+}
