@@ -24,13 +24,11 @@ header>ul>li{
 }
 
 
-
 body{
     background-color: white;
 }
 
 body>main>section:nth-child(1){
-    margin-top: -16px;
     width: 100vw;
     height: 110vh;
 }
