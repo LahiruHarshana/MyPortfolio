@@ -42,14 +42,13 @@ body>main>section:nth-child(1)>img{
 }
 
 body>main>section:nth-child(1)>hgroup{
-position: relative;
     display: inline-block;
-    top: 500px;
-    left: 300px;
+
 }
 
 body>main>section:nth-child(1)>hgroup>p{
-    font-size: 30px;
+    font-size: 50px;
     -webkit-text-fill-color: white;
+    margin-top: 0;
 }
 
