@@ -5,3 +5,6 @@ header{
     background-color: white;
     opacity: 0.5;
 }
+header>menu>ul>li{
+    display: inline-block;
+}
