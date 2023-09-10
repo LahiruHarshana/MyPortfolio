@@ -27,3 +27,8 @@ body>section:nth-child(1){
     width: 100vw;
     height: 100vh;
 }
+
+body>section:nth-child(1)>img{
+    width: 100vw;
+    height: 100vh;
+}
