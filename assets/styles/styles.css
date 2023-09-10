@@ -68,6 +68,10 @@ body>main>section:nth-child(1)>hgroup>h3{
 }
 
 body>main>section:nth-child(1)>hgroup>button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    -webkit-text-fill-color: white;
+    font-size: 20px;
 
 }
 
