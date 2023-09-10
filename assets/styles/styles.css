@@ -90,3 +90,9 @@ body>main>section:nth-child(2)>p{
     font-size: 16px;
     color: #3391FF;
 }
+
+body>main>section:nth-child(2)>h1{
+    margin-top: -20px;
+    font-size: 60px;
+    color: black;
+}
