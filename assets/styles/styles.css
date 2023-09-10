@@ -6,6 +6,7 @@ header{
     background-color: rgba(0, 0, 0, 7);
     background-color: white;
     border: 2px solid white;
+    z-index: 100000;
 
 }
 header>ul>li{
@@ -38,16 +39,22 @@ body>main>section:nth-child(1)>img{
     margin-top: -150px;
     width: 100%;
     height: 100%;
+    z-index: -10;
 }
 
 body>main>section:nth-child(1)>hgroup{
-    display: inline-block;
-    margin-bottom: 800px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
 }
 
 body>main>section:nth-child(1)>hgroup>p{
     font-size: 50px;
     -webkit-text-fill-color: white;
-    margin-top: 0;
+}
+
+body>main>section:nth-child(1)>hgroup>h2{
+    font-size: 60px;
+    -webkit-text-fill-color: white;
 }
 
