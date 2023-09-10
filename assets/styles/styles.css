@@ -101,7 +101,10 @@ body>main>section:nth-child(2)>section{
     display: flex;
     width: 100vw;
     height: 40vh;
+    justify-content: space-around;
+
 }
 
 body>main>section:nth-child(2)>section>div{
+
 }
