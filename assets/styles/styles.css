@@ -4,6 +4,7 @@ header{
     height: 5vh;
     background-color: white;
     opacity: 0.7;
+    border: 1px solid white;
 }
 header>ul>li{
     display: inline-block;
