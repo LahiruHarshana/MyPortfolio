@@ -18,3 +18,7 @@ header>ul{
     right: 10vw;
     -webkit-text-fill-color: black;
 }
+
+body{
+    background-color: white;
+}
