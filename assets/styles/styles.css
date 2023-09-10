@@ -28,7 +28,8 @@ body>section:nth-child(1){
     height: 100vh;
 }
 
-body>section:nth-child(1)>img{
-    width: 100vw;
-    height: 100vh;
+body>section:nth-child(1){
+    background: url("/assets/images/Background.png");
+    background-size: cover;
+    background-position: center;
 }
