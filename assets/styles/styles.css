@@ -29,16 +29,14 @@ body>main>section:nth-child(1){
     height: 100vh;
 }
 
-body>main>section:nth-child(1){
-    background: url("/assets/images/Background.png");
-    background-size: cover;
-    background-position: center;
+body>main>section:nth-child(1)>img{
+    width: 100vw;
+    height: 100vh;
 }
 
 body>main>section:nth-child(1)>hgroup{
     position: relative;
     top: 500px;
     left: 300px;
-
 }
 
