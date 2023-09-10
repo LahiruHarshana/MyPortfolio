@@ -110,5 +110,6 @@ body>main>section:nth-child(2)>section>div{
     width: 25vw;
     height: 40vh;
     border-radius: 10px;
+    box-shadow: 0 0 20px 2px rgba(51, 145, 255, 0.31);
 
 }
