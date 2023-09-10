@@ -57,6 +57,7 @@ body>main>section:nth-child(1)>hgroup>p{
 
 body>main>section:nth-child(1)>hgroup>h2{
     font-size: 60px;
+    font-weight: bolder;
     -webkit-text-fill-color: white;
     margin-top: -50px;
 }
