@@ -16,8 +16,14 @@ header>ul>li{
 header>ul{
     position: absolute;
     right: 10vw;
+
+}
+
+header>ul>li{
     -webkit-text-fill-color: black;
 }
+
+
 
 body{
     background-color: white;
@@ -40,5 +46,10 @@ position: relative;
     display: inline-block;
     top: 500px;
     left: 300px;
+}
+
+body>main>section:nth-child(1)>hgroup>p{
+    font-size: 30px;
+    -webkit-text-fill-color: white;
 }
 
