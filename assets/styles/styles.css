@@ -250,4 +250,8 @@ body>main>section:nth-child(3)>section>div:nth-child(4){
     top: 18px;
 }
 
+body>main>section:nth-child(3)>section>div:nth-child(1)>h1{
+    margin-left: 5vw;
+}
+
 
