@@ -274,4 +274,11 @@ body>main>section:nth-child(3)>section>div:nth-child(4)>h1{
     top: -2vh;
 }
 
+body>main>section:nth-child(3)>section>div:nth-child(4)>p{
+    position: relative;
+    left: 6vw;
+    top: -5vh;
+    font-size: 1.2vw;
+}
+
 
