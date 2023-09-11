@@ -206,3 +206,11 @@ body>main>section:nth-child(2)>section>div:nth-child(2)>img:nth-child(10){
     left: 3.3vw;
     top :1vh;
 }
+
+body>main>section:nth-child(3)>div{
+    position: relative;
+    width: 50vw;
+    height: 30vh;
+    border: 2px solid red;
+}
+
