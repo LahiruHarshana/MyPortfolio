@@ -128,9 +128,9 @@ body>main>section:nth-child(2)>section>div>p{
 body>main>section:nth-child(2)>section>div:nth-child(2)>p{
     text-align: left;
     margin-left: 80px;
+    font-weight: lighter;
 }
 
-body>main>section:nth-child(2)>section>div:nth-child(2)>p{
-    text-align: left;
-    margin-left: 80px;
+body>main>section:nth-child(2)>section>div:nth-child(2)>p::first-letter{
+    font-weight: 600;
 }
