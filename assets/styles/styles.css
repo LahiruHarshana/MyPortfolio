@@ -213,7 +213,7 @@ body>main>section:nth-child(3)>section>div{
     display: inline-block;
     width: 40vw;
     height: 30vh;
-    left: 4vw;
+    left: 3.5vw;
 }
 
 body>main>section:nth-child(3)>h1{
@@ -276,9 +276,10 @@ body>main>section:nth-child(3)>section>div:nth-child(4)>h1{
 
 body>main>section:nth-child(3)>section>div:nth-child(4)>p{
     position: relative;
-    left: 6vw;
+    left: 8vw;
     top: -5vh;
     font-size: 1.2vw;
+    display: inline-block;
 }
 
 
