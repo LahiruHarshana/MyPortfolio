@@ -84,9 +84,9 @@ body>main>section:nth-child(1)>hgroup>button{
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid white;
     -webkit-text-fill-color: white;
-    font-size: 20px;
-    width: 262px;
-    height: 55px;
+    font-size: 1.5vw;
+    width: 15vw;
+    height: 5vh;
 
 }
 
@@ -119,7 +119,7 @@ body>main>section:nth-child(2)>section{
 body>main>section:nth-child(2)>section>div {
     border: 2px solid rgba(90, 139, 197, 0.28);
     width: 25vw;
-    height: 40vh;
+    height: 45vh;
     border-radius: 10px;
     box-shadow: 0 0 20px 2px rgba(51, 145, 255, 0.31);
 
