@@ -213,7 +213,7 @@ body>main>section:nth-child(3)>section>div{
     display: inline-block;
     width: 40vw;
     height: 30vh;
-    border: 2px solid red;
+    left: 15vw;
 }
 
 body>main>section:nth-child(3)>h1{
@@ -242,6 +242,11 @@ body>main>section:nth-child(3)>section>div>h1{
 }
 
 body>main>section:nth-child(3)>section>div:nth-child(2){
+    top: 18px;
+}
+
+
+body>main>section:nth-child(3)>section>div:nth-child(4){
     top: 18px;
 }
 
