@@ -207,10 +207,32 @@ body>main>section:nth-child(2)>section>div:nth-child(2)>img:nth-child(10){
     top :1vh;
 }
 
-body>main>section:nth-child(3)>div{
+body>main>section:nth-child(3)>section>div{
+    margin-left: 5vw;
     position: relative;
-    width: 50vw;
+    display: inline-block;
+    width: 40vw;
     height: 30vh;
     border: 2px solid red;
+}
+
+body>main>section:nth-child(3)>h1{
+    text-align: center;
+    font-size: 3.4vw;
+}
+
+body>main>section:nth-child(3)>section>div>div{
+    width: 5vw;
+    height: 8vh;
+    border: 2px solid red;
+    display: inline-block;
+}
+
+body>main>section:nth-child(3)>section>div>div>img{
+    width: 3vw;
+    height: 5vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
 }
 
