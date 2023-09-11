@@ -53,12 +53,12 @@ body>main>section:nth-child(1)>img:nth-child(4){
 
 body>main>section:nth-child(1)>hgroup{
     position: absolute;
-    top: 300px;
+    top: 400px;
     left: 300px;
 }
 
 body>main>section:nth-child(1)>hgroup>p{
-    font-size: 50px;
+    font-size: 4vw;
     -webkit-text-fill-color: white;
     margin-top: -50px;
     font-weight: 1;
@@ -66,17 +66,18 @@ body>main>section:nth-child(1)>hgroup>p{
 }
 
 body>main>section:nth-child(1)>hgroup>h2{
-    font-size: 60px;
+    font-size: 5vw;
     font-weight: bolder;
     -webkit-text-fill-color: white;
-    margin-top: -50px;
+    margin-top: -70px;
 }
 
 body>main>section:nth-child(1)>hgroup>h3{
-    font-size: 25px;
+    font-size: 2vw;
     -webkit-text-fill-color: white;
     margin-top: -30px;
     font-weight: lighter;
+
 }
 
 body>main>section:nth-child(1)>hgroup>button{
