@@ -182,3 +182,10 @@ body>main>section:nth-child(2)>section>div:nth-child(2)>img:nth-child(7){
     left: -3vw;
 }
 
+body>main>section:nth-child(2)>section>div:nth-child(2)>img:nth-child(8){
+    left: -1vw;
+}
+
+body>main>section:nth-child(2)>section>div:nth-child(2)>img:nth-child(9){
+    left: 1vw;
+}
