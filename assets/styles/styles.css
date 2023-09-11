@@ -321,6 +321,8 @@ body>main>section:nth-child(4)>section{
 body>main>section:nth-child(4)>section>div{
     width: 5vw;
     height: 8vh;
+    border: 1px solid rgba(51, 145, 255, 0.47);
+    border-radius: 8px;
 }
 
 body>main>section:nth-child(4)>section>div>img{
@@ -335,12 +337,17 @@ body>main>section:nth-child(4)>div:nth-child(4){
     left: 41vw;
     width: 5vw;
     height: 8vh;
+    border: 1px solid rgba(51, 145, 255, 0.47);
+    border-radius: 8px;
 }
 body>main>section:nth-child(4)>div:nth-child(5){
     position: relative;
     left: 57vw;
+    top: -27px;
     width: 5vw;
     height: 8vh;
+    border: 1px solid rgba(51, 145, 255, 0.47);
+    border-radius: 8px;
 }
 
 
