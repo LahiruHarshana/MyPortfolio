@@ -321,7 +321,6 @@ body>main>section:nth-child(4)>section{
 body>main>section:nth-child(4)>section>div{
     width: 5vw;
     height: 8vh;
-    border: 1px solid black;
 }
 
 body>main>section:nth-child(4)>section>div>img{
@@ -329,6 +328,14 @@ body>main>section:nth-child(4)>section>div>img{
     left: 16px;
     top: 10px;
 }
+
+body>main>section:nth-child(4)>div:nth-child(4){
+    position: relative;
+    top:50px;
+    left: 41vw;
+}
+
+
 
 
 
