@@ -353,6 +353,7 @@ body>main>section:nth-child(4)>div:nth-child(5){
 body>main>section:nth-child(4)>div>img{
     position: relative;
     top: 10px;
+    left: 0.9vw;
 }
 
 
