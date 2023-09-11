@@ -340,6 +340,8 @@ body>main>section:nth-child(4)>div:nth-child(4){
     height: 8vh;
     border: 1px solid rgba(51, 145, 255, 0.47);
     border-radius: 8px;
+    box-shadow: 0 0 20px 3px rgba(51, 145, 255, 0.4);
+
 }
 body>main>section:nth-child(4)>div:nth-child(5){
     position: relative;
