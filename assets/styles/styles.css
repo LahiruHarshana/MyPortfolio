@@ -333,6 +333,14 @@ body>main>section:nth-child(4)>div:nth-child(4){
     position: relative;
     top:50px;
     left: 41vw;
+    width: 5vw;
+    height: 8vh;
+}
+body>main>section:nth-child(4)>div:nth-child(5){
+    position: relative;
+    left: 57vw;
+    width: 5vw;
+    height: 8vh;
 }
 
 
