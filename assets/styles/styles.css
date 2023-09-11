@@ -313,6 +313,7 @@ body>main>section:nth-child(4)>h1{
 }
 
 body>main>section:nth-child(4)>section{
+    margin-top: 100px;
     display: flex;
     width: 100vw;
     height: 10vh;
@@ -366,7 +367,6 @@ body>main>section:nth-child(4)>p{
     text-align: center;
     color: #3391FF;
     font-size: 1.4vw;
-    margin-top:;
 }
 
 
