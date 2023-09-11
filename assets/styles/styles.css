@@ -241,7 +241,7 @@ body>main>section:nth-child(3)>section>div>h1{
     display: inline-block;
 }
 
-body>main>section:nth-child(3)>section>div>h1{
-    display: inline-block;
+body>main>section:nth-child(3)>section>div>:nth-child(2){
+    margin-top: 100px;
 }
 
