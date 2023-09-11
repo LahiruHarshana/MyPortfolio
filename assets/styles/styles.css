@@ -53,6 +53,7 @@ body>main>section:nth-child(1)>hgroup>p{
     font-size: 50px;
     -webkit-text-fill-color: white;
     margin-top: -50px;
+    font-weight: 1;
 
 }
 
@@ -67,6 +68,7 @@ body>main>section:nth-child(1)>hgroup>h3{
     font-size: 25px;
     -webkit-text-fill-color: white;
     margin-top: -30px;
+    font-weight: lighter;
 }
 
 body>main>section:nth-child(1)>hgroup>button{
