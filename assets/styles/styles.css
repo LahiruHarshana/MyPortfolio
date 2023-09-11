@@ -287,10 +287,15 @@ body>main>section:nth-child(3)>section>div:nth-child(1)>h1{
     top: -2vh;
 }
 
-body>main>section:nth-child(3)>section>div:nth-child(1)>h1{
-    position: relative;
-    left: 3vw;
-    top: -2vh;
+body>main>section:nth-child(3)>hr{
+    background-color: #3391FF;
+    height: 5px;
+    width: 7vw;
+    margin-top: -10px;
+}
+
+body>main>section:nth-child(3)>section{
+    margin-top: 70px;
 }
 
 body>main>section:nth-child(3)>section>div:nth-child(2)>h1{
