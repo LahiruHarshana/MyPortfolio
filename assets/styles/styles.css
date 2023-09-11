@@ -117,6 +117,8 @@ body>main>section:nth-child(2)>section>div{
 body>main>section:nth-child(2)>section>div>h1{
     font-size: 40px;
     font-weight: lighter;
+    margin-top: -10px;
+
 }
 
 body>main>section:nth-child(2)>section>div>p{
