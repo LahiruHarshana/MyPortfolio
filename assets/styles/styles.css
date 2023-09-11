@@ -125,6 +125,6 @@ body>main>section:nth-child(2)>section>div>p{
 }
 
 body>main>section:nth-child(2)>section>div:nth-child(2)>p{
-    font-size: 20px;
-    font-weight: lighter;
+    text-align: left;
+    margin-left: 40px;
 }
