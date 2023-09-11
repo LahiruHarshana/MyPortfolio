@@ -315,10 +315,19 @@ body>main>section:nth-child(4)>section{
     display: flex;
     width: 100vw;
     height: 10vh;
+    justify-content: space-around;
 }
 
-body>main>section:nth-child(4)>section{
+body>main>section:nth-child(4)>section>div{
+    width: 5vw;
+    height: 8vh;
+    border: 1px solid black;
+}
 
+body>main>section:nth-child(4)>section>div{
+    width: 5vw;
+    height: 8vh;
+    border: 1px solid black;
 }
 
 
