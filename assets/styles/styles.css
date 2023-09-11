@@ -137,12 +137,8 @@ body>main>section:nth-child(2)>section>div:nth-child(2)>p>span{
     font-weight: 600;
 }
 
-body>main>section:nth-child(2)>section>div:nth-child(3)>img{
-    display: inline-block;
-}
-body>main>section:nth-child(2)>section>div:nth-child(3)>div>p{
-
-    display: inline-block;
+body>main>section:nth-child(2)>section>div:nth-child(3)>div:nth-child(2)>img{
+    display: block;
 }
 
 body>main>section:nth-child(2)>section>div:nth-child(3)>div{
