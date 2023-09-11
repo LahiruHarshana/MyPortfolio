@@ -324,10 +324,9 @@ body>main>section:nth-child(4)>section>div{
     border: 1px solid black;
 }
 
-body>main>section:nth-child(4)>section>div{
-    width: 5vw;
-    height: 8vh;
-    border: 1px solid black;
+body>main>section:nth-child(4)>section>div>img{
+    position: relative;
+    left: 10px;
 }
 
 
