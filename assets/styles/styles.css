@@ -160,6 +160,8 @@ body>main>section:nth-child(2)>section>div:nth-child(3)>hr{
     width: 5vw;
     height: 2px;
     background-color: #3391FF;
+    margin-top: -10px;
+
 }
 
 body>main>section:nth-child(2)>section>div:nth-child(2)>hr{
