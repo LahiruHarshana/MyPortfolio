@@ -298,4 +298,12 @@ body>main>section:nth-child(3)>section>div:nth-child(2)>p{
     display: inline-block;
 }
 
+body>main>section:nth-child(3)>section>div:nth-child(1)>p{
+    position: relative;
+    left: 8vw;
+    top: -5vh;
+    font-size: 1.2vw;
+    display: inline-block;
+}
+
 
