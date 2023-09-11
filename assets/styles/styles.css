@@ -119,8 +119,8 @@ body>main>section:nth-child(2)>section>div>h1{
     font-weight: lighter;
 }
 
-body>main>section:nth-child(2)>section>div>h1{
-    font-size: 40px;
-    font-weight: lighter;
+body>main>section:nth-child(2)>section>div>p{
+    font-size: 20px;
+
 
 }
