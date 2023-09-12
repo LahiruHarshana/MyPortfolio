@@ -410,7 +410,7 @@ body>main>section:nth-child(4)>p{
     color: #3391FF;
     font-size: 1.4vw;
 }
-body>main>section:
+body>main>section:nth-child()
 
 body>main>section:nth-child(5)>aside>div{
     position: relative;
