@@ -436,7 +436,7 @@ body>main>section:nth-child(5)>div:nth-child(2){
     height: 50vh; /* Make the line span the full height of its container */
     background-color: red;
     left: 50vw;
-    top: -30vh;
+    top: -50vh;
 }
 
 
