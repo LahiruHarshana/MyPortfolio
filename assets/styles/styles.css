@@ -461,9 +461,8 @@ body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(3){
     height: 1.7vh;
     background-color: red;
     border-radius: 100%;
-    top: 0;
-    bottom: 0;
-    margin: auto;
+    bottom: 10vh;
+    left: -0.4vw;
 }
 
 
