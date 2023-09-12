@@ -439,6 +439,10 @@ body>main>section:nth-child(5)>div:nth-child(2){
     top: -45vh;
 }
 
+body>main>section:nth-child(5)>div:nth-child(2){
+    position: relative;
+}
+
 
 
 
