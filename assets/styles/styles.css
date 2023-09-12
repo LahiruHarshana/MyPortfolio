@@ -424,7 +424,8 @@ body>main>section:nth-child(5)>aside>div{
 }
 body>main>section:nth-child(5)>aside>div>img{
     position: relative;
-
+    width: 30vw;
+    top: -100px;
 }
 
 
