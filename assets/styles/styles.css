@@ -508,7 +508,11 @@ body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-c
     top: -69px;
     font-size: 1vw;
 }
-
+body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(4){
+    position: relative;
+    top: -69px;
+    font-size: 1vw;
+}
 
 
 
