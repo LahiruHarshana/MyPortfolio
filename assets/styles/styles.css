@@ -491,7 +491,9 @@ body>main>section:nth-child(5)>div:nth-child(3)>h1>span{
 
 body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(1){
     position: relative;
-    top: -80px;
+    top: -73px;
+    font-size: 1vw;
+    color: #3391FF;
 }
 
 
