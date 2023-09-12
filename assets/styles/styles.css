@@ -482,8 +482,11 @@ body>main>section:nth-child(5)>div:nth-child(3){
 body>main>section:nth-child(5)>div:nth-child(3)>h1{
     position: relative;
     font-size: 3.4vw;
-    top: -5vh;
+    top: -8vh;
+}
 
+body>main>section:nth-child(5)>div:nth-child(3)>h1>span{
+    color: #3391FF;
 }
 
 
