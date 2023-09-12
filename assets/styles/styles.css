@@ -472,6 +472,7 @@ body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(3){
 }
 
 body>main>section:nth-child(5)>div:nth-child(3){
+
     position: relative;
     display: inline-block;
     top: -50vh;
@@ -479,7 +480,10 @@ body>main>section:nth-child(5)>div:nth-child(3){
 }
 
 body>main>section:nth-child(5)>div:nth-child(3)>h1{
+    position: relative;
     font-size: 3.4vw;
+    top: -2vh;
+
 }
 
 
