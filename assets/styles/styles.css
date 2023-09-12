@@ -431,7 +431,7 @@ body>main>section:nth-child(5)>aside>div>img{
 }
 
 body>main>section:nth-child(5)>div:nth-child(2){
-    width: 1vw; /* Set the width of the line */
+    width: 0.5vw; /* Set the width of the line */
     height: 30vh; /* Make the line span the full height of its container */
     background-color: red;
 }
