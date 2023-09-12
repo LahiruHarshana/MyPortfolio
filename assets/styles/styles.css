@@ -422,7 +422,10 @@ body>main>section:nth-child(5)>aside>div{
     border-radius: 12px;
     left: 110px;
 }
+body>main>section:nth-child(5)>aside>div>img{
+    position: relative;
 
+}
 
 
 
