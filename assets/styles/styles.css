@@ -452,6 +452,13 @@ body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(2){
     border-radius: 100%;
 }
 
+body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(2){
+    width: 1vw;
+    height: 2vh;
+    background-color: red;
+    border-radius: 100%;
+}
+
 
 
 
