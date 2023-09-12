@@ -543,6 +543,10 @@ body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-c
 
 }
 
+body>main>section:nth-child(6){
+    margin-top: -300px;
+}
+
 
 
 
