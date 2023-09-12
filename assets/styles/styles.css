@@ -430,6 +430,13 @@ body>main>section:nth-child(5)>aside>div>img{
     left: -2vw;
 }
 
+body>main>section:nth-child(5)>aside>div>img{
+    position: relative;
+    width: 27vw;
+    top: -91px;
+    left: -2vw;
+}
+
 
 
 
