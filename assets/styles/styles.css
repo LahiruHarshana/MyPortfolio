@@ -432,7 +432,7 @@ body>main>section:nth-child(5)>aside>div>img{
 
 body>main>section:nth-child(5)>div:nth-child(2){
     position: relative;
-    width: 0.2vw; /* Set the width of the line */
+    width: 0.2vw;
     height: 40vh;
     background-color: red;
     left: 50vw;
