@@ -441,7 +441,7 @@ body>main>section:nth-child(5)>div:nth-child(2){
 body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(1){
     width: 0.2vw;
     height: 40vh;
-    background-color: red;
+    background-color: #3391FF;
 
 }
 
@@ -449,7 +449,7 @@ body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(2){
     position: absolute;
     width: 1vw;
     height: 1.7vh;
-    background-color: red;
+    background-color: #3391FF;
     border-radius: 100%;
     top: 0;
     left: -0.4vw;
@@ -459,7 +459,7 @@ body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(3){
     position: relative;
     width: 1vw;
     height: 1.7vh;
-    background-color: red;
+    background-color: #3391FF;
     border-radius: 100%;
     bottom: 20vh;
     left: -0.4vw;
