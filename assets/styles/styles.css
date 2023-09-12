@@ -448,7 +448,7 @@ body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(1){
 body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(2){
     position: absolute;
     width: 1vw;
-    height: 2vh;
+    height: 1.7vh;
     background-color: red;
     border-radius: 100%;
     top: 0;
