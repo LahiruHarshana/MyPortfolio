@@ -496,11 +496,11 @@ body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-c
     color: #3391FF;
 }
 
-body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(1){
+body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(2){
     position: relative;
     top: -73px;
-    font-size: 1vw;
-    color: #3391FF;
+    font-size: 1.2vw;
+    font-weight: bolder;
 }
 
 
