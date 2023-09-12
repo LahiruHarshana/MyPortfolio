@@ -433,10 +433,10 @@ body>main>section:nth-child(5)>aside>div>img{
 body>main>section:nth-child(5)>div:nth-child(2){
     position: relative;
     width: 0.2vw; /* Set the width of the line */
-    height: 30vh; /* Make the line span the full height of its container */
+    height: 50vh; /* Make the line span the full height of its container */
     background-color: red;
     left: 50vw;
-    top: ;
+    top: -30vh;
 }
 
 
