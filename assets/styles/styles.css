@@ -489,7 +489,7 @@ body>main>section:nth-child(5)>div:nth-child(3)>h1>span{
     color: #3391FF;
 }
 
-body>main>section:nth-child(5)>div:nth-child(3)>article>{
+body>main>section:nth-child(5)>div:nth-child(3)>article>divp:nth-child(1){
     color: #3391FF;
 }
 
