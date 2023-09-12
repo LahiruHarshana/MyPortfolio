@@ -491,32 +491,32 @@ body>main>section:nth-child(5)>div:nth-child(3)>h1>span{
 
 body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(1){
     position: relative;
-    top: -55px;
+    top: -40px;
     font-size: 1vw;
     color: #3391FF;
 }
 
 body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(2){
     position: relative;
-    top: -65px;
+    top: -50px;
     font-size: 1.2vw;
     font-weight: bolder;
 }
 
 body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(3){
     position: relative;
-    top: -65px;
+    top: -50px;
     font-size: 1vw;
 }
 body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(4){
     position: relative;
-    top: -65px;
+    top: -50px;
     font-size: 1vw;
 }
 
 body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(1){
     position: relative;
-    top: -8px;
+    top: -6px;
     font-size: 1vw;
     color:#3391FF;
 }
@@ -531,7 +531,14 @@ body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-c
 body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(3){
     position: relative;
     top: -15px;
-    font-size: 1.2vw;
+    font-size: 1vw;
+
+}
+
+body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(4){
+    position: relative;
+    top: -15px;
+    font-size: 1vw;
 
 }
 
