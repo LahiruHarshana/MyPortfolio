@@ -421,6 +421,7 @@ body>main>section:nth-child(5)>aside>div{
     background-color: #0D1E32;
     border-radius: 12px;
     left: 110px;
+    box-shadow: 0 4px 40px 0 rgba(51, 145, 255, 0); /* No visible shadow */
 }
 body>main>section:nth-child(5)>aside>div>img{
     position: relative;
