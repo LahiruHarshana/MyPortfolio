@@ -595,6 +595,13 @@ body>main>section:nth-child(6)>button:nth-child(6){
     box-shadow: 0 0 10px rgba(0, 0, 0, 1); /* Add a shadow to the button */
 }
 
+body>main>section:nth-child(6)>h1:nth-child(1){
+    position: relative;
+    font-size: 10vw;
+    color: gainsboro;
+    left: 100px;
+}
+
 
 
 
