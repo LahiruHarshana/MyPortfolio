@@ -556,8 +556,9 @@ body>main>section:nth-child(6)>h1{
     font-size: 3.4vw;
 }
 
-body>main>section:nth-child(7)>div:nth-child(3){
-
+body>main>section:nth-child(7)>div:nth-child(2){
+    position: relative;
+    left: -100px;
 }
 
 
