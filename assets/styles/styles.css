@@ -563,10 +563,10 @@ body>main>section:nth-child(6)>div:nth-child(4){
     left: 25vw;
     width: 50vw;
     height: 50vh;
+    display: inline-block;
 }
 
 body>main>section:nth-child(6)>div:nth-child(4)>img{
-
     width: 50vw;
     height: 50vh;
 }
@@ -595,6 +595,15 @@ body>main>section:nth-child(6)>button:nth-child(6){
     font-weight: 500;
     border: 2px solid #3391FF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1); /* Add a shadow to the button */
+}
+
+body>main>section:nth-child(6)>h1:nth-child(1){
+    position: relative;
+    font-size: 10vw;
+    color: gainsboro;
+    left: 400px;
+    margin: 0;
+    top: 99px;
 }
 
 body>main>section:nth-child(6)>h1:nth-child(1){
