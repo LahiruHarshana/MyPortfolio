@@ -558,7 +558,7 @@ body>main>section:nth-child(6)>h1{
 
 body>main>section:nth-child(6)>div:nth-child(3){
     position: relative;
-    left: vw;
+    left: 10vw;
 }
 
 
