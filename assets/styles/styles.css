@@ -606,3 +606,13 @@ body>main>section:nth-child(6)>h1:nth-child(1){
     top: 99px;
     display: inline-block;
 }
+
+body>main>section:nth-child(7)>h1:nth-child(1){
+    position: relative;
+    font-size: 12vw;
+    color: gainsboro;
+    left: 21vw;
+    margin: 0;
+    top: 99px;
+    display: inline-block;
+}
