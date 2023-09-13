@@ -579,7 +579,7 @@ body>main>section:nth-child(6)>button{
 }
 
 body>main>section:nth-child(6)>button:nth-child(5){
-    left: 1175px;
+    left: 10vw;
     top: -270px;
     color: #3391FF;
     font-weight: 500;
@@ -590,7 +590,7 @@ body>main>section:nth-child(6)>button:nth-child(5){
 
 body>main>section:nth-child(6)>button:nth-child(6){
     top: -270px;
-    left: 390px;
+    left: -9vw;
     color: #3391FF;
     font-weight: 500;
     border: 2px solid #3391FF;
@@ -613,4 +613,5 @@ body>main>section:nth-child(6)>h1:nth-child(1){
     left: 400px;
     margin: 0;
     top: 99px;
+    display: inline-block;
 }
