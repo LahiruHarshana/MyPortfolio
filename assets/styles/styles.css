@@ -579,12 +579,14 @@ body>main>section:nth-child(6)>button{
 body>main>section:nth-child(6)>button:nth-child(4){
     left: 1150px;
     top: -270px;
+    color: #8cec77;
+    font-weight: 500;
+    border: 2px solid greenyellow;
 }
 
 body>main>section:nth-child(6)>button:nth-child(5){
     top: -270px;
     left: 350px;
-
 }
 
 
