@@ -559,14 +559,14 @@ body>main>section:nth-child(6)>h1{
 body>main>section:nth-child(6)>div:nth-child(3){
     position: relative;
     left: 10vw;
-    width: 30vw;
+    width: 50vw;
     height: 50vh;
 }
 
 body>main>section:nth-child(6)>div:nth-child(3)>img{
 
     width: 50vw;
-    height: 30vh;
+    height: 50vh;
 }
 
 
