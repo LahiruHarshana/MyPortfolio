@@ -578,7 +578,8 @@ body>main>section:nth-child(6)>button{
 
 body>main>section:nth-child(6)>button:nth-child(4){
     left: 1100px;
-    top: 100px;
+    top: -200px;
+
 }
 
 
