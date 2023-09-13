@@ -569,6 +569,12 @@ body>main>section:nth-child(6)>div:nth-child(3)>img{
     height: 50vh;
 }
 
+body>main>section:nth-child(6)>button{
+
+    width: 50vw;
+    height: 50vh;
+}
+
 
 
 
