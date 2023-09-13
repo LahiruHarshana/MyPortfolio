@@ -617,12 +617,10 @@ body>main>section:nth-child(7)>h1:nth-child(1){
     display: inline-block;
 }
 
-body>main>section:nth-child(7)>h1:nth-child(1){
+body>main>section:nth-child(7)>h1:nth-child(2){
+    text-align: center;
+    font-size: 3.4vw;
+    z-index: 500;
     position: relative;
-    font-size: 12vw;
-    color: gainsboro;
-    left: 21vw;
-    margin: 0;
-    top: 99px;
-    display: inline-block;
 }
+
