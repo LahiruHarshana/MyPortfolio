@@ -599,9 +599,9 @@ body>main>section:nth-child(6)>button:nth-child(6){
 
 body>main>section:nth-child(6)>h1:nth-child(1){
     position: relative;
-    font-size: 10vw;
+    font-size: 12vw;
     color: gainsboro;
-    left: 25vw;
+    left: 21vw;
     margin: 0;
     top: 99px;
     display: inline-block;
