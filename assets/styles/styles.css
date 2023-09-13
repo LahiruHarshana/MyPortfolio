@@ -574,7 +574,10 @@ body>main>section:nth-child(6)>button{
     width: 5vw;
     height: 9vh;
     border-radius: 100%;
+}
 
+body>main>section:nth-child(6)>button:nth-child(4){
+    left: 500px;
 }
 
 
