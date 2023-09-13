@@ -556,9 +556,8 @@ body>main>section:nth-child(6)>h1{
     font-size: 3.4vw;
 }
 
-body>main>section:nth-child(7)>{
-    text-align: center;
-    font-size: 3.4vw;
+body>main>section:nth-child(7)>div:nth-child(3){
+
 }
 
 
