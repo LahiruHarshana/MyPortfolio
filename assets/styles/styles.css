@@ -571,22 +571,29 @@ body>main>section:nth-child(6)>div:nth-child(3)>img{
 
 body>main>section:nth-child(6)>button{
     position: relative;
-    width: 5vw;
-    height: 9vh;
+    width: 3vw;
+    height: 5.2vh;
     border-radius: 100%;
 }
 
 body>main>section:nth-child(6)>button:nth-child(4){
-    left: 1150px;
+    left: 1175px;
     top: -270px;
-    color: #8cec77;
+    color: #3391FF;
     font-weight: 500;
-    border: 2px solid greenyellow;
+    border: 2px solid #3391FF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1); /* Add a shadow to the button */
+
 }
 
 body>main>section:nth-child(6)>button:nth-child(5){
     top: -270px;
-    left: 350px;
+    left: 390px;
+    color: #3391FF;
+    font-weight: 500;
+    border: 2px solid #3391FF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); /* Add a shadow to the button */
+
 }
 
 
