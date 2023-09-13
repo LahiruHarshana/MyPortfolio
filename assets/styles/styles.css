@@ -579,8 +579,8 @@ body>main>section:nth-child(6)>button{
 }
 
 body>main>section:nth-child(6)>button:nth-child(5){
-    left: 10vw;
-    top: -27;
+    left: 18vw;
+    top: -25vh;
     color: #3391FF;
     font-weight: 500;
     border: 2px solid #3391FF;
@@ -610,7 +610,7 @@ body>main>section:nth-child(6)>h1:nth-child(1){
     position: relative;
     font-size: 10vw;
     color: gainsboro;
-    left: 400px;
+    left: 40vw;
     margin: 0;
     top: 99px;
     display: inline-block;
