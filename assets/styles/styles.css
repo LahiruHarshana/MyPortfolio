@@ -77,6 +77,7 @@ body>main>section:nth-child(1)>hgroup>h3{
     -webkit-text-fill-color: white;
     margin-top: -50px;
     font-weight: lighter;
+    letter-spacing: 1em;
 
 }
 
