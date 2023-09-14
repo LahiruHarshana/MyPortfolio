@@ -3,14 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+  <style>
+    body>section{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
 
+    div{
+      position: relative;
+      left: -300px;
+      width: 400px;
+      height: 100px;
+      background-color: purple;
+      transition: 2s;
+      color: white;
+      text-align:center;
+    }
+
+    body>section>div:nth-child(1):hover{
+      left: 0;
+      transition: 2s;
+
+    }
+    body>section>div:nth-child(2):hover{
+      left: 0;
+      transition: 2s;
+
+    }
+    body>section>div:nth-child(3):hover{
+      left: 0;
+      transition: 2s;
+
+    }
+    body>section>div:nth-child(4):hover{
+      left: 0;
+      transition: 2s;
+
+    }
+    body>section>div:nth-child(5):hover{
+      left: 0;
+      transition: 2s;
+
+    }
+
+    body>section>div>img{
+      position: relative;
+      width: 50px;
+      height: 50px;
+      left: 150px;
+      top:-50px
+
+    }
+
+
+  </style>
 </head>
 <body>
 <section>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
+  <div><h1>Contact</h1><img src="images/icons8-book-100.png" height="100" width="100"/></div>
+  <div><h1>Vehicle</h1><img src="images/icons8-contact-100.png" height="100" width="100"/></div>
+  <div><h1>Book</h1><img src="images/icons8-market-64.png" height="64" width="64"/></div>
+  <div><h1>Layers</h1><img src="images/icons8-shop-100.png" height="100" width="100"/></div>
+  <div><h1>Shop</h1><img src="images/icons8-vehicle-100.png" height="100" width="100"/></div>
 </section>
 </body>
 </html>
