@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>case 2</title>
   <link rel="stylesheet" href="assets/normalize.css">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
   <style>
 
 
@@ -161,6 +163,89 @@
 
 
     }
+
+    @media all and (min-width: 0px) and (max-width: 320px) {
+
+
+      header {
+        position: relative;
+        height: 80px;
+        background-color: white;
+        border: 1px solid black;
+        box-shadow: 5px 2px 30px 1px black;
+      }
+
+      header > img {
+        position: absolute;
+        width: 100px;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+
+      header > nav {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+
+      header > nav > ul > li {
+        display: inline-block;
+        padding: 10px;
+        font-weight: lighter;
+        font-size: 8px;
+      }
+
+      main {
+        position: relative;
+      }
+      main > nav {
+        width: 0;
+        display: none;
+      }
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+
+      footer {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        background-color: grey;
+      }
+
+      body>main>section:nth-child(3){
+        width: 300px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      body>main>section>section>div>img{
+        width: 300px;
+        display: inline-block;
+      }
+
+      body>main>section>section>div{
+        display: inline-block;
+        width: 250px;
+      }
+
+      body>main{
+        margin-left: -300px;
+      }
+
+      body>main>section{
+        font-size: 10px;
+        width: 100px;
+      }
+
+
+    }
+
+
 
 
 
