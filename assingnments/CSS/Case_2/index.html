@@ -80,75 +80,94 @@
       height: 300px;
     }
 
-    @media all and (min-width:0px) and (max-width: 320px){
-      header{
+    @media all and (min-width: 0px) and (max-width: 320px) {
+
+
+      header {
         position: relative;
-        height: 5vh;
+        height: 80px;
         background-color: white;
         border: 1px solid black;
         box-shadow: 5px 2px 30px 1px black;
       }
-      header>img{
-        width: 80px;
+
+      header > img {
+        position: absolute;
+        width: 100px;
+        left: 0;
+        right: 0;
+        margin: auto;
 
       }
-      header>nav{
+
+      header > nav {
         position: absolute;
-        right: 5px;
+        right: 20px;
         bottom: 0;
       }
-      header>nav>ul>li{
+
+      header > nav > ul > li {
         display: inline-block;
-        font-weight: lighter;
-        font-size: 8px;
+        padding: 10px;
+        font-weight: bold;
       }
 
-      main{
+      main {
         position: relative;
       }
 
-      main>nav{
+      main > nav {
         position: absolute;
-        width:100px;
+        width: 300px;
         left: 0;
         top: 0;
         bottom: 0;
         background-color: #8cec77;
-        font-size: 8px;
       }
 
-      main>section{
-        width: 20px;
+      main > section {
+        width: 1375px;
         background-color: white;
-        margin-left: -1px;
+        margin-left: 300px;
       }
-      main>section>p:nth-child(1){
+
+      main > section > p:nth-child(1) {
         margin-top: 0;
       }
-      main>nav>ul{
+
+      main > nav > ul {
         list-style: none;
       }
-      p:last-child{
+
+      main > nav > ul > li {
+        padding-top: 20px;
+      }
+
+      p {
+        margin-left: 10px;
+      }
+
+      p:last-child {
         margin-bottom: 0;
       }
+
       footer {
         position: absolute;
         width: 100%;
         text-align: center;
         background-color: grey;
       }
-      section>div{
-        width: 50px;
-        height: 30px;
-      }
-      section>div>img{
-        width: 50px;
-        height: 30px;
+
+      section > div {
+        width: 1375px;
+        height: 300px;
       }
 
-      section p{
-        font-size: 8px;
+      section > div > img {
+        width: 430px;
+        height: 300px;
       }
+
     }
 
 
