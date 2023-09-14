@@ -217,18 +217,19 @@
       }
 
       body>main>section:nth-child(3){
+        width: 100px;
         height: 100px;
         display: flex;
         flex-direction: column;
       }
 
       body>main>section>section>div>img{
+        width: 100px;
         display: inline-block;
       }
 
       body>main>section>section>div{
-        width: 300px;
-
+        width: 100px;
         display: inline-block;
       }
 
@@ -285,9 +286,8 @@
       }
 
       main>section>section{
-        width: 1375px;
+        width: 100px;
         background-color: white;
-        margin-left: 300px;
         display: flex;
       }
       main>section>p:nth-child(1){
@@ -311,13 +311,90 @@
         text-align: center;
         background-color: grey;
       }
+
       section>div{
-        width: 1375px;
-        height: 300px;
+        width: 100px;
+        height: 100px;
       }
       section>div>img{
-        width: 430px;
-        height: 300px;
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    @media all and (min-width:720px) and (max-width: 846px){
+      header{
+        position: relative;
+        height: 80px;
+        background-color: white;
+        border: 1px solid black;
+        box-shadow: 5px 2px 30px 1px black;
+      }
+
+      header>img{
+        width: 200px;
+        margin-left: 10px;
+        margin-top: 10px;
+
+      }
+      header>nav{
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+      }
+      header>nav>ul>li{
+        display: inline-block;
+        padding: 10px;
+        font-weight: bold;
+      }
+
+      main{
+        position: relative;
+      }
+
+      main>nav{
+        position: absolute;
+        width:300px;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: #8cec77;
+      }
+
+      main>section>section{
+        width: 100px;
+        background-color: white;
+        display: flex;
+      }
+      main>section>p:nth-child(1){
+        margin-top: 0;
+      }
+      main>nav>ul{
+        list-style: none;
+      }
+      main>nav>ul>li{
+        padding-top: 20px;
+      }
+      p{
+        margin-left: 10px;
+      }
+      p:last-child{
+        margin-bottom: 0;
+      }
+      footer {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        background-color: grey;
+      }
+
+      section>div{
+        width: 100px;
+        height: 100px;
+      }
+      section>div>img{
+        width: 100px;
+        height: 100px;
       }
     }
 
