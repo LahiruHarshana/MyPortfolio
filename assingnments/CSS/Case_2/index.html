@@ -5,6 +5,8 @@
   <title>case 1</title>
   <link rel="stylesheet" href="assets/normalize.css">
   <style>
+
+
     header{
       position: relative;
       height: 80px;
@@ -77,6 +79,83 @@
       width: 430px;
       height: 300px;
     }
+
+    @media all and (min-width:0px) and (max-width: 320px){
+      header{
+        position: relative;
+        height: 5vh;
+        background-color: white;
+        border: 1px solid black;
+        box-shadow: 5px 2px 30px 1px black;
+      }
+      header>img{
+        width: 100px;
+        margin-left: 10px;
+        margin-top: 10px;
+
+      }
+      header>nav{
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+      }
+      header>nav>ul>li{
+        display: inline-block;
+        font-weight: lighter;
+        font-size: 10px;
+      }
+
+      main{
+        position: relative;
+      }
+
+      main>nav{
+        position: absolute;
+        width:100px;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: #8cec77;
+      }
+
+      main>section{
+        width: 500px;
+        background-color: white;
+        margin-left: 300px;
+      }
+      main>section>p:nth-child(1){
+        margin-top: 0;
+      }
+      main>nav>ul{
+        list-style: none;
+      }
+      main>nav>ul>li{
+        padding-top: 20px;
+      }
+      p{
+        margin-left: 10px;
+      }
+      p:last-child{
+        margin-bottom: 0;
+      }
+      footer {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        background-color: grey;
+      }
+      section>div{
+        width: 500px;
+        height: 200px;
+      }
+      section>div>img{
+        width: 50px;
+        height: 30px;
+      }
+    }
+
+
+
 
   </style>
 </head>
