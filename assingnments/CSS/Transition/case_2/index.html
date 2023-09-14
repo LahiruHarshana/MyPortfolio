@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case_2</title>
+  <style>
+
+    body>section>div:nth-child(1){
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      margin: auto;
+      width: 400px;
+      height: 400px;
+      background-color: grey;
+      border-radius: 100%;
+      border:30px solid blue;
+      border-top: 30px solid red;
+      transition: 2s;
+
+    }
+
+    body>section>div:nth-child(1):hover{
+     transform:  rotate(360deg);
+      transition: 2s;
+    }
+
+
+    body>section{
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+        background-color: #8cec77;
+    }
+
+
+    body>section>div:nth-child(2)>h1{
+      position:absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+        margin: auto;
+        width: max-content;
+        height: max-content;
+    }
+  </style>
+</head>
+<body>
+<section>
+  <div></div>
+  <div>  <h1>RWAD</h1> </div>
+
+</section>
+</body>
+</html>
