@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>case 1</title>
+  <title>case 2</title>
   <link rel="stylesheet" href="assets/normalize.css">
   <style>
 
@@ -116,12 +116,10 @@
       main {
         position: relative;
       }
-
       main > nav {
         width: 0;
         display: none;
       }
-
 
       p:last-child {
         margin-bottom: 0;
@@ -134,15 +132,22 @@
         background-color: grey;
       }
 
-      section > div {
-        width: 1375px;
-        height: 300px;
+      body>main>section:nth-child(3){
+        width: 300px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
       }
 
-      section > div > img {
-        width: 40px;
-        height: 50px;
+      body>main>section>section>div>img{
+        width: 300px;
       }
+
+      body>main{
+        margin-left: -300px;
+      }
+
+
 
     }
 
@@ -183,7 +188,6 @@
     <div>
       <img src="assets/7IsB.gif" height="400" width="314"/>
     </div>
-
     <div>      <img src="assets/7IsB.gif" height="400" width="314"/></div>
     <div>      <img src="assets/7IsB.gif" height="400" width="314"/></div>
     </section>
