@@ -164,6 +164,90 @@
     }
 
 
+    @media all and (min-width: 320px) and (max-width: 375px){
+      header{
+        position: relative;
+        height: 80px;
+        background-color: white;
+        border: 1px solid black;
+        box-shadow: 5px 2px 30px 1px black;
+      }
+
+      header>img{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 150px;
+
+
+      }
+      header>nav{
+        position: absolute;
+        left: 0;
+        margin: auto;
+        right: 0px;
+        bottom: 0;
+      }
+      header>nav>ul>li{
+        display: inline-block;
+        padding: 10px;
+        font-weight: lighter;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      main{
+        position: relative;
+      }
+
+      main>nav{
+        position: absolute;
+        width:300px;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: #8cec77;
+        display: none;
+      }
+
+      main>section>section{
+        width: 350px;
+        background-color: white;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+      }
+      main>section>p:nth-child(1){
+        margin-top: 0;
+      }
+      main>nav>ul{
+        list-style: none;
+      }
+      main>nav>ul>li{
+        padding-top: 20px;
+      }
+      p{
+        font-size: 12px;
+        margin-left: 0px;
+      }
+      p:last-child{
+        margin-bottom: 0;
+      }
+      footer {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        background-color: grey;
+      }
+      section>div>img{
+        width: 350px;
+        height: 300px;
+      }
+
+    }
+
+
 
 
   </style>
