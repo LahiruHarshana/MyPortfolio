@@ -40,7 +40,7 @@
 
     main>nav{
       position: absolute;
-      width:300px;
+      width:25%;
       left: 0;
       top: 0;
       bottom: 0;
@@ -48,9 +48,9 @@
     }
 
     main>section>section{
-      width: 1375px;
+      width: 75%;
       background-color: white;
-      margin-left: 300px;
+      margin-left: 25vw;
       display: flex;
     }
     main>section>p:nth-child(1){
@@ -74,8 +74,13 @@
       text-align: center;
       background-color: grey;
     }
+
+    section>div{
+      width: 25vw;
+      height: 300px;
+    }
     section>div>img{
-      width: 430px;
+      width: 25vw;
       height: 300px;
     }
     @media all and (min-width: 0px) and (max-width: 250px){
@@ -154,7 +159,7 @@
         background-color: green;
       }
       section>div>img{
-        width: 100%;
+        width: 100vw;
         height: 100px;
       }
 
@@ -238,7 +243,7 @@
         background-color: grey;
       }
       section>div>img{
-        width: 100%;
+        width: 100vw;
         height: 300px;
       }
 
@@ -323,7 +328,7 @@
         background-color: grey;
       }
       section>div>img{
-        width: 100%;
+        width: 100vw;
         height: 300px;
       }
 
@@ -408,7 +413,7 @@
         background-color: red;
       }
       section>div>img{
-        width: 100%;
+        width: 100vw;
         height: 300px;
       }
 
@@ -493,7 +498,7 @@
         background-color: yellow;
       }
       section>div>img{
-        width: 100%;
+        width: 100vw;
         height: 300px;
       }
 
@@ -543,7 +548,7 @@
       main>section>section{
         width: 80%;
         background-color: white;
-        margin-left: 198px;
+        margin-left: 20vw;
         display: flex;
       }
       main>section>p:nth-child(1){
@@ -569,7 +574,83 @@
         background-color: grey;
       }
       section>div>img{
-        width: 260px;
+        width: 20vw;
+        height: 300px;
+      }
+
+    }
+
+    @media all and (min-width: 1025px) and (max-width: 1024px) {
+      header{
+        position: relative;
+        height: 80px;
+        background-color: black;
+        border: 1px solid black;
+        box-shadow: 5px 2px 30px 1px black;
+      }
+
+      header>img{
+        width: 200px;
+        margin-left: 10px;
+        margin-top: 10px;
+
+      }
+      header>nav{
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+      }
+      header>nav>ul>li{
+        display: inline-block;
+        padding: 10px;
+        font-weight: bold;
+        color: white;
+      }
+
+      main{
+        position: relative;
+      }
+
+      main>nav{
+        position: absolute;
+        width:20%;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: red;
+        color: white;
+      }
+
+      main>section>section{
+        width: 80%;
+        background-color: white;
+        margin-left:-100px;
+        display: flex;
+      }
+      main>section>p:nth-child(1){
+        margin-top: 0;
+      }
+      main>nav>ul{
+        list-style: none;
+      }
+      main>nav>ul>li{
+        padding-top: 20px;
+      }
+      p{
+        margin-left: 250px;
+        color: red;
+      }
+      p:last-child{
+        margin-bottom: 0;
+      }
+      footer {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        background-color: grey;
+      }
+      section>div>img{
+        width:20vw;
         height: 300px;
       }
 
