@@ -645,12 +645,16 @@ body>main>section:nth-child(6)>button:nth-child(7):hover{
     height: 4vh;
     width: 12vw;
     position: relative;
-    border: 2px solid grey;
-    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 4); /* Modify the shadow on hover */
+    border: 2px solid white;
+    box-shadow: 0 5px 10px 0 rgba(51, 145, 255, 1);
     border-radius: 12px;
     top:10vh;
     left: -12vw;
     background-color: #3391FF;
     color: white;
+}
+
+body>main>section:nth-child(7){
+
 }
 
