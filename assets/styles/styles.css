@@ -181,6 +181,7 @@ body>main>section:nth-child(2)>section>div:nth-child(1)>button{
 body>main>section:nth-child(2)>section>div:nth-child(1)>button>a{
     color: #3391FF;
     text-decoration: none;
+    font-size: 1vw;
 }
 
 body>main>section:nth-child(2)>section>div>p{
@@ -248,7 +249,7 @@ body>main>section:nth-child(2)>section>div:nth-child(3)>div:nth-child(3){
 
 
 body>main>section:nth-child(2)>section>div:nth-child(3)>div:nth-child(4)>p{
-    font-size: 25px;
+    font-size: 1.5vw;
     margin-top: 40px;
 }
 
@@ -423,6 +424,7 @@ body>main>section:nth-child(4)>section>div{
 }
 
 body>main>section:nth-child(4)>section>div>img{
+    width: 3vw;
     position: relative;
     left: 16px;
     top: 10px;
@@ -452,6 +454,7 @@ body>main>section:nth-child(4)>div:nth-child(5){
 }
 
 body>main>section:nth-child(4)>div>img{
+    width: 3vw;
     position: relative;
     top: 10px;
     left: 0.9vw;
