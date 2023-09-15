@@ -18,6 +18,11 @@ header>ul>li{
     color:black;
 }
 
+header>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+
 header>ul{
     position: absolute;
     right: 10vw;
