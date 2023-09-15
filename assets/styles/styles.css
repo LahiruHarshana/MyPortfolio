@@ -741,3 +741,7 @@ border: 0;
 body>main>section:nth-child(7)>section>div:nth-child(9){
     border: 0;
 }
+
+body>main>section:nth-child(8)>{
+    border: 0;
+}
