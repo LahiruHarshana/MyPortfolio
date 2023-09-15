@@ -742,6 +742,13 @@ body>main>section:nth-child(7)>section>div:nth-child(9){
     border: 0;
 }
 
-body>main>section:nth-child(8)>{
-    border: 0;
+body>main>section:nth-child(8)>h1:nth-child(1){
+    position: relative;
+    font-size: 12vw;
+    color: gainsboro;
+    left: 21vw;
+    margin: 0;
+    top: 99px;
+    display: inline-block;
+
 }
