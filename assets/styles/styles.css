@@ -665,8 +665,21 @@ body>main>section:nth-child(7)>section{
     position: relative;
     left: 14vw;
     width: 80%;
+    height: 80%;
     display: grid;
     grid-template-rows: repeat(3,1fr);
     grid-template-columns: repeat(3,1fr);
+}
+
+body>main>section:nth-child(7)>section>div{
+    width: calc(80%/3);
+    height: calc(80%/3);
+
+}
+
+body>main>section:nth-child(7)>section>div:nth-child(1){
+    width: calc(80%/3);
+    height: calc(80%/3);
+
 }
 
