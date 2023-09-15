@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <title>case_3</title>
     <style>
-        section{
-            width: 99.5vw;
-            height: 98vh;
-            background-color: grey;
-        }
 
-        section>div:nth-child(2){
+         section {
+             width: 99.5vw;
+             height: 99vh;
+             background-color: grey;
+         }
+
+        section > div:nth-child(1) {
             position: absolute;
             top: 0;
             bottom: 0;
@@ -23,27 +24,31 @@
             background: url("assets/2020_rolls_royce_cullinan_black_badge_4k_8k-3840x2160.jpg");
             background-size: cover;
             background-position: center;
-
+            transition: 10s;
         }
 
-        section>div:nth-child(2):hover + div:nth-child(3){
-            position: absolute;
+        section > div:nth-child(1) > div {
             width: 50vw;
             height: 50vh;
-            background-color: black;
+            position: absolute;
             bottom: 0;
+            border: 1px solid red;
         }
 
-        section>div:nth-child(3){
-            position: relative;
-            right: 0;
-            left: 0;
-            margin: auto;
+        section > div:hover .layer {
             width: 50vw;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
             height: 50vh;
             background-color: red;
-            bottom: -700px;
+            transition: 2s;
         }
+
+
+
+
 
     </style>
 </head>
@@ -53,15 +58,15 @@
 
     <div>
 
-    </div>
 
-    <div>
+        <div class="layer">
 
-    </div>
+        </div>
 
-    <div>
 
     </div>
+
+
 
 
 </section>
