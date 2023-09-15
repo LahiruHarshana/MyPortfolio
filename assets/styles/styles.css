@@ -18,6 +18,7 @@ header>ul>li{
 }
 
 header>ul>li>a{
+    font-size: 1.2vw;
     text-decoration: none;
     color: black;
 }
