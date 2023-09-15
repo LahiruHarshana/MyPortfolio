@@ -788,7 +788,8 @@ body>main>section:nth-child(8)>section>div:nth-child(2){
 
 body>main>section:nth-child(8)>section>div:nth-child(2)>input,label,textarea{
     position: relative;
-    left: 200px;
+    left: 70px;
+    top:30px
 }
 
 body>main>section:nth-child(8)>section>div:nth-child(2)>input{
@@ -798,5 +799,8 @@ body>main>section:nth-child(8)>section>div:nth-child(2)>input{
     box-shadow: inset 0 4px 10px rgba(51, 145, 255, 0.5); /* Inner shadow properties */
     border: none;
     background-color: #E5E5E5;
+}
 
+body>main>section:nth-child(8)>section>div:nth-child(2)>input:nth-child(10){
+    width: 50vw;
 }
