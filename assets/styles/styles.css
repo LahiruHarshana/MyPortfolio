@@ -891,7 +891,8 @@ footer{
 }
 
 footer>h1{
-    margin: 0;
+    position: relative;
+    top: 10px;
     letter-spacing: 1em;
     font-size: 0.7vw;
 }
