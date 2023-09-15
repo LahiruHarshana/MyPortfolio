@@ -795,6 +795,10 @@ body>main>section:nth-child(8)>section>div:nth-child(2)>input,label,textarea{
     top:30px
 }
 
+body>main>section:nth-child(8)>section>div:nth-child(2)>label{
+
+}
+
 body>main>section:nth-child(8)>section>div:nth-child(2)>input{
     width: 23.2vw;
     height: 4.5vh;
@@ -861,6 +865,8 @@ body>main>section:nth-child(8)>section>div:nth-child(1)>article>h4{
 
 body>main>section:nth-child(8)>section>div:nth-child(1)>img:nth-child(3){
     margin-right: 30px;
+    margin-left: 35px;
+
 }
 body>main>section:nth-child(8)>section>div:nth-child(1)>img:nth-child(4){
     margin-right: 30px;
