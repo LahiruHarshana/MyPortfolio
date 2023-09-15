@@ -626,3 +626,31 @@ body>main>section:nth-child(7)>h1:nth-child(2){
     position: relative;
 }
 
+body>main>section:nth-child(6)>button:nth-child(7){
+
+    height: 4vh;
+    width: 12vw;
+    position: relative;
+    border: 2px solid #3391FF;
+    box-shadow: 0 5px 10px 0 rgba(51, 145, 255, 1);
+    border-radius: 12px;
+    top:10vh;
+    left: -12vw;
+    background-color: white;
+    color: #3391FF;
+}
+
+body>main>section:nth-child(6)>button:nth-child(7):hover{
+
+    height: 4vh;
+    width: 12vw;
+    position: relative;
+    border: 2px solid grey;
+    box-shadow: 0 5px 20px 0 rgba(51, 145, 255, 4); /* Modify the shadow on hover */
+    border-radius: 12px;
+    top:10vh;
+    left: -12vw;
+    background-color: #3391FF;
+    color: white;
+}
+
