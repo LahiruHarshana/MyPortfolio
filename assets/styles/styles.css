@@ -689,8 +689,17 @@ body>main>section:nth-child(7)>section>div:nth-child(3){
     background-position: center;
 }
 
+body>main>section:nth-child(7)>section>div:nth-child(2){
+    background: url("/assets/images/image_3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 body>main>section:nth-child(7)>section>div:nth-child(7){
 
+    background: url("/assets/images/image_4.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 
