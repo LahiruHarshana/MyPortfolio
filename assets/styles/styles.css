@@ -4,7 +4,7 @@ header{
     height: 8vh;
     opacity: 0.7;
     background-color: #3391FF;
-    border: 2px solid blue;
+    border: 1px solid blue;
     z-index: 100000;
 
 }
