@@ -120,7 +120,7 @@ body>main>section:nth-child(1)>hgroup>button{
 
 body>main>section:nth-child(1)>hgroup>button>a{
     color: white;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none;
 
 }
 
