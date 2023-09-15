@@ -884,8 +884,14 @@ footer{
     height: 5vh;
     background-color: #3391FF;
     text-align: center;
-    margin-top: 30px;
-    font-size: 1.5vw;
+    margin-top: 50px;
     color: white;
 
+
+}
+
+footer>h1{
+    margin: 0;
+    letter-spacing: 1em;
+    font-size: 0.7vw;
 }
