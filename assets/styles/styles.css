@@ -711,8 +711,16 @@ body>main>section:nth-child(7)>section>div:nth-child(5){
 
 body>main>section:nth-child(7)>section>div:nth-child(6){
 
-    background: url("/assets/images/image_5.jpg");
+    background: url("/assets/images/image_2.jpeg");
     background-size: cover;
     background-position: center;
+}
+
+body>main>section:nth-child(7)>section>div:nth-child(8){
+
+    background: url("/assets/images/image_6.jpeg");
+    background-size: cover;
+    background-position: center;
+
 }
 
