@@ -784,6 +784,8 @@ body>main>section:nth-child(8)>section>div:nth-child(2){
     background-color:white;
     border-radius: 20px;
     border :1px solid #3391FF;
+    box-shadow:  0 4px 20px rgba(51, 145, 255, 0.7);
+
 }
 
 body>main>section:nth-child(8)>section>div:nth-child(2)>input,label,textarea{
@@ -828,9 +830,24 @@ body>main>section:nth-child(8)>section>div:nth-child(2)>button:nth-child(21){
     top: 50px;
     width: 50vw;
     height: 5vh;
-    left: 4vw;
+    left: 4.5vw;
     border-radius: 8px;
     box-shadow:  0 4px 10px rgba(51, 145, 255, 0.5);
     border: none;
     background-color: #E5E5E5;
+    color: #3391FF;
+}
+
+
+body>main>section:nth-child(8)>section>div:nth-child(1){
+
+    width: 20vw;
+    box-shadow:  0 4px 10px rgba(51, 145, 255, 0.5);
+    height: 70vh;
+    border-radius: 12px;
+}
+
+body>main>section:nth-child(8)>section>div:nth-child(1)>img,article{
+    position: relative;
+    left: ;
 }
