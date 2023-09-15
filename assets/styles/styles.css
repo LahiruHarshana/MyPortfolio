@@ -814,7 +814,7 @@ body>main>section:nth-child(8)>section>div:nth-child(2)>textarea:nth-child(20){
     width: 50vw;
     height: 20vh;
     border-radius: 8px;
-    box-shadow: inset 0 4px 10px rgba(51, 145, 255, 0.5); /* Inner shadow properties */
+    box-shadow: inset 0 4px 10px rgba(51, 145, 255, 0.5);
     border: none;
     background-color: #E5E5E5;
 }
@@ -830,7 +830,7 @@ body>main>section:nth-child(8)>section>div:nth-child(2)>button:nth-child(21){
     height: 5vh;
     left: 4vw;
     border-radius: 8px;
-    box-shadow:  0 4px 10px rgba(51, 145, 255, 0.5); /* Inner shadow properties */
+    box-shadow:  0 4px 10px rgba(51, 145, 255, 0.5);
     border: none;
     background-color: #E5E5E5;
 }
