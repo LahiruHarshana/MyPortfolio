@@ -12,19 +12,21 @@ header{
 header>ul>li{
     display: inline-block;
     padding-left: 5vw;
+    list-style: none;
+    text-decoration: none;
+    -webkit-text-fill-color: black;
+    color:black;
 }
 
 header>ul{
     position: absolute;
     right: 10vw;
     list-style: none;
+    color: black;
 
 }
 
 header>ul>li{
-    -webkit-text-fill-color: black;
-    text-decoration: none;
-
 }
 
 
@@ -762,5 +764,12 @@ body>main>section:nth-child(8)>h1:nth-child(1){
     margin: 0;
     top: 99px;
     display: inline-block;
+}
 
+body>main>section:nth-child(8)>h1:nth-child(2){
+    text-align: center;
+    font-size: 3.4vw;
+    z-index: 500;
+    position: relative;
+    margin-bottom: 150px;
 }
