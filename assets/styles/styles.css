@@ -773,3 +773,23 @@ body>main>section:nth-child(8)>h1:nth-child(2){
     position: relative;
     margin-bottom: 150px;
 }
+
+body>main>section:nth-child(8)>section{
+display: flex;
+    justify-content: space-around;
+}
+body>main>section:nth-child(8)>section>div:nth-child(2){
+    width: 60%;
+    height: 50vh;
+    background-color: #3391FF;
+    border-radius: 20px;
+}
+
+body>main>section:nth-child(8)>section>div:nth-child(2)>input,label,textarea{
+    position: relative;
+    left: 300px;
+}
+
+body>main>section:nth-child(8)>section>div:nth-child(2)>input{
+
+}
