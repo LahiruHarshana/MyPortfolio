@@ -12,7 +12,7 @@ header{
 header>img{
     position: relative;
     top: 10px;
-    left: 10px;
+    left: 30px;
     display: inline-block;
 }
 header>ul>li{
@@ -22,12 +22,15 @@ header>ul>li{
     text-decoration: none;
     -webkit-text-fill-color: black;
     color:black;
+    font-weight: bolder;
 }
 
 header>ul>li>a{
     font-size: 1.2vw;
     text-decoration: none;
-    color: black;
+    color: white;
+    opacity: 100;
+
 }
 
 header>ul{
