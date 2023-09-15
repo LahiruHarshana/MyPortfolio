@@ -787,9 +787,9 @@ body>main>section:nth-child(8)>section>div:nth-child(2){
 
 body>main>section:nth-child(8)>section>div:nth-child(2)>input,label,textarea{
     position: relative;
-    left: 300px;
+    left: 200px;
 }
 
 body>main>section:nth-child(8)>section>div:nth-child(2)>input{
-
+width: 20vw;
 }
