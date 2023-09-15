@@ -8,6 +8,11 @@ header{
     z-index: 100000;
 
 }
+
+header>img{
+    position: relative;
+    top: 10px;
+}
 header>ul>li{
     display: inline-block;
     padding-left: 5vw;
