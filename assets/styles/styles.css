@@ -678,6 +678,8 @@ body>main>section:nth-child(7)>section>div{
 }
 
 body>main>section:nth-child(7)>section>div:nth-child(1){
+    grid-column: 1/2;
+    grid-row: 1/3;
     background: url("/assets/images/image_1.jpeg");
     background-size: cover;
     background-position: center;
@@ -695,28 +697,29 @@ body>main>section:nth-child(7)>section>div:nth-child(2){
     background-position: center;
 }
 
-body>main>section:nth-child(7)>section>div:nth-child(7){
-
+body>main>section:nth-child(7)>section>div:nth-child(6){
     background: url("/assets/images/image_4.jpg");
     background-size: cover;
     background-position: center;
 }
 
-body>main>section:nth-child(7)>section>div:nth-child(5){
+body>main>section:nth-child(7)>section>div:nth-child(4){
 
     background: url("/assets/images/image_5.jpg");
     background-size: cover;
     background-position: center;
 }
 
-body>main>section:nth-child(7)>section>div:nth-child(6){
+body>main>section:nth-child(7)>section>div:nth-child(5){
+    grid-column: 3/4;
+    grid-row: 2/4;
 
     background: url("/assets/images/image_2.jpeg");
     background-size: cover;
     background-position: center;
 }
 
-body>main>section:nth-child(7)>section>div:nth-child(8){
+body>main>section:nth-child(7)>section>div:nth-child(7){
 
     background: url("/assets/images/image_6.jpeg");
     background-size: cover;
