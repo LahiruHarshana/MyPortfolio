@@ -557,6 +557,7 @@ body>main>section:nth-child(6)>h1:nth-child(2){
     font-size: 3.4vw;
     z-index: 500;
     position: relative;
+    margin-bottom: 150px;
 }
 
 body>main>section:nth-child(6)>div:nth-child(4){
@@ -640,6 +641,7 @@ body>main>section:nth-child(6)>button:nth-child(7){
     color: #3391FF;
 }
 
+
 body>main>section:nth-child(6)>button:nth-child(7):hover{
 
     height: 4vh;
@@ -654,8 +656,14 @@ body>main>section:nth-child(6)>button:nth-child(7):hover{
     color: white;
 }
 
-body>main>section:nth-child(7)>section{
+body>main>section:nth-child(7){
+    margin-top: 300px;
+}
 
+
+body>main>section:nth-child(7)>section{
+    position: relative;
+    left: 14vw;
     width: 80%;
     display: grid;
     grid-template-rows: repeat(3,1fr);
