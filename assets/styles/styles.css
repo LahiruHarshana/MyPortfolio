@@ -1149,11 +1149,14 @@ footer>h1{
     }
 
     body>main>section:nth-child(1)>hgroup>p:nth-child(1){
+        position: relative;
         margin-bottom: 0;
         font-size: 6vw;
         -webkit-text-fill-color: white;
         margin-top: 0px;
         font-weight: 1;
+        top: -100px;
+        left: 20px;
         letter-spacing: 0.2em;
         text-shadow: 2px 2px 10px rgba(0, 0, 0, 4);
 
