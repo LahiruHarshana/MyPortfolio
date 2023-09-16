@@ -1168,7 +1168,7 @@ footer>h1{
         font-size: 5vw;
         font-weight: bolder;
         -webkit-text-fill-color: white;
-        margin-top: -70px;
+        margin-top: 0px;
         text-shadow: 2px 2px 10px rgba(0, 0, 0, 4);
 
     }
