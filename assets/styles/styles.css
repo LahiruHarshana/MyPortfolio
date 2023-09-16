@@ -547,12 +547,29 @@ body>main>section:nth-child(4)>div:nth-child(5):hover{
 
 }
 
+body>main>section:nth-child(4)>div:nth-child(5):hover>img{
+    width: 3.2vw;
+    position: relative;
+    top: 10px;
+    left: 0.9vw;
+    transition: all 0.5s;
+}
+
+body>main>section:nth-child(4)>div:nth-child(5)>img{
+    width: 3vw;
+    position: relative;
+    top: 10px;
+    left: 0.9vw;
+    transition: all 0.5s;
+}
+
 
 body>main>section:nth-child(4)>div>img{
     width: 3vw;
     position: relative;
     top: 10px;
     left: 0.9vw;
+    transition: all 0.5s;
 }
 
 body>main>section:nth-child(4)>p{
