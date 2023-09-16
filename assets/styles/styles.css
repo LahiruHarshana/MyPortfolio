@@ -323,6 +323,16 @@ body>main>section:nth-child(3)>section>div>div{
 
 }
 
+body>main>section:nth-child(3)>section>div>div:hover{
+    width: 5vw;
+    height: 8vh;
+    display: inline-block;
+    box-shadow: 0 0 20px 2px rgba(51, 145, 255, 4);
+    border-radius: 10px;
+    transition: all 0.9s;
+
+}
+
 body>main>section:nth-child(3)>section>div>div>img{
     width: 3vw;
     height: 5vh;
