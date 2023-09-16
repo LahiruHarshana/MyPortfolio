@@ -1164,6 +1164,7 @@ footer>h1{
     }
 
     body>main>section:nth-child(1)>hgroup>h2{
+        position: relative;
         font-size: 5vw;
         font-weight: bolder;
         -webkit-text-fill-color: white;
