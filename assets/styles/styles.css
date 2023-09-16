@@ -1211,7 +1211,7 @@ footer>h1{
     body>main>section:nth-child(2){
         text-align: center;
         width: 100vw;
-        height: 70vh;
+        height: 120vh;
         margin-top: -100px;
     }
 
@@ -1229,9 +1229,11 @@ footer>h1{
     body>main>section:nth-child(2)>section{
         display: flex;
         width: 100vw;
-        height: 100vh;
+        height: 140vh;
         justify-content: space-around;
         flex-direction: column;
+
+
     }
 
     body>main>section:nth-child(2)>section>div {
@@ -1239,7 +1241,7 @@ footer>h1{
         left: 30px;
         border: 2px solid rgba(90, 139, 197, 0.28);
         width: 80vw;
-        height: 45vh;
+        height: 30vh;
         border-radius: 10px;
         box-shadow: 0 0 20px 2px rgba(51, 145, 255, 0.31);
         transition: all 1s;
@@ -1247,7 +1249,7 @@ footer>h1{
 
     body>main>section:nth-child(2)>section>div:hover{
         border: 3px solid rgba(90, 139, 197, 0.28);
-        width: 25.5vw;
+        width: 81vw;
         height: 45vh;
         border-radius: 10px;
         box-shadow: 0 0 40px 2px rgba(51, 145, 255, 7);
