@@ -39,8 +39,24 @@
 
         }
 
+        .image{
+            width: 0;
+            height: 0;
+            position: absolute;
+            top: 0;
+
+            transition: 2s;
+
+        }
+
         section > div:hover .layer {
             height: 50vh;
+            transition: 2s;
+        }
+
+        section > div:hover .image{
+            height: 50vh;
+            width: 50vw;
             transition: 2s;
         }
 
@@ -53,9 +69,9 @@
 
     <div>
 
-        <div>
+        <div class="delete">
 
-            <img src="assets/icons8-delete-100.png" height="100" width="100"/>
+            <img class="image" src="assets/icons8-delete-100.png" height="100" width="100"/>
         </div>
 
 
