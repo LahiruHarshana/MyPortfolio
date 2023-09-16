@@ -516,6 +516,7 @@ body>main>section:nth-child(4)>div:nth-child(4):hover>img{
     position: relative;
     top: 10px;
     left: 0.9vw;
+    transition: \\;
 
 
 }
