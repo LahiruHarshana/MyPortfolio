@@ -1261,6 +1261,9 @@ footer>h1{
         font-weight: lighter;
     }
 
+    body>main>section:nth-child(2)>section>div>hr{
+    }
+
     body>main>section:nth-child(2)>section>div:nth-child(1)>button{
         width: 40vw;
         height: 2vh;
@@ -1318,7 +1321,7 @@ footer>h1{
 
     }
     body>main>section:nth-child(2)>section>div:nth-child(1)>hr{
-        width: 5vw;
+        width: 18vw;
         height: 2px;
         background-color: #3391FF;
         margin-top: -10px;
