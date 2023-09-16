@@ -511,6 +511,14 @@ body>main>section:nth-child(4)>div:nth-child(4):hover{
 
 
 }
+body>main>section:nth-child(4)>div:nth-child(4):hover>img{
+    width: 3.2vw;
+    position: relative;
+    top: 10px;
+    left: 0.9vw;
+
+
+}
 body>main>section:nth-child(4)>div:nth-child(5){
     position: relative;
     left: 57vw;
