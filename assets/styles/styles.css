@@ -307,6 +307,19 @@ body>main>section:nth-child(3)>section>div{
     width: 40vw;
     height: 30vh;
     left: 3.5vw;
+
+}
+
+body>main>section:nth-child(3)>section>div:hover{
+    margin-left: 5vw;
+    position: relative;
+    display: inline-block;
+    width: 40vw;
+    height: 30vh;
+    left: 3.5vw;
+    box-shadow: 0 0 40px 2px rgba(51, 145, 255, 4);
+    border-radius: 10px;
+    transition: all 1s;
 }
 
 body>main>section:nth-child(3)>h1{
@@ -320,6 +333,7 @@ body>main>section:nth-child(3)>section>div>div{
     display: inline-block;
     box-shadow: 0 0 10px 2px rgba(51, 145, 255, 0.4);
     border-radius: 10px;
+    transition: all 0.9s;
 
 }
 
