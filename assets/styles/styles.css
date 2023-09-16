@@ -994,6 +994,7 @@ body>main>section:nth-child(8)>section>div:nth-child(2)>button:nth-child(21){
     background-color: #E5E5E5;
     color: #3391FF;
     transition: 1s;
+    cursor: pointer;
 }
 
 body>main>section:nth-child(8)>section>div:nth-child(2)>button:nth-child(21):hover{
