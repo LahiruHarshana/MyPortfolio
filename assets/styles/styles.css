@@ -993,6 +993,7 @@ body>main>section:nth-child(8)>section>div:nth-child(2)>button:nth-child(21){
     border: none;
     background-color: #E5E5E5;
     color: #3391FF;
+    transition: 1s;
 }
 
 body>main>section:nth-child(8)>section>div:nth-child(2)>button:nth-child(21):hover{
@@ -1005,7 +1006,8 @@ body>main>section:nth-child(8)>section>div:nth-child(2)>button:nth-child(21):hov
     box-shadow:  0 4px 10px rgba(51, 145, 255, 0.5);
     border: none;
     background-color: #3391FF;
-    color: #3391FF;
+    color: white;
+    transition: all 1s;
 }
 
 
