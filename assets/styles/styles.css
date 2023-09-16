@@ -1093,8 +1093,7 @@ footer>h1{
         padding-left: 5vw;
         list-style: none;
         text-decoration: none;
-        -webkit-text-fill-color: black;
-        color:black;
+        color:white;
         font-weight: bolder;
     }
 
@@ -1111,11 +1110,8 @@ footer>h1{
         top: 10px;
         right: 10vw;
         list-style: none;
-        color: black;
+        color: white;
 
-    }
-
-    header>ul>li{
     }
 
 
