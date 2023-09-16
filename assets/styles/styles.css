@@ -307,6 +307,7 @@ body>main>section:nth-child(3)>section>div{
     width: 40vw;
     height: 30vh;
     left: 3.5vw;
+    transition: all 1s;
 
 }
 
@@ -317,7 +318,7 @@ body>main>section:nth-child(3)>section>div:hover{
     width: 40vw;
     height: 30vh;
     left: 3.5vw;
-    box-shadow: 0 0 40px 2px rgba(51, 145, 255, 4);
+    box-shadow: 0 0 30px 0 rgba(51, 145, 255, 4);
     border-radius: 10px;
     transition: all 1s;
 }
