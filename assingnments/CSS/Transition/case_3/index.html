@@ -26,7 +26,7 @@
             background-position: center;
         }
 
-        section > div:nth-child(1) > div {
+        .layer{
             position: absolute;
             bottom: 0;
             left: 0;
@@ -40,14 +40,13 @@
         }
 
         .image{
-            width: 0;
-            height: 0;
+            width:0;
+            height:0;
             position: absolute;
-            top: 0;
+            top: -100px;
             left: 0;
             right: 0;
             margin: auto;
-
             transition: 2s;
 
         }
@@ -58,9 +57,11 @@
         }
 
         section > div:hover .image{
-            height: 50vh;
-            width: 50vw;
-            transition: 2s;
+            height: 5vh;
+            width: 5vw;
+            transition: top 2s;
+            top: 25vh;
+            opacity: 1;
         }
 
 
