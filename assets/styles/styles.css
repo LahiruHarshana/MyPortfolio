@@ -1135,27 +1135,27 @@ footer>h1{
     }
 
     body>main>section:nth-child(1)>img:nth-child(4){
-        top:-30vh;
+        top:-20.5vh;
         left: 69vw;
         position: relative;
         width: 30vw;
-        height: 30vh;
+        height: 20vh;
     }
 
     body>main>section:nth-child(1)>hgroup{
         position: absolute;
-        top: 300px;
+        top: 200px;
         left: 0px;
     }
 
     body>main>section:nth-child(1)>hgroup>p:nth-child(1){
-        margin-bottom: 80px;
-        font-size: 4vw;
+        margin-bottom: 0;
+        font-size: 6vw;
         -webkit-text-fill-color: white;
-        margin-top: -50px;
+        margin-top: 0px;
         font-weight: 1;
         letter-spacing: 0.2em;
-        text-shadow: 2px 2px 10px rgba(0, 0, 0, 4); /* Add a small dark shadow */
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 4);
 
 
     }
