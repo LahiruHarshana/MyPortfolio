@@ -1102,6 +1102,7 @@ footer>h1{
         text-decoration: none;
         color: white;
         opacity: 100;
+        -webkit-text-fill-color: white;
 
     }
 
@@ -1122,7 +1123,7 @@ footer>h1{
     body>main>section:nth-child(1){
         margin-top: 0;
         width: 100%;
-        height: 110vh;
+        height: 50vh;
     }
 
     body>main>section:nth-child(1)>img:nth-child(3){
@@ -1134,17 +1135,17 @@ footer>h1{
     }
 
     body>main>section:nth-child(1)>img:nth-child(4){
-        top:-74.5vh;
+        top:-30vh;
         left: 69vw;
         position: relative;
         width: 30vw;
-        height: 74vh;
+        height: 30vh;
     }
 
     body>main>section:nth-child(1)>hgroup{
         position: absolute;
-        top: 400px;
-        left: 300px;
+        top: 300px;
+        left: 0px;
     }
 
     body>main>section:nth-child(1)>hgroup>p:nth-child(1){
