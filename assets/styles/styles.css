@@ -1238,10 +1238,10 @@ footer>h1{
 
     body>main>section:nth-child(2)>section>div {
         position: relative;
-        left: 30px;
+        left: 40px;
         border: 2px solid rgba(90, 139, 197, 0.28);
-        width: 80vw;
-        height: 40vh;
+        width: 70vw;
+        height: 35vh;
         border-radius: 10px;
         box-shadow: 0 0 20px 2px rgba(51, 145, 255, 0.31);
         transition: all 1s;
@@ -1249,8 +1249,8 @@ footer>h1{
 
     body>main>section:nth-child(2)>section>div:hover{
         border: 3px solid rgba(90, 139, 197, 0.28);
-        width: 81vw;
-        height: 40vh;
+        width: 70vw;
+        height: 35vh;
         border-radius: 10px;
         box-shadow: 0 0 40px 2px rgba(51, 145, 255, 7);
         transition: all 1s;
@@ -1259,9 +1259,6 @@ footer>h1{
     body>main>section:nth-child(2)>section>div>h1{
         font-size: 7vw;
         font-weight: lighter;
-    }
-
-    body>main>section:nth-child(2)>section>div>hr{
     }
 
     body>main>section:nth-child(2)>section>div:nth-child(1)>button{
@@ -1306,7 +1303,7 @@ footer>h1{
     }
 
     body>main>section:nth-child(2)>section>div:nth-child(3)>hr{
-        width: 5vw;
+        width: 18vw;
         height: 2px;
         background-color: #3391FF;
         margin-top: -10px;
@@ -1314,7 +1311,7 @@ footer>h1{
     }
 
     body>main>section:nth-child(2)>section>div:nth-child(2)>hr{
-        width: 5vw;
+        width: 18vw;
         height: 2px;
         background-color: #3391FF;
         margin-top: -10px;
