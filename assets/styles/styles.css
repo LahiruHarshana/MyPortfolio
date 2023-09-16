@@ -1177,7 +1177,8 @@ footer>h1{
     }
 
     body>main>section:nth-child(1)>hgroup>p:nth-child(4){
-        font-size: 2vw;
+        position: relative;
+        font-size: 3vw;
         -webkit-text-fill-color: white;
         margin-top: -50px;
         letter-spacing: 0.3em;
