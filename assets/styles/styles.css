@@ -1325,9 +1325,12 @@ footer>h1{
     }
 
     body>main>section:nth-child(2)>section>div:nth-child(3)>div:nth-child(3)>img{
+        position: relative;
+        top: -30px;
+        left: -15px;
         display: block;
-        margin-top: 30px;
-        margin-left: 40px;
+        margin-top: 20px;
+        margin-left: 0px;
     }
 
     body>main>section:nth-child(2)>section>div:nth-child(3)>div:nth-child(4){
@@ -1342,7 +1345,7 @@ footer>h1{
 
 
     body>main>section:nth-child(2)>section>div:nth-child(3)>div:nth-child(4)>p{
-        font-size: 1.5vw;
+        font-size: 4.5vw;
         margin-top: 40px;
     }
 
