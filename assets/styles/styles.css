@@ -505,6 +505,8 @@ body>main>section:nth-child(4)>div:nth-child(4):hover{
     border: 1px solid rgba(51, 145, 255, 4);
     border-radius: 8px;
     box-shadow: 0 0 20px 0 rgba(51, 145, 255, 4);
+    transition: all 0.5s;
+
 
 }
 body>main>section:nth-child(4)>div:nth-child(5){
