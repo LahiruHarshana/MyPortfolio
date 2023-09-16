@@ -455,6 +455,24 @@ body>main>section:nth-child(4)>section>div{
     border: 1px solid rgba(51, 145, 255, 0.47);
     border-radius: 8px;
     box-shadow: 0 0 20px 3px rgba(51, 145, 255, 0.4);
+    transition: all 0.5s;
+}
+
+body>main>section:nth-child(4)>section>div:hover{
+    width: 5.2vw;
+    height: 8.2vh;
+    border: 1px solid rgba(51, 145, 255, 4);
+    border-radius: 8px;
+    box-shadow: 0 0 30px 0 rgba(51, 145, 255, 4);
+    transition: all 0.5s;
+}
+
+body>main>section:nth-child(4)>section>div:hover>img{
+    width: 3.2vw;
+    position: relative;
+    left: 16px;
+    top: 10px;
+    transition: all 0.5s;
 }
 
 body>main>section:nth-child(4)>section>div>img{
@@ -462,6 +480,8 @@ body>main>section:nth-child(4)>section>div>img{
     position: relative;
     left: 16px;
     top: 10px;
+    transition: all 0.5s;
+
 }
 
 body>main>section:nth-child(4)>div:nth-child(4){
@@ -475,6 +495,18 @@ body>main>section:nth-child(4)>div:nth-child(4){
     box-shadow: 0 0 20px 3px rgba(51, 145, 255, 0.4);
 
 }
+
+body>main>section:nth-child(4)>div:nth-child(4):hover{
+    position: relative;
+    top:50px;
+    left: 41vw;
+    width: 5.2vw;
+    height: 8.2vh;
+    border: 1px solid rgba(51, 145, 255, 4);
+    border-radius: 8px;
+    box-shadow: 0 0 20px 0 rgba(51, 145, 255, 4);
+
+}
 body>main>section:nth-child(4)>div:nth-child(5){
     position: relative;
     left: 57vw;
@@ -486,6 +518,20 @@ body>main>section:nth-child(4)>div:nth-child(5){
     box-shadow: 0 0 20px 3px rgba(51, 145, 255, 0.4);
 
 }
+
+body>main>section:nth-child(4)>div:nth-child(5):hover{
+    position: relative;
+    left: 57vw;
+    top: -27px;
+    width: 5.2vw;
+    height: 8.2vh;
+    border: 1px solid rgba(51, 145, 255, 4);
+    border-radius: 8px;
+    box-shadow: 0 0 20px 0 rgba(51, 145, 255, 4);
+    transition: all 0.5s;
+
+}
+
 
 body>main>section:nth-child(4)>div>img{
     width: 3vw;
