@@ -6,9 +6,12 @@
     <style>
 
         section {
+            position: absolute;
             width: 99.5vw;
             height: 99vh;
-            background-color: grey;
+            background-color: black;
+
+
         }
 
         section > div:nth-child(1) {
@@ -24,6 +27,7 @@
             background: url("assets/2020_rolls_royce_cullinan_black_badge_4k_8k-3840x2160.jpg");
             background-size: cover;
             background-position: center;
+            border: 2px solid red;
         }
 
         .layer{
@@ -35,34 +39,35 @@
             width: 50vw;
             height: 0;
             background-color: rgba(128, 128, 128, 0.5);
-            transition: height 2s;
+            transition: height 1s;
 
         }
 
         .image{
-            width:5vw;
-            height:5vh;
+            width:10vw;
+            height:14vh;
             position: absolute;
-            top: -100px;
+            top: -5vh;
             left: 0;
             right: 0;
             margin: auto;
-            transition: 2s;
+            transition: 1s;
             color: grey;
+            z-index: -1;
 
         }
 
         section > div:hover .layer {
             height: 50vh;
-            transition: 2s;
+            transition: 1s;
         }
 
         section > div:hover .image{
-            height: 5vh;
-            width: 5vw;
-            transition: top 2s;
+            height: 14vh;
+            width: 10vw;
+            transition: top 1s;
             top: 25vh;
-            opacity: 1;
+            z-index: 1;
         }
 
 
@@ -76,7 +81,7 @@
 
         <div class="delete">
 
-            <img class="image" src="assets/icons8-delete-100.png" height="100" width="100"/>
+            <img class="image" src="assets/icons8-delete-400.png" height="100" width="100"/>
         </div>
 
 
