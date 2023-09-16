@@ -24,25 +24,26 @@
             background: url("assets/2020_rolls_royce_cullinan_black_badge_4k_8k-3840x2160.jpg");
             background-size: cover;
             background-position: center;
-            transition: 10s;
         }
 
         section > div:nth-child(1) > div {
-            width: 50vw;
-            height: 50vh;
             position: absolute;
             bottom: 0;
-            border: 1px solid red;
-        }
-
-        section > div:hover .layer {
-            width: 50vw;
-            position: absolute;
             left: 0;
             right: 0;
             margin: auto;
-            height: 50vh;
+            width: 50vw;
             background-color: red;
+            border: 1px solid red;
+            transition: bottom 2s;
+            opacity: 1;
+
+        }
+
+        section > div:hover .layer {
+            height: 50vh;
+            bottom: 0;
+            opacity: 1;
             transition: 2s;
         }
 
