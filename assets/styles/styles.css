@@ -178,6 +178,7 @@ body>main>section:nth-child(2)>section>div:hover{
 }
 
 body>main>section:nth-child(2)>section>div>h1{
+    font-family: 'League Spartan', sans-serif;
     font-size: 40px;
     font-weight: lighter;
 
