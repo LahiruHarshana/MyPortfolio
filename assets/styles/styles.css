@@ -592,7 +592,7 @@ body>main>section:nth-child(4)>div:nth-child(5)>img{
 
 
 body>main>section:nth-child(4)>p{
-    font
+    font-family: ;
 
     text-align: center;
     color: #3391FF;
