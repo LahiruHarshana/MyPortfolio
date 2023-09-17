@@ -417,7 +417,8 @@ body>main>section:nth-child(3)>section>div:nth-child(4)>h1{
 }
 
 body>main>section:nth-child(3)>section>div:nth-child(4)>p{
-    font-family: 'Poppins', sans-serif;    position: relative;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
     left: 8vw;
     top: -5vh;
     font-size: 1.2vw;
