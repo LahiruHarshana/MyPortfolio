@@ -145,6 +145,7 @@ body>main>section:nth-child(2)>p{
 
 body>main>section:nth-child(2)>h1{
     font-family: 'Poppins', sans-serif;
+    font-weight: 900;
     margin-top: -20px;
     font-size: 3.4vw;
     color: black;
