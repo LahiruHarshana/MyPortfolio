@@ -448,7 +448,7 @@ body>main>section:nth-child(3)>section>div:nth-child(2)>p{
 
 body>main>section:nth-child(3)>section>div:nth-child(1)>p{
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
+    font-weight:200;
     position: relative;
     left: 8vw;
     top: -5vh;
