@@ -79,6 +79,7 @@ body>main>section:nth-child(1)>hgroup{
 }
 
 body>main>section:nth-child(1)>hgroup>p:nth-child(1){
+    font-family: Arial;
     margin-bottom: 80px;
     font-size: 4vw;
     -webkit-text-fill-color: white;
