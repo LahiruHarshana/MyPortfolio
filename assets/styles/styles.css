@@ -92,6 +92,7 @@ body>main>section:nth-child(1)>hgroup>p:nth-child(1){
 }
 
 body>main>section:nth-child(1)>hgroup>h2{
+    font-family: 'League Spartan', sans-serif;
     font-size: 5vw;
     font-weight: bolder;
     -webkit-text-fill-color: white;
