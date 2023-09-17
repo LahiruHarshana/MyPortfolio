@@ -330,6 +330,7 @@ body>main>section:nth-child(3)>section>div:hover{
 }
 
 body>main>section:nth-child(3)>h1{
+    font-family: 'Poppins' , sans-serif;
     text-align: center;
     font-size: 3.4vw;
 }
