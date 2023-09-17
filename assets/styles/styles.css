@@ -84,7 +84,7 @@ body>main>section:nth-child(1)>hgroup>p:nth-child(1){
     font-size: 3.5vw;
     -webkit-text-fill-color: white;
     margin-top: -50px;
-    font-weight: 1;
+    font-weight: 0.1;
     letter-spacing: 0.2em;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 4); /* Add a small dark shadow */
 
