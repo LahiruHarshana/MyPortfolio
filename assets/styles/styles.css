@@ -200,6 +200,7 @@ body>main>section:nth-child(2)>section>div:nth-child(1)>button>a{
 }
 
 body>main>section:nth-child(2)>section>div>p{
+    font-family: Arial;
     font-size: 1.1vw;
     font-weight: lighter;
 }
