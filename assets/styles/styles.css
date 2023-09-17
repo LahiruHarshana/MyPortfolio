@@ -102,6 +102,7 @@ body>main>section:nth-child(1)>hgroup>h2{
 }
 
 body>main>section:nth-child(1)>hgroup>p:nth-child(4){
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 2vw;
     -webkit-text-fill-color: white;
     margin-top: -50px;
