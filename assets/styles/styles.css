@@ -6313,18 +6313,18 @@ footer>h1{
 
     body>main>section:nth-child(5)>aside>div{
         position: relative;
-        width: 27vw;
-        height: 55vh;
+        width: 35vw;
+        height: 30vh;
         background-color: #0D1E32;
         border-radius: 12px;
-        left: 110px;
+        left: 50px;
         box-shadow: 0 4px 40px 0 rgba(51, 145, 255, 100);
     }
     body>main>section:nth-child(5)>aside>div>img{
         position: relative;
-        width: 27vw;
-        top: -91px;
-        left: -2vw;
+        width: 40vw;
+        top: -45px;
+        left: -7vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(2){
