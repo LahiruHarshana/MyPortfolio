@@ -1780,8 +1780,9 @@ footer>h1{
         position: relative;
         font-size: 7vw;
         top: 0vh;
-        left: 0vw;
+        left: 5vw;
         display: inline-block;
+        margin-bottom: 30px;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>h1>span{
