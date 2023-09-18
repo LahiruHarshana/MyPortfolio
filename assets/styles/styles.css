@@ -1917,7 +1917,7 @@ footer>h1{
 
     body>main>section:nth-child(6)>button:nth-child(5){
         position: relative;
-        width: 3vw;
+        width: 10vw;
         height: 5.2vh;
         border-radius: 100%;
         left: 18vw;
@@ -1931,7 +1931,7 @@ footer>h1{
 
     body>main>section:nth-child(6)>button:nth-child(6){
         position: relative;
-        width: 3vw;
+        width: 10vw;
         height: 5.2vh;
         border-radius: 100%;
         top: -25vh;
