@@ -1459,8 +1459,8 @@ footer>h1{
     body>main>section:nth-child(3)>section>div>div>img{
         width: 10vw;
         height: 5vh;
-        margin-top: 5px;
-        margin-left: 5px;
+        margin-top: 2px;
+        margin-left: 8px;
         display: inline-block;
     }
     body>main>section:nth-child(3)>section>div>h1{
@@ -1485,7 +1485,7 @@ footer>h1{
     body>main>section:nth-child(3)>hr{
         background-color: #3391FF;
         height: 5px;
-        width: 7vw;
+        width: 20vw;
         margin-top: -10px;
     }
 
