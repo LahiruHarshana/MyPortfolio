@@ -1954,9 +1954,9 @@ footer>h1{
 
     body>main>section:nth-child(7)>h1:nth-child(1){
         position: relative;
-        font-size: 12vw;
+        font-size: 15vw;
         color: gainsboro;
-        left: 21vw;
+        left: 15vw;
         margin: 0;
         top: 40px;
         display: inline-block;
@@ -1999,17 +1999,17 @@ footer>h1{
     }
 
     body>main>section:nth-child(7){
-        margin-top: 300px;
-        width: 100%;
+        margin-top: 0px;
+        width: 95%;
         height: 100%;
     }
 
 
     body>main>section:nth-child(7)>section{
         position: relative;
-        left: 14vw;
-        width: 80vw;
-        height: 80vh;
+        left:0px;
+        width: 99vw;
+        height: 40vh;
         display: grid;
         grid-template-rows: repeat(3,1fr);
         grid-template-columns: repeat(3,1fr);
@@ -2020,9 +2020,6 @@ footer>h1{
         border-radius: 20px;
         border: 1px solid #3391FF;
         box-shadow: 0 5px 30px 0 rgba(51, 145, 255, 0.5);
-
-
-
     }
 
     body>main>section:nth-child(7)>section>div:nth-child(1){
