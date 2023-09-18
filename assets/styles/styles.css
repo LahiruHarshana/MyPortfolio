@@ -6039,7 +6039,7 @@ footer>h1{
     body>main>section:nth-child(3)>h1{
         font-family: 'Poppins' , sans-serif;
         text-align: center;
-        font-size: 3.4vw;
+        font-size: 8vw;
     }
 
     body>main>section:nth-child(3)>section>div>div{
@@ -6075,6 +6075,10 @@ footer>h1{
 
     body>main>section:nth-child(3)>section>div:nth-child(2){
         top: 18px;
+    }
+
+    body>main>section:nth-child(3){
+        margin-bottom: 100px;
     }
 
 
