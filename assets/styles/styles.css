@@ -1935,7 +1935,7 @@ footer>h1{
         height: 5.2vh;
         border-radius: 100%;
         top: -6vh;
-        left: -25vw;
+        left: -40vw;
         color: #3391FF;
         font-weight: 500;
         border: 2px solid #3391FF;
@@ -1978,7 +1978,7 @@ footer>h1{
         border: 2px solid #3391FF;
         box-shadow: 0 5px 10px 0 rgba(51, 145, 255, 1);
         border-radius: 12px;
-        top:10vh;
+        top:-20vh;
         left: 24vw;
         background-color: white;
         color: #3391FF;
