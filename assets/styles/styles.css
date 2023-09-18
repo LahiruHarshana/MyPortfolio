@@ -1518,9 +1518,9 @@ footer>h1{
 
     body>main>section:nth-child(3)>section>div:nth-child(4)>p{
         position: relative;
-        left: 8vw;
-        top: -5vh;
-        font-size: 1.2vw;
+        left: 20vw;
+        top: -4vh;
+        font-size: 2.5vw;
         display: inline-block;
     }
 
