@@ -6330,15 +6330,15 @@ footer>h1{
     body>main>section:nth-child(5)>div:nth-child(2){
         position: relative;
         left: 50vw;
-        top: -46.5vh;
+        top: -36.5vh;
         display: inline-block;
     }
 
 
 
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(1){
-        width: 0.1vw;
-        height: 35vh;
+        width: 0.2vw;
+        height: 20vh;
         background-color: #3391FF;
         display: inline-block;
 
