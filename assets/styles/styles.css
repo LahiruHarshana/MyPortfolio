@@ -1411,7 +1411,7 @@ footer>h1{
     body>main>section:nth-child(3)>section>div{
         margin-left: 5vw;
         position: relative;
-        display: inline-block;
+        display: block;
         width: 40vw;
         height: 30vh;
         left: 3.5vw;
