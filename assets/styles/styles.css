@@ -1429,7 +1429,7 @@ footer>h1{
         display: inline-block;
         width: 80vw;
         height: 30vh;
-        left: 2vw;
+        left: 1vw;
         box-shadow: 0 0 30px 0 rgba(51, 145, 255, 4);
         border-radius: 10px;
         transition: all 1s;
