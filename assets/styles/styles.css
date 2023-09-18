@@ -1721,16 +1721,16 @@ footer>h1{
 
     body>main>section:nth-child(5){
         position: relative;
-        top:300px;
+        top:0px;
         width: 90vw;
-        height: 100vh;
+        height: 50vh;
     }
 
     body>main>section:nth-child(5)>div:nth-child(2){
         position: relative;
         width: 90vw;
         height: 100vh;
-        left: 50vw;
+        left: 1vw;
         top: -46.5vh;
         display: none;
     }
@@ -1772,15 +1772,15 @@ footer>h1{
     body>main>section:nth-child(5)>div:nth-child(3){
         position: relative;
         display: inline-block;
-        top: -50vh;
-        left: 50vw;
+        top: 0vh;
+        left: 10vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>h1{
         position: relative;
-        font-size: 3.4vw;
-        top: -8vh;
-        left: -7vw;
+        font-size: 7vw;
+        top: 0vh;
+        left: 0vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>h1>span{
@@ -1790,39 +1790,39 @@ footer>h1{
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(1){
         position: relative;
         top: -40px;
-        font-size: 1vw;
+        font-size: 4vw;
         color: #3391FF;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(2){
         position: relative;
         top: -50px;
-        font-size: 1.2vw;
+        font-size: 4vw;
         font-weight: bolder;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(3){
         position: relative;
         top: -50px;
-        font-size: 1vw;
+        font-size: 3vw;
     }
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(4){
         position: relative;
         top: -50px;
-        font-size: 1vw;
+        font-size: 3vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(1){
         position: relative;
         top: -6px;
-        font-size: 1vw;
+        font-size: 5vw;
         color:#3391FF;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(2){
         position: relative;
         top: -15px;
-        font-size: 1.2vw;
+        font-size: 4vw;
         font-weight: bolder;
 
     }
