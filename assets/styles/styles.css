@@ -1712,6 +1712,10 @@ footer>h1{
         box-shadow: 0 4px 40px 0 rgba(51, 145, 255, 100);
         display: none;
     }
+
+    body>main>section:nth-child(5)>aside{
+        display: none;
+    }
     body>main>section:nth-child(5)>aside>div>img{
         position: relative;
         width: 27vw;
@@ -1834,9 +1838,18 @@ footer>h1{
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(2){
         position: relative;
         top: -5px;
-        left: -61px;
+        left: 0px;
         font-size: 4vw;
         font-weight: bolder;
+        display: inline-block;
+
+
+    }
+
+    body>main>section:nth-child(5){
+        width: 90vw;
+        margin-right: 0px;
+        margin: 0;
         display: inline-block;
 
 
@@ -1846,7 +1859,21 @@ footer>h1{
         top: -15px;
         font-size: 3vw;
         display: inline-block;
+    }
 
+    body>main>section:nth-child(5)>div:nth-child(3)>article>div{
+        display: inline-block;
+        position: relative;
+        left: -20px;
+
+    }
+
+    body>main>section:nth-child(5)>div:nth-child(3)>article{
+
+        display: inline-block;
+        position: relative;
+        left: 30px;
+        width: 200px;
 
     }
 
