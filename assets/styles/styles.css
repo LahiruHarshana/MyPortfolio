@@ -5201,8 +5201,8 @@ footer>h1{
 
     body>main>section:nth-child(5)>aside>div{
         position: relative;
-        width: 27vw;
-        height: 55vh;
+        width: 30vw;
+        height: 20vh;
         background-color: #0D1E32;
         border-radius: 12px;
         left: 110px;
@@ -5211,14 +5211,14 @@ footer>h1{
     body>main>section:nth-child(5)>aside>div>img{
         position: relative;
         width: 27vw;
-        top: -91px;
+        top: -51px;
         left: -2vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(2){
         position: relative;
         left: 50vw;
-        top: -46.5vh;
+        top: -20vh;
         display: inline-block;
     }
 
@@ -5226,7 +5226,7 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(1){
         width: 0.1vw;
-        height: 35vh;
+        height: 20vh;
         background-color: #3391FF;
         display: inline-block;
 
@@ -5235,7 +5235,7 @@ footer>h1{
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(2){
         position: absolute;
         width: 1vw;
-        height: 1.7vh;
+        height: 0.7vh;
         background-color: #3391FF;
         border-radius: 100%;
         top: 0;
@@ -5246,7 +5246,7 @@ footer>h1{
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(3){
         position: relative;
         width: 1vw;
-        height: 1.7vh;
+        height: 0.7vh;
         background-color: #3391FF;
         border-radius: 100%;
         bottom: 13vh;
