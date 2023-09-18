@@ -5051,7 +5051,7 @@ footer>h1{
     body>main>section:nth-child(4)>h1{
         font-family: 'Poppins', sans-serif;
         text-align: center;
-        font-size: 3.4vw;
+        font-size: 8vw;
         margin-top: -20px;
     }
 
@@ -5065,7 +5065,7 @@ footer>h1{
 
     body>main>section:nth-child(4)>section>div{
         width: 5vw;
-        height: 8vh;
+        height: 4vh;
         border: 1px solid rgba(51, 145, 255, 0.47);
         border-radius: 8px;
         box-shadow: 0 0 20px 3px rgba(51, 145, 255, 0.4);
@@ -5074,7 +5074,7 @@ footer>h1{
 
     body>main>section:nth-child(4)>section>div:hover{
         width: 5.2vw;
-        height: 8.2vh;
+        height: 4.2vh;
         border: 1px solid rgba(51, 145, 255, 4);
         border-radius: 8px;
         box-shadow: 0 0 30px 0 rgba(51, 145, 255, 4);
@@ -5084,16 +5084,16 @@ footer>h1{
     body>main>section:nth-child(4)>section>div:hover>img{
         width: 3.2vw;
         position: relative;
-        left: 16px;
-        top: 10px;
+        left: 8px;
+        top: 8px;
         transition: all 0.5s;
     }
 
     body>main>section:nth-child(4)>section>div>img{
         width: 3vw;
         position: relative;
-        left: 16px;
-        top: 10px;
+        left: 8px;
+        top: 8px;
         transition: all 0.5s;
 
     }
