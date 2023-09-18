@@ -6059,9 +6059,9 @@ footer>h1{
 
     body>main>section:nth-child(3)>section>div>div>img{
         width: 3vw;
-        height: 5vh;
-        margin-top: 12px;
-        margin-left: 15px;
+        height: 3vh;
+        margin-top: 10px;
+        margin-left: 10px;
         display: inline-block;
     }
     body>main>section:nth-child(3)>section>div>h1{
@@ -6087,7 +6087,7 @@ footer>h1{
     body>main>section:nth-child(3)>hr{
         background-color: #3391FF;
         height: 5px;
-        width: 7vw;
+        width: 12vw;
         margin-top: -10px;
     }
 
@@ -6119,9 +6119,9 @@ footer>h1{
     body>main>section:nth-child(3)>section>div:nth-child(4)>p{
         font-family: 'Poppins', sans-serif;
         position: relative;
-        left: 8vw;
-        top: -5vh;
-        font-size: 1.2vw;
+        left: 2vw;
+        top: 1vh;
+        font-size: 1.6vw;
         display: inline-block;
     }
 
