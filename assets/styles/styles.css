@@ -1841,6 +1841,8 @@ footer>h1{
         position: relative;
         top: -15px;
         font-size: 3vw;
+        display: inline-block;
+
 
     }
 
