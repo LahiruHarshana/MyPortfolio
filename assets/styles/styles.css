@@ -6128,9 +6128,9 @@ footer>h1{
     body>main>section:nth-child(3)>section>div:nth-child(3)>p{
         font-family: 'Poppins', sans-serif;
         position: relative;
-        left: 8vw;
-        top: -5vh;
-        font-size: 1.2vw;
+        left: 2vw;
+        top: 1vh;
+        font-size: 1.6vw;
         display: inline-block;
     }
 
