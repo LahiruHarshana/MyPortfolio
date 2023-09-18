@@ -1468,6 +1468,7 @@ footer>h1{
         display: inline-block;
     }
     body>main>section:nth-child(3)>section>div>h1{
+        font-size: 7vw;
 
         display: inline-block;
     }
@@ -1483,7 +1484,7 @@ footer>h1{
 
     body>main>section:nth-child(3)>section>div:nth-child(1)>h1{
         position: relative;
-        left: 3vw;
+        left: 11vw;
         top: -2vh;
     }
 
