@@ -1574,8 +1574,8 @@ footer>h1{
     }
 
     body>main>section:nth-child(4)>section>div:hover{
-        width: 5.2vw;
-        height: 8.2vh;
+        width: 8vw;
+        height: 4vh;
         border: 1px solid rgba(51, 145, 255, 4);
         border-radius: 8px;
         box-shadow: 0 0 30px 0 rgba(51, 145, 255, 4);
