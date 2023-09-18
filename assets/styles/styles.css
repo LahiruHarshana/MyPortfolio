@@ -3577,9 +3577,17 @@ footer>h1{
     body>main>section:nth-child(2)>section{
         display: flex;
         width: 100vw;
-        height: 110vh;
+        height: 120vh;
         justify-content: space-around;
         flex-direction: column;
+        margin-bottom: 100px;
+
+
+    }
+
+    body>main>section:nth-child(2){
+
+        margin-bottom: 100px;
 
 
     }
@@ -3588,8 +3596,8 @@ footer>h1{
         position: relative;
         left: 40px;
         border: 2px solid rgba(90, 139, 197, 0.28);
-        width: 70vw;
-        height: 40vh;
+        width: 80vw;
+        height: 60vh;
         border-radius: 10px;
         box-shadow: 0 0 20px 2px rgba(51, 145, 255, 0.31);
         transition: all 1s;
@@ -3597,8 +3605,8 @@ footer>h1{
 
     body>main>section:nth-child(2)>section>div:hover{
         border: 3px solid rgba(90, 139, 197, 0.28);
-        width: 70vw;
-        height: 40vh;
+        width: 80vw;
+        height: 60vh;
         border-radius: 10px;
         box-shadow: 0 0 20px 2px rgba(51, 145, 255, 1);
         transition: all 1s;
