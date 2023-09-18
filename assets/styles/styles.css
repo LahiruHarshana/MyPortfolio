@@ -2082,17 +2082,17 @@ footer>h1{
 
     body>main>section:nth-child(8)>h1:nth-child(1){
         position: relative;
-        font-size: 12vw;
+        font-size: 15vw;
         color: gainsboro;
-        left: 21vw;
+        left: 15vw;
         margin: 0;
-        top: 99px;
+        top: 50px;
         display: inline-block;
     }
 
     body>main>section:nth-child(8)>h1:nth-child(2){
         text-align: center;
-        font-size: 3.4vw;
+        font-size: 10vw;
         z-index: 500;
         position: relative;
         margin-bottom: 150px;
