@@ -1824,6 +1824,8 @@ footer>h1{
         top: -6px;
         font-size: 5vw;
         color:#3391FF;
+        display: inline-block;
+
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(2){
