@@ -1710,6 +1710,7 @@ footer>h1{
         border-radius: 12px;
         left: 110px;
         box-shadow: 0 4px 40px 0 rgba(51, 145, 255, 100);
+        display: none;
     }
     body>main>section:nth-child(5)>aside>div>img{
         position: relative;
@@ -1718,11 +1719,20 @@ footer>h1{
         left: -2vw;
     }
 
+    body>main>section:nth-child(5){
+        position: relative;
+        top:300px;
+        width: 90vw;
+        height: 100vh;
+    }
+
     body>main>section:nth-child(5)>div:nth-child(2){
         position: relative;
+        width: 90vw;
+        height: 100vh;
         left: 50vw;
         top: -46.5vh;
-        display: inline-block;
+        display: none;
     }
 
 
@@ -1760,7 +1770,6 @@ footer>h1{
     }
 
     body>main>section:nth-child(5)>div:nth-child(3){
-
         position: relative;
         display: inline-block;
         top: -50vh;
