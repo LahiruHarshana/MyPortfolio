@@ -6330,7 +6330,7 @@ footer>h1{
     body>main>section:nth-child(5)>div:nth-child(2){
         position: relative;
         left: 50vw;
-        top: -36.5vh;
+        top: -30.5vh;
         display: inline-block;
     }
 
@@ -6338,7 +6338,7 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(1){
         width: 0.2vw;
-        height: 20vh;
+        height: 30vh;
         background-color: #3391FF;
         display: inline-block;
 
@@ -6347,7 +6347,7 @@ footer>h1{
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(2){
         position: absolute;
         width: 1vw;
-        height: 1.7vh;
+        height: 1vh;
         background-color: #3391FF;
         border-radius: 100%;
         top: 0;
