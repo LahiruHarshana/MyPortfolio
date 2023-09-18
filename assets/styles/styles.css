@@ -1800,6 +1800,8 @@ footer>h1{
         top: -50px;
         font-size: 4vw;
         font-weight: bolder;
+        display: inline-block;
+
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(3){
