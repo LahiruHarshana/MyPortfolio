@@ -1781,6 +1781,7 @@ footer>h1{
         font-size: 7vw;
         top: 0vh;
         left: 0vw;
+        display: inline-block;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>h1>span{
@@ -1789,7 +1790,7 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(1){
         position: relative;
-        top: -40px;
+        top: -55px;
         font-size: 4vw;
         color: #3391FF;
         display: inline-block;
@@ -1797,9 +1798,10 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(2){
         position: relative;
-        top: -50px;
+        top: -35px;
         font-size: 4vw;
         font-weight: bolder;
+        left: -62px;
         display: inline-block;
 
     }
@@ -1821,8 +1823,8 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(1){
         position: relative;
-        top: -6px;
-        font-size: 5vw;
+        top: -30px;
+        font-size: 4vw;
         color:#3391FF;
         display: inline-block;
 
@@ -1830,7 +1832,8 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(2){
         position: relative;
-        top: -15px;
+        top: -5px;
+        left: -61px;
         font-size: 4vw;
         font-weight: bolder;
         display: inline-block;
