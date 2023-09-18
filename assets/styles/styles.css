@@ -2095,11 +2095,11 @@ footer>h1{
         font-size: 10vw;
         z-index: 500;
         position: relative;
-        margin-bottom: 150px;
+        margin-bottom: 100px;
     }
 
     body>main>section:nth-child(8)>section{
-        display: flex;
+        display: inline-block;
         justify-content: space-around;
     }
     body>main>section:nth-child(8)>section>div:nth-child(2){
@@ -2201,6 +2201,10 @@ footer>h1{
 
     body>main>section:nth-child(8)>section>div:nth-child(1)>article>h4{
         font-size: 1.3vw;
+    }
+
+    body>main>section:nth-child(8)>section>div:nth-child(1){
+        display: none;
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(1)>img:nth-child(3){
