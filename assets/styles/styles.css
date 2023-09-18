@@ -5261,7 +5261,7 @@ footer>h1{
         position: relative;
         display: inline-block;
         top: -27vh;
-        left: 50vw;
+        left: 45vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>h1{
@@ -5278,47 +5278,47 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(1){
         position: relative;
-        top: -40px;
-        font-size: 1vw;
+        top: -45px;
+        font-size: 1.5vw;
         color: #3391FF;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(2){
         position: relative;
         top: -50px;
-        font-size: 1.2vw;
+        font-size: 1.9vw;
         font-weight: bolder;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(3){
         position: relative;
         top: -50px;
-        font-size: 1vw;
+        font-size: 1.5vw;
     }
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(4){
         position: relative;
         top: -50px;
-        font-size: 1vw;
+        font-size: 1.5vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(1){
         position: relative;
         top: -6px;
-        font-size: 1vw;
+        font-size: 1.5vw;
         color:#3391FF;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(2){
         position: relative;
         top: -15px;
-        font-size: 1.2vw;
+        font-size: 1.9vw;
         font-weight: bolder;
 
     }
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(3){
         position: relative;
         top: -15px;
-        font-size: 1vw;
+        font-size: 1.5vw;
 
     }
 
