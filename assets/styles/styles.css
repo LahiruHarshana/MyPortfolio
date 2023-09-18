@@ -1603,7 +1603,7 @@ footer>h1{
 
     body>main>section:nth-child(4)>div:nth-child(4){
         position: relative;
-        top:50px;
+        top:10px;
         left: 41vw;
         width: 8vw;
         height: 4vh;
@@ -1648,7 +1648,7 @@ footer>h1{
     body>main>section:nth-child(4)>div:nth-child(5){
         position: relative;
         left: 57vw;
-        top: 0px;
+        top: -25px;
         width: 8vw;
         height: 4vh;
         border: 1px solid rgba(51, 145, 255, 0.47);
@@ -1675,8 +1675,8 @@ footer>h1{
     body>main>section:nth-child(4)>div:nth-child(5):hover>img{
         width: 7vw;
         position: relative;
-        top: 10px;
-        left: 0.9vw;
+        top: 0px;
+        left: 0vw;
         transition: all 0.5s;
     }
 
@@ -1684,8 +1684,8 @@ footer>h1{
         width: 7vw;
         height: 3vh;
         position: relative;
-        top: 10px;
-        left: 0.9vw;
+        top: 4px;
+        left: 0.4vw;
         transition: all 0.5s;
     }
 
