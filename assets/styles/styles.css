@@ -5632,22 +5632,27 @@ footer>h1{
 
     body>main>section:nth-child(8)>section>div:nth-child(1){
 
-        width: 25vw;
+        width: 34vw;
         box-shadow:  0 4px 10px rgba(51, 145, 255, 0.5);
-        height: 70vh;
+        height: 60vh;
         border-radius: 12px;
         border: 1px solid #3391FF;
     }
 
+    body>main>section:nth-child(8)>section>div:nth-child(1)>img:nth-child(1){
+
+        width: 30vw;
+    }
+
     body>main>section:nth-child(8)>section>div:nth-child(1)>img,article{
         position: relative;
-        left: 50px;
-        top: 30px;
-        font-size: 1.1vw;
+        left: 10px;
+        top: 10px;
+        font-size: 1.9vw;
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(1)>article>h4{
-        font-size: 1.3vw;
+        font-size: 3vw;
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(1)>img:nth-child(3){
@@ -5655,6 +5660,8 @@ footer>h1{
         margin-left: 35px;
 
     }
+
+
     body>main>section:nth-child(8)>section>div:nth-child(1)>img:nth-child(4){
         margin-right: 30px;
     }
