@@ -1419,13 +1419,17 @@ footer>h1{
 
     }
 
+    body>main>section:nth-child(3)>section{
+        height: 130vh;
+    }
+
     body>main>section:nth-child(3)>section>div:hover{
         margin-left: 5vw;
         position: relative;
         display: inline-block;
         width: 70vw;
         height: 30vh;
-        left: 3.5vw;
+        left: 8vw;
         box-shadow: 0 0 30px 0 rgba(51, 145, 255, 4);
         border-radius: 10px;
         transition: all 1s;
