@@ -1557,10 +1557,11 @@ footer>h1{
     }
 
     body>main>section:nth-child(4)>section{
+        position: relative;
         margin-top: 100px;
         display: flex;
-        width: 100vw;
-        height: 10vh;
+        width: 90vw;
+        height: 5vh;
         justify-content: space-around;
     }
 
