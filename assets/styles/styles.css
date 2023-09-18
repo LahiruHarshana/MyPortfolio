@@ -5172,15 +5172,16 @@ footer>h1{
     body>main>section:nth-child(4)>div:nth-child(5):hover>img{
         width: 3.2vw;
         position: relative;
-        top: 10px;
+        top: 4px;
         left: 0.9vw;
         transition: all 0.5s;
     }
 
     body>main>section:nth-child(4)>div:nth-child(5)>img{
         width: 3vw;
+        height: 3vh;
         position: relative;
-        top: 10px;
+        top: 4px;
         left: 0.9vw;
         transition: all 0.5s;
     }
