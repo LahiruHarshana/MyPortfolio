@@ -5249,7 +5249,7 @@ footer>h1{
         height: 0.7vh;
         background-color: #3391FF;
         border-radius: 100%;
-        bottom: 13vh;
+        bottom: 10vh;
         left: -1vw;
         display: inline-block;
 
@@ -5260,7 +5260,7 @@ footer>h1{
 
         position: relative;
         display: inline-block;
-        top: -50vh;
+        top: -27vh;
         left: 50vw;
     }
 
@@ -5268,7 +5268,7 @@ footer>h1{
         font-family: 'Poppins', sans-serif;
         position: relative;
         font-size: 3.4vw;
-        top: -8vh;
+        top: -1vh;
         left: -7vw;
     }
 
