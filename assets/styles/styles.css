@@ -5407,7 +5407,7 @@ footer>h1{
 
     body>main>section:nth-child(7)>h1:nth-child(2){
         text-align: center;
-        font-size: 3.4vw;
+        font-size: 8vw;
         z-index: 500;
         position: relative;
         margin-bottom: 150px;
@@ -5416,7 +5416,7 @@ footer>h1{
     body>main>section:nth-child(6)>button:nth-child(7){
 
         height: 4vh;
-        width: 12vw;
+        width: 20vw;
         position: relative;
         border: 2px solid #3391FF;
         box-shadow: 0 5px 10px 0 rgba(51, 145, 255, 1);
@@ -5431,7 +5431,7 @@ footer>h1{
     body>main>section:nth-child(6)>button:nth-child(7):hover{
 
         height: 4vh;
-        width: 12vw;
+        width: 20vw;
         position: relative;
         border: 2px solid white;
         box-shadow: 0 5px 10px 0 rgba(51, 145, 255, 1);
@@ -5443,7 +5443,7 @@ footer>h1{
     }
 
     body>main>section:nth-child(7){
-        margin-top: 300px;
+        margin-top: 0px;
         width: 100%;
         height: 100%;
     }
@@ -5539,7 +5539,7 @@ footer>h1{
 
     body>main>section:nth-child(8)>h1:nth-child(2){
         text-align: center;
-        font-size: 3.4vw;
+        font-size: 8vw;
         z-index: 500;
         position: relative;
         margin-bottom: 150px;
