@@ -1815,6 +1815,8 @@ footer>h1{
         position: relative;
         top: -50px;
         font-size: 3vw;
+        display: inline-block;
+
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(1){
