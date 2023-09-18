@@ -1428,12 +1428,10 @@ footer>h1{
     body>main>section:nth-child(3)>section>div:hover{
         margin-left: 5vw;
         position: relative;
-        display: inline-block;
+        display: block;
         width: 87vw;
         height: 30vh;
         left: 1vw;
-        box-shadow: 0 0 30px 0 rgba(51, 145, 255, 4);
-        border-radius: 10px;
         transition: all 1s;
         margin-top: 10px;
         margin-bottom: 10px;
