@@ -1912,7 +1912,7 @@ footer>h1{
 
     body>main>section:nth-child(6)>div:nth-child(4)>img{
         width: 50vw;
-        height: 50vh;
+        height: 15vh;
     }
 
     body>main>section:nth-child(6)>button:nth-child(5){
@@ -1921,7 +1921,7 @@ footer>h1{
         height: 5.2vh;
         border-radius: 100%;
         left: 18vw;
-        top: -25vh;
+        top: -6vh;
         color: #3391FF;
         font-weight: 500;
         border: 2px solid #3391FF;
@@ -1972,7 +1972,7 @@ footer>h1{
 
     body>main>section:nth-child(6)>button:nth-child(7){
 
-        height: 4vh;
+        height: 10vh;
         width: 50vw;
         position: relative;
         border: 2px solid #3391FF;
@@ -1986,15 +1986,14 @@ footer>h1{
 
 
     body>main>section:nth-child(6)>button:nth-child(7):hover{
-
-        height: 4vh;
-        width: 12vw;
+        height: 10vh;
+        width: 50vw;
         position: relative;
-        border: 2px solid white;
+        border: 2px solid #3391FF;
         box-shadow: 0 5px 10px 0 rgba(51, 145, 255, 1);
         border-radius: 12px;
         top:10vh;
-        left: -12vw;
+        left: 24vw;
         background-color: #3391FF;
         color: white;
     }
