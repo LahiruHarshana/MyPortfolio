@@ -6197,7 +6197,7 @@ footer>h1{
     body>main>section:nth-child(4)>section>div:hover>img{
         width: 5vw;
         position: relative;
-        left: 16px;
+        left: 5px;
         top: 10px;
         transition: all 0.5s;
     }
