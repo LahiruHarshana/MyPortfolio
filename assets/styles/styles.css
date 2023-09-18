@@ -5857,6 +5857,11 @@ footer>h1{
 
     }
 
+    body>main>section:nth-child(2){
+        height: 50vh;
+
+    }
+
     body>main>section:nth-child(2)>section>div {
         border: 2px solid rgba(90, 139, 197, 0.28);
         width: 32vw;
@@ -6155,7 +6160,7 @@ footer>h1{
     body>main>section:nth-child(4)>h1{
         font-family: 'Poppins', sans-serif;
         text-align: center;
-        font-size: 3.4vw;
+        font-size: 8vw;
         margin-top: -20px;
     }
 
