@@ -5551,7 +5551,7 @@ footer>h1{
     }
     body>main>section:nth-child(8)>section>div:nth-child(2){
         width: 60%;
-        height: 70vh;
+        height: 60vh;
         background-color:white;
         border-radius: 20px;
         border :1px solid #3391FF;
@@ -5562,12 +5562,12 @@ footer>h1{
     body>main>section:nth-child(8)>section>div:nth-child(2)>input,label,textarea{
         margin-top: 10px;
         position: relative;
-        left: 70px;
+        left: 20px;
         top:30px
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(2)>label{
-        font-size: 0.8vw;
+        font-size: 1.4vw;
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(2)>input{
