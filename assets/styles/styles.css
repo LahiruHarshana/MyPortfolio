@@ -4905,18 +4905,18 @@ footer>h1{
     }
 
     body>main>section:nth-child(3)>section>div{
-        margin-left: 5vw;
+        margin-left: 1vw;
         position: relative;
         display: inline-block;
-        width: 40vw;
-        height: 30vh;
+        width: 45vw;
+        height: 20vh;
         left: 3.5vw;
         transition: all 1s;
 
     }
 
     body>main>section:nth-child(3)>section>div:hover{
-        margin-left: 5vw;
+        margin-left: 1vw;
         position: relative;
         display: inline-block;
         width: 40vw;
