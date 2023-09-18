@@ -4976,14 +4976,14 @@ footer>h1{
     body>main>section:nth-child(3)>section>div:nth-child(1)>h1{
         font-family: 'Poppins', sans-serif;
         position: relative;
-        left: 2.5vw;
+        left: 3vw;
         top: -2vh;
     }
 
     body>main>section:nth-child(3)>hr{
         background-color: #3391FF;
         height: 5px;
-        width: 12vw;
+        width: 13vw;
         margin-top: -20px;
     }
 
@@ -5001,14 +5001,14 @@ footer>h1{
     body>main>section:nth-child(3)>section>div:nth-child(3)>h1{
         font-family: 'Poppins', sans-serif;
         position: relative;
-        left: 2.5vw;
+        left: 3vw;
         top: -2vh;
     }
 
     body>main>section:nth-child(3)>section>div:nth-child(4)>h1{
         font-family: 'Poppins', sans-serif;
         position: relative;
-        left: 2.5vw;
+        left: 3vw;
         top: -2vh;
     }
 
