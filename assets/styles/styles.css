@@ -5925,7 +5925,7 @@ footer>h1{
     }
 
     body>main>section:nth-child(2)>section>div:nth-child(3)>hr{
-        width: 5vw;
+        width: 10vw;
         height: 2px;
         background-color: #3391FF;
         margin-top: -10px;
