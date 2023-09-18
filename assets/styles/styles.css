@@ -4930,12 +4930,12 @@ footer>h1{
     body>main>section:nth-child(3)>h1{
         font-family: 'Poppins' , sans-serif;
         text-align: center;
-        font-size: 3.4vw;
+        font-size: 8vw;
     }
 
     body>main>section:nth-child(3)>section>div>div{
         width: 5vw;
-        height: 8vh;
+        height: 4vh;
         display: inline-block;
         box-shadow: 0 0 10px 2px rgba(51, 145, 255, 0.4);
         border-radius: 10px;
@@ -4945,7 +4945,7 @@ footer>h1{
 
     body>main>section:nth-child(3)>section>div>div:hover{
         width: 5vw;
-        height: 8vh;
+        height: 4vh;
         display: inline-block;
         box-shadow: 0 0 20px 2px rgba(51, 145, 255, 4);
         border-radius: 10px;
@@ -4955,9 +4955,9 @@ footer>h1{
 
     body>main>section:nth-child(3)>section>div>div>img{
         width: 3vw;
-        height: 5vh;
-        margin-top: 12px;
-        margin-left: 15px;
+        height: 3vh;
+        margin-top: 8px;
+        margin-left: 10px;
         display: inline-block;
     }
     body>main>section:nth-child(3)>section>div>h1{
@@ -4976,15 +4976,15 @@ footer>h1{
     body>main>section:nth-child(3)>section>div:nth-child(1)>h1{
         font-family: 'Poppins', sans-serif;
         position: relative;
-        left: 3vw;
+        left: 2.5vw;
         top: -2vh;
     }
 
     body>main>section:nth-child(3)>hr{
         background-color: #3391FF;
         height: 5px;
-        width: 7vw;
-        margin-top: -10px;
+        width: 12vw;
+        margin-top: -20px;
     }
 
     body>main>section:nth-child(3)>section{
@@ -4994,7 +4994,7 @@ footer>h1{
     body>main>section:nth-child(3)>section>div:nth-child(2)>h1{
         font-family: 'Poppins', sans-serif;
         position: relative;
-        left: 3vw;
+        left: 2.5vw;
         top: -2vh;
     }
 
