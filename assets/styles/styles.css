@@ -1773,7 +1773,7 @@ footer>h1{
         position: relative;
         display: inline-block;
         top: 0vh;
-        left: 10vw;
+        left: 0vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>h1{
@@ -1792,6 +1792,7 @@ footer>h1{
         top: -40px;
         font-size: 4vw;
         color: #3391FF;
+        display: inline-block;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(2){
@@ -1837,11 +1838,10 @@ footer>h1{
         position: relative;
         top: -15px;
         font-size: 3vw;
-
     }
 
     body>main>section:nth-child(6){
-        margin-top: -300px;
+        margin-top: 0px;
     }
 
     body>main>section:nth-child(6)>{
