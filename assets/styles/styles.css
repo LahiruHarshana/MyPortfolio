@@ -7590,10 +7590,10 @@ footer>h1{
 
     body>main>section:nth-child(6)>button:nth-child(5){
         position: relative;
-        width: 3vw;
+        width: 4vw;
         height: 4vh;
         border-radius: 100%;
-        left: 18vw;
+        left: 28vw;
         top: -15vh;
         color: #3391FF;
         font-weight: 500;
@@ -7604,11 +7604,11 @@ footer>h1{
 
     body>main>section:nth-child(6)>button:nth-child(6){
         position: relative;
-        width: 3vw;
+        width: 4vw;
         height: 4vh;
         border-radius: 100%;
         top: -15vh;
-        left: -25vw;
+        left: -35vw;
         color: #3391FF;
         font-weight: 500;
         border: 2px solid #3391FF;
