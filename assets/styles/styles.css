@@ -6717,9 +6717,9 @@ footer>h1{
     body>main>section:nth-child(8)>section>div:nth-child(2)>button:nth-child(21){
         position: relative;
         top: 50px;
-        width: 50vw;
+        width: 60vw;
         height: 5vh;
-        left: 4.5vw;
+        left: 7vw;
         border-radius: 8px;
         box-shadow:  0 4px 10px rgba(51, 145, 255, 0.5);
         border: none;
@@ -6732,9 +6732,9 @@ footer>h1{
     body>main>section:nth-child(8)>section>div:nth-child(2)>button:nth-child(21):hover{
         position: relative;
         top: 50px;
-        width: 50vw;
+        width: 60vw;
         height: 5vh;
-        left: 4.5vw;
+        left: 7vw;
         border-radius: 8px;
         box-shadow:  0 4px 10px rgba(51, 145, 255, 0.5);
         border: none;
