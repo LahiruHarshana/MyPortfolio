@@ -6329,7 +6329,7 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(2){
         position: relative;
-        left: 50vw;
+        left: 45vw;
         top: -45.5vh;
         display: inline-block;
     }
@@ -6372,7 +6372,7 @@ footer>h1{
         position: relative;
         display: inline-block;
         top: -50vh;
-        left: 50vw;
+        left: 43vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>h1{
@@ -6414,28 +6414,28 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(1){
         position: relative;
-        top: -6px;
+        top: 25px;
         font-size: 2vw;
         color:#3391FF;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(2){
         position: relative;
-        top: -15px;
+        top: -5px;
         font-size: 3vw;
         font-weight: bolder;
 
     }
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(3){
         position: relative;
-        top: -15px;
+        top: -5px;
         font-size: 2vw;
 
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(4){
         position: relative;
-        top: -15px;
+        top: -5px;
         font-size: 2vw;
 
     }
