@@ -6308,7 +6308,7 @@ footer>h1{
         font-size: 1.4vw;
     }
     body>main>section:nth-child(5){
-        margin-top: 200px;
+        margin-top: 400px;
     }
 
     body>main>section:nth-child(5)>aside>div{
@@ -6330,7 +6330,7 @@ footer>h1{
     body>main>section:nth-child(5)>div:nth-child(2){
         position: relative;
         left: 50vw;
-        top: -30.5vh;
+        top: -45.5vh;
         display: inline-block;
     }
 
@@ -6347,7 +6347,7 @@ footer>h1{
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(2){
         position: absolute;
         width: 1vw;
-        height: 1vh;
+        height: 0.9vh;
         background-color: #3391FF;
         border-radius: 100%;
         top: 0;
@@ -6369,7 +6369,6 @@ footer>h1{
     }
 
     body>main>section:nth-child(5)>div:nth-child(3){
-
         position: relative;
         display: inline-block;
         top: -50vh;
@@ -6443,8 +6442,7 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(3){
         position: relative;
-        top: -15px;
-
+        width: 470px;
     }
 
     body>main>section:nth-child(6){
