@@ -7577,14 +7577,14 @@ footer>h1{
 
     body>main>section:nth-child(6)>div:nth-child(4){
         position: relative;
-        left: 25vw;
+        left: 15vw;
         width: 50vw;
         height: 50vh;
         display: inline-block;
     }
 
     body>main>section:nth-child(6)>div:nth-child(4)>img{
-        width: 50vw;
+        width: 70vw;
         height: 30vh;
     }
 
