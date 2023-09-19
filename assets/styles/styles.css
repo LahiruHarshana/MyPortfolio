@@ -6694,15 +6694,15 @@ footer>h1{
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(2)>input:nth-child(10){
-        width: 50vw;
+        width: 60vw;
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(2)>input:nth-child(15){
-        width: 50vw;
+        width: 60vw;
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(2)>textarea:nth-child(20){
-        width: 50vw;
+        width: 60vw;
         height: 20vh;
         border-radius: 8px;
         box-shadow: inset 0 4px 10px rgba(51, 145, 255, 0.5);
