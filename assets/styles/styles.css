@@ -6989,7 +6989,7 @@ footer>h1{
     body>main>section:nth-child(2)>section>div:hover{
         border: 3px solid rgba(90, 139, 197, 0.28);
         width: 32vw;
-        height: 30vh;
+        height: 35vh;
         border-radius: 10px;
         box-shadow: 0 0 40px 2px rgba(51, 145, 255, 7);
         transition: all 1s;
