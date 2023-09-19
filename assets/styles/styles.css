@@ -6358,7 +6358,7 @@ footer>h1{
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(3){
         position: relative;
         width: 1vw;
-        height: 1vh;
+        height: 0.9vh;
         background-color: #3391FF;
         border-radius: 100%;
         bottom: 13vh;
@@ -6379,9 +6379,9 @@ footer>h1{
     body>main>section:nth-child(5)>div:nth-child(3)>h1{
         font-family: 'Poppins', sans-serif;
         position: relative;
-        font-size: 3.4vw;
-        top: -8vh;
-        left: -7vw;
+        font-size: 7vw;
+        top: 1vh;
+        left: -40vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>h1>span{
@@ -6391,26 +6391,26 @@ footer>h1{
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(1){
         position: relative;
         top: -40px;
-        font-size: 1vw;
+        font-size: 2vw;
         color: #3391FF;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(2){
         position: relative;
         top: -50px;
-        font-size: 1.2vw;
+        font-size: 3vw;
         font-weight: bolder;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(3){
         position: relative;
         top: -50px;
-        font-size: 1vw;
+        font-size: 2vw;
     }
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(4){
         position: relative;
         top: -50px;
-        font-size: 1vw;
+        font-size: 2vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(1){
