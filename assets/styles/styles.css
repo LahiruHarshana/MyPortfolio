@@ -6952,7 +6952,7 @@ footer>h1{
 
     body>main>section:nth-child(2)>p{
         font-family: 'Poppins', sans-serif;
-        font-size: 16px;
+        font-size: 22px;
         color: #3391FF;
     }
 
@@ -6973,14 +6973,14 @@ footer>h1{
     }
 
     body>main>section:nth-child(2){
-        height: 50vh;
+        height: 60vh;
 
     }
 
     body>main>section:nth-child(2)>section>div {
         border: 2px solid rgba(90, 139, 197, 0.28);
         width: 32vw;
-        height: 30vh;
+        height: 35vh;
         border-radius: 10px;
         box-shadow: 0 0 20px 2px rgba(51, 145, 255, 0.31);
         transition: all 1s;
