@@ -5851,7 +5851,7 @@ footer>h1{
 
     body>main>section:nth-child(2)>section{
         display: flex;
-        width: 100vw;
+        width: 99vw;
         height: 40vh;
         justify-content: space-around;
 
