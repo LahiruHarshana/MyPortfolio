@@ -6765,8 +6765,8 @@ footer>h1{
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(1)>img:nth-child(3){
-        margin-right: 30px;
-        margin-left: 35px;
+        margin-right: 0px;
+        margin-left: 0px;
 
     }
 
@@ -6778,14 +6778,14 @@ footer>h1{
 
     }
     body>main>section:nth-child(8)>section>div:nth-child(1)>img:nth-child(4){
-        margin-right: 30px;
+        margin-right: 0px;
     }
     body>main>section:nth-child(8)>section>div:nth-child(1)>img:nth-child(5){
-        margin-right: 30px;
+        margin-right: 0px;
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(1)>img:nth-child(6){
-        margin-right: 30px;
+        margin-right: 0px;
     }
 
     footer{
