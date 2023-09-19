@@ -7430,7 +7430,7 @@ footer>h1{
     body>main>section:nth-child(5)>aside>div{
         position: relative;
         width: 35vw;
-        height: 30vh;
+        height: 40vh;
         background-color: #0D1E32;
         border-radius: 12px;
         left: 50px;
@@ -7439,7 +7439,7 @@ footer>h1{
     body>main>section:nth-child(5)>aside>div>img{
         position: relative;
         width: 40vw;
-        top: -45px;
+        top: -25px;
         left: -7vw;
     }
 
