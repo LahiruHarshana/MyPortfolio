@@ -7641,6 +7641,7 @@ footer>h1{
         font-size: 8vw;
         z-index: 500;
         position: relative;
+        margin-top: -10px;
         margin-bottom: 150px;
     }
 
@@ -7905,7 +7906,7 @@ footer>h1{
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(1)>img:nth-child(6){
-        margin-right: 10px;
+        margin-right: 15px;
     }
 
     footer{
