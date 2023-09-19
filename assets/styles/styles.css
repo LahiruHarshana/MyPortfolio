@@ -6664,8 +6664,8 @@ footer>h1{
         justify-content: space-around;
     }
     body>main>section:nth-child(8)>section>div:nth-child(2){
-        width: 60%;
-        height: 70vh;
+        width: 70%;
+        height: 60vh;
         background-color:white;
         border-radius: 20px;
         border :1px solid #3391FF;
@@ -6681,7 +6681,7 @@ footer>h1{
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(2)>label{
-        font-size: 0.8vw;
+        font-size: 1.4vw;
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(2)>input{
