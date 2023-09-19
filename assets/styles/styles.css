@@ -7571,6 +7571,7 @@ footer>h1{
         font-size: 8vw;
         z-index: 500;
         position: relative;
+        margin-top: -10px;
         margin-bottom: 150px;
     }
 
