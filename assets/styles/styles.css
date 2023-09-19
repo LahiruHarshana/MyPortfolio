@@ -6416,14 +6416,14 @@ footer>h1{
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(1){
         position: relative;
         top: -6px;
-        font-size: 1vw;
+        font-size: 2vw;
         color:#3391FF;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(2){
         position: relative;
         top: -15px;
-        font-size: 1.2vw;
+        font-size: 3vw;
         font-weight: bolder;
 
     }
