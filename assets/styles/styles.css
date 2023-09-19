@@ -7535,7 +7535,7 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(2){
         position: relative;
-        top: 20px;
+        top: -20px;
         font-size: 3.1vw;
         font-weight: bolder;
 
