@@ -7866,7 +7866,6 @@ footer>h1{
 
 
     body>main>section:nth-child(8)>section>div:nth-child(1){
-
         width: 28vw;
         box-shadow:  0 4px 10px rgba(51, 145, 255, 0.5);
         height: 60vh;
@@ -7881,8 +7880,9 @@ footer>h1{
         font-size: 1.1vw;
     }
 
+
     body>main>section:nth-child(8)>section>div:nth-child(1)>article>h4{
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(1)>img:nth-child(3){
