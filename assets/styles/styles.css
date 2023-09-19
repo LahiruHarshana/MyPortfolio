@@ -7658,6 +7658,11 @@ footer>h1{
         color: #3391FF;
     }
 
+    body>main>section:nth-child(6)>button:nth-child(7)>a{
+        font-size: 2vw;
+        color: #3391FF;
+    }
+
 
     body>main>section:nth-child(6)>button:nth-child(7):hover{
 
