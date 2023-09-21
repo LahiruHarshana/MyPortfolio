@@ -7465,7 +7465,7 @@ footer>h1{
     body>main>section:nth-child(5)>div:nth-child(2){
         position: relative;
         left: 45vw;
-        top: -50.5vh;
+        top: -58vh;
         display: inline-block;
     }
 
@@ -7479,8 +7479,8 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(2){
         position: absolute;
-        width: 1vw;
-        height: 1vh;
+        width: 1.1vw;
+        height: 1.7vh;
         background-color: #3391FF;
         border-radius: 100%;
         top: 0;
@@ -7490,8 +7490,8 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(3){
         position: relative;
-        width: 1vw;
-        height: 1vh;
+        width: 1.1vw;
+        height: 1.7vh;
         background-color: #3391FF;
         border-radius: 100%;
         bottom: 13vh;
