@@ -7577,6 +7577,7 @@ footer>h1{
 
     body>main>section:nth-child(6){
         margin-top: 0px;
+        height: 130vh;
     }
 
     body>main>section:nth-child(6)>{
@@ -7664,13 +7665,13 @@ footer>h1{
 
     body>main>section:nth-child(6)>button:nth-child(7){
 
-        height: 4vh;
+        height: 7vh;
         width: 29vw;
         position: relative;
         border: 2px solid #3391FF;
         box-shadow: 0 5px 10px 0 rgba(51, 145, 255, 1);
         border-radius: 12px;
-        top:10vh;
+        top:13vh;
         left: -22vw;
         background-color: white;
         color: #3391FF;
@@ -7683,14 +7684,13 @@ footer>h1{
 
 
     body>main>section:nth-child(6)>button:nth-child(7):hover{
-
-        height: 4vh;
+        height: 7vh;
         width: 29vw;
         position: relative;
         border: 2px solid white;
         box-shadow: 0 5px 10px 0 rgba(51, 145, 255, 1);
         border-radius: 12px;
-        top:10vh;
+        top:13vh;
         left: -22vw;
         background-color: #3391FF;
         color: white;
