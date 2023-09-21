@@ -7443,35 +7443,36 @@ footer>h1{
         font-size: 2vw;
     }
     body>main>section:nth-child(5){
-        margin-top: 400px;
+        margin-top: -100px;
     }
 
     body>main>section:nth-child(5)>aside>div{
         position: relative;
+        top: 400px;
         width: 35vw;
-        height: 40vh;
+        height: 80vh;
         background-color: #0D1E32;
         border-radius: 12px;
-        left: 50px;
+        left: 40px;
         box-shadow: 0 4px 40px 0 rgba(51, 145, 255, 100);
     }
     body>main>section:nth-child(5)>aside>div>img{
         position: relative;
         width: 40vw;
-        top: -25px;
+        top: -23px;
         left: -7vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(2){
         position: relative;
         left: 45vw;
-        top: -60.5vh;
+        top: -50.5vh;
         display: inline-block;
     }
 
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(1){
         width: 0.2vw;
-        height: 35vh;
+        height: 60vh;
         background-color: #3391FF;
         display: inline-block;
 
@@ -7511,8 +7512,8 @@ footer>h1{
     body>main>section:nth-child(5)>div:nth-child(3)>h1{
         font-family: 'Poppins', sans-serif;
         position: relative;
-        font-size: 7vw;
-        top: 1vh;
+        font-size: 6vw;
+        top: -15vh;
         left: -40vw;
     }
 
@@ -7522,27 +7523,27 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(1){
         position: relative;
-        top: -40px;
-        font-size: 2.5vw;
+        top: -100px;
+        font-size: 2vw;
         color: #3391FF;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(2){
         position: relative;
-        top: -50px;
-        font-size: 3.1vw;
+        top: -100px;
+        font-size: 2.5vw;
         font-weight: bolder;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(3){
         position: relative;
-        top: -50px;
-        font-size: 2.5vw;
+        top: -100px;
+        font-size: 2vw;
     }
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(4){
         position: relative;
-        top: -50px;
-        font-size: 2.5vw;
+        top: -100px;
+        font-size: 2vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(1){
