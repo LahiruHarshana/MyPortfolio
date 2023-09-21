@@ -7707,7 +7707,7 @@ footer>h1{
         position: relative;
         left: 1vw;
         width: 98vw;
-        height: 50vh;
+        height: 90vh;
         display: grid;
         grid-template-rows: repeat(3,1fr);
         grid-template-columns: repeat(3,1fr);
