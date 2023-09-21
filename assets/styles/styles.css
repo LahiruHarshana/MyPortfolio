@@ -1063,6 +1063,10 @@ body>main>section:nth-child(8)>section>div:nth-child(1)>img,article{
     font-size: 1.1vw;
 }
 
+body>main>section:nth-child(8){
+    overflow: hidden;
+}
+
 body>main>section:nth-child(8)>section>div:nth-child(1)>article>h4{
     font-size: 1.3vw;
 }
