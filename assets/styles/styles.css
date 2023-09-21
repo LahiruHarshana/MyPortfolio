@@ -7585,7 +7585,7 @@ footer>h1{
 
     body>main>section:nth-child(6)>h1:nth-child(2){
         text-align: center;
-        font-size: 8vw;
+        font-size: 6vw;
         z-index: 500;
         position: relative;
         margin-top: -10px;
@@ -7602,7 +7602,7 @@ footer>h1{
 
     body>main>section:nth-child(6)>div:nth-child(4)>img{
         width: 70vw;
-        height: 30vh;
+        height: 60vh;
     }
 
     body>main>section:nth-child(6)>button:nth-child(5){
@@ -7611,7 +7611,7 @@ footer>h1{
         height: 4vh;
         border-radius: 100%;
         left: 28vw;
-        top: -15vh;
+        top: -30vh;
         color: #3391FF;
         font-weight: 500;
         border: 2px solid #3391FF;
@@ -7624,7 +7624,7 @@ footer>h1{
         width: 4vw;
         height: 4vh;
         border-radius: 100%;
-        top: -15vh;
+        top: -30vh;
         left: -35vw;
         color: #3391FF;
         font-weight: 500;
