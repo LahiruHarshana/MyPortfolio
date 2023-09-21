@@ -6917,9 +6917,7 @@ footer>h1{
         margin-top: -50px;
         font-weight: 0.1;
         letter-spacing: 0.2em;
-        text-shadow: 2px 2px 10px rgba(0, 0, 0, 4); /* Add a small dark shadow */
-
-
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 4);
     }
 
     body>main>section:nth-child(1)>hgroup>h2{
@@ -6928,7 +6926,7 @@ footer>h1{
         font-weight: bolder;
         -webkit-text-fill-color: white;
         margin-top: -70px;
-        text-shadow: 2px 2px 10px rgba(0, 0, 0, 4); /* Add a small dark shadow */
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 4);
 
     }
 
@@ -6939,7 +6937,7 @@ footer>h1{
         margin-top: -60px;
         letter-spacing: 0.3em;
         font-weight: 1;
-        text-shadow: 2px 2px 10px rgba(0, 0, 0, 4); /* Add a small dark shadow */
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 4);
 
     }
 
