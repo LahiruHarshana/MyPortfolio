@@ -611,6 +611,7 @@ body>main>section:nth-child(4)>p{
 }
 body>main>section:nth-child(5){
     margin-top: 200px;
+    overflow: hidden;
 }
 
 body>main>section:nth-child(5)>aside>div{
@@ -744,6 +745,7 @@ body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-c
 }
 
 body>main>section:nth-child(6){
+    overflow: hidden;
     margin-top: -300px;
 }
 
@@ -860,6 +862,7 @@ body>main>section:nth-child(7){
     margin-top: 300px;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 
