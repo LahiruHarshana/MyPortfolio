@@ -6965,7 +6965,7 @@ footer>h1{
     body>main>section:nth-child(2){
         text-align: center;
         width: 100vw;
-        height: 70vh;
+        height: 100vh;
         margin-top: -100px;
     }
 
@@ -6979,27 +6979,26 @@ footer>h1{
         font-family: 'Poppins', sans-serif;
         font-weight: 900;
         margin-top: -20px;
-        font-size: 8vw;
+        font-size: 6vw;
         color: black;
     }
 
     body>main>section:nth-child(2)>section{
         display: flex;
         width: 99vw;
-        height: 40vh;
+        height: 90vh;
         justify-content: space-around;
 
     }
 
     body>main>section:nth-child(2){
-        height: 60vh;
-
+        height: 100vh;
     }
 
     body>main>section:nth-child(2)>section>div {
         border: 2px solid rgba(90, 139, 197, 0.28);
         width: 32vw;
-        height: 35vh;
+        height: 50vh;
         border-radius: 10px;
         box-shadow: 0 0 20px 2px rgba(51, 145, 255, 0.31);
         transition: all 1s;
