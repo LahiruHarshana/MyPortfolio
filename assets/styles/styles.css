@@ -7788,6 +7788,7 @@ footer>h1{
         display: inline-block;
     }
 
+
     body>main>section:nth-child(8)>h1:nth-child(2){
         margin-top: -10px;
         text-align: center;
@@ -7803,7 +7804,7 @@ footer>h1{
     }
     body>main>section:nth-child(8)>section>div:nth-child(2){
         width: 70%;
-        height: 60vh;
+        height: 100vh;
         background-color:white;
         border-radius: 20px;
         border :1px solid #3391FF;
@@ -7885,7 +7886,7 @@ footer>h1{
     body>main>section:nth-child(8)>section>div:nth-child(1){
         width: 28vw;
         box-shadow:  0 4px 10px rgba(51, 145, 255, 0.5);
-        height: 60vh;
+        height: 120vh;
         border-radius: 12px;
         border: 1px solid #3391FF;
     }
