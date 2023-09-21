@@ -1986,16 +1986,16 @@ footer>h1{
 
 
     body>main>section:nth-child(6)>button:nth-child(7):hover{
-        height: 10vh;
-        width: 50vw;
+        height: 4vh;
+        width: 12vw;
         position: relative;
         border: 2px solid #3391FF;
         box-shadow: 0 5px 10px 0 rgba(51, 145, 255, 1);
         border-radius: 12px;
-        top:10vh;
+        top:-20vh;
         left: 24vw;
-        background-color: #3391FF;
-        color: white;
+        background-color: white;
+        color: #3391FF;
     }
 
     body>main>section:nth-child(7){
