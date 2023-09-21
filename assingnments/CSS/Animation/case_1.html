@@ -5,37 +5,57 @@
     <title>case_1</title>
   <style>
     div{
-      position: absolute;
+      position: relative;
       width: 200px;
       height: 100px;
       background-color: red;
       border-radius: 10px;
+      animation: anima;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
     }
 
     @keyframes anima {
       0%{
-        top:0;
+          top: 0;
         left: 0;
         transform: rotate(0deg);
+          background-color: red;
       }
 
       25%{
-        top: 0;
-        right: 0;
+          top: 0;
+        left: 85vw;
         transform: rotate(200deg);
+          background-color: #3391FF;
 
       }
 
       50%{
-        top: 0;
-        right: 0;
-        transform: rotate(200deg);
+          top:85vh;
+        left: 85vw;
+        transform: rotate(0deg);
+          background-color: #8cec77;
 
       }
 
       75%{
+          top: 85vh;
+        left: 0vw;
+        transform: rotate(200deg);
+          background-color: yellow;
 
       }
+
+        100%{
+            top: 0vh;
+            left: 0vw;
+            transform: rotate(0deg);
+            background-color: purple;
+
+        }
     }
   </style>
 </head>
