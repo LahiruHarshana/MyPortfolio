@@ -7306,13 +7306,13 @@ footer>h1{
         margin-top: 100px;
         display: flex;
         width: 100vw;
-        height: 10vh;
+        height: 30vh;
         justify-content: space-around;
     }
 
     body>main>section:nth-child(4)>section>div{
         width: 6vw;
-        height: 5vh;
+        height: 10vh;
         border: 1px solid rgba(51, 145, 255, 0.47);
         border-radius: 8px;
         box-shadow: 0 0 20px 3px rgba(51, 145, 255, 0.4);
@@ -7321,7 +7321,7 @@ footer>h1{
 
     body>main>section:nth-child(4)>section>div:hover{
         width: 6vw;
-        height: 5vh;
+        height: 10vh;
         border: 1px solid rgba(51, 145, 255, 4);
         border-radius: 8px;
         box-shadow: 0 0 30px 0 rgba(51, 145, 255, 4);
@@ -7347,7 +7347,7 @@ footer>h1{
 
     body>main>section:nth-child(4)>div:nth-child(4){
         position: relative;
-        top:0px;
+        top:-30px;
         left: 41vw;
         width: 6vw;
         height: 5vh;
@@ -7361,7 +7361,7 @@ footer>h1{
 
     body>main>section:nth-child(4)>div:nth-child(4):hover{
         position: relative;
-        top:0px;
+        top:-30px;
         left: 41vw;
         width: 6vw;
         height: 5vh;
