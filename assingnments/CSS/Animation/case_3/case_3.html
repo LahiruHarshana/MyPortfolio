@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case_3</title>
+  <style>
+    section{
+      display: flex;
+      width: 400vw;
+        height: 100vw;
+        animation: anima 10s;
+        position: relative;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+        animation-timing-function: ease;
+    }
+
+    body>section>div{
+        height: 100%;
+    }
+    div:nth-child(1){
+        flex-grow: 1;
+        background: url("images/image_3.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    div:nth-child(2){
+        flex-grow: 1;
+        background: url("images/image_4.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    div:nth-child(3){
+        flex-grow: 1;
+        background: url("images/image_5.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    div:nth-child(4){
+        flex-grow: 1;
+
+        background: url("images/image_6.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    @keyframes anima {
+        0%{
+           right: 0;
+        }
+        25%{
+            right: calc(101%);
+        }
+
+        50%{
+            right: calc(202%);
+        }
+
+        75%{
+            right: calc(303%);
+        }
+    }
+  </style>
+</head>
+<body>
+<section>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</section>
+</body>
+</html>
