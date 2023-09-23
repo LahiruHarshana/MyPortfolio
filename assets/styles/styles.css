@@ -7803,7 +7803,7 @@ footer>h1{
     }
     body>main>section:nth-child(8)>section>div:nth-child(2){
         width: 70%;
-        height: 100vh;
+        height: 85vh;
         background-color:white;
         border-radius: 20px;
         border :1px solid #3391FF;
@@ -7885,7 +7885,7 @@ footer>h1{
     body>main>section:nth-child(8)>section>div:nth-child(1){
         width: 28vw;
         box-shadow:  0 4px 10px rgba(51, 145, 255, 0.5);
-        height: 120vh;
+        height: 85vh;
         border-radius: 12px;
         border: 1px solid #3391FF;
     }
@@ -7899,7 +7899,7 @@ footer>h1{
 
 
     body>main>section:nth-child(8)>section>div:nth-child(1)>article>h4{
-        font-size: 4vw;
+        font-size: 2vw;
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(1)>img:nth-child(3){
