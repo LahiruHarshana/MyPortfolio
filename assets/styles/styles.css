@@ -5226,14 +5226,14 @@ footer>h1{
         font-size: 2vw;
     }
     body>main>section:nth-child(5){
-        margin-top: -100px;
+        margin-top: -400px;
     }
 
     body>main>section:nth-child(5)>aside>div{
         position: relative;
         top: 400px;
         width: 35vw;
-        height: 50vh;
+        height: 40vh;
         background-color: #0D1E32;
         border-radius: 12px;
         left: 40px;
@@ -5242,7 +5242,7 @@ footer>h1{
     body>main>section:nth-child(5)>aside>div>img{
         position: relative;
         width: 40vw;
-        top: -123px;
+        top: -50px;
         left: -7vw;
     }
 
