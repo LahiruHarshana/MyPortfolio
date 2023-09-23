@@ -6375,12 +6375,12 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(3){
         position: relative;
-        width: 1.1vw;
+        width: 1.4vw;
         height: 1.7vh;
         background-color: #3391FF;
         border-radius: 100%;
-        bottom: 21.5vh;
-        left: -0.9vw;
+        bottom: 27.5vh;
+        left: -1.2vw;
         display: inline-block;
     }
 
