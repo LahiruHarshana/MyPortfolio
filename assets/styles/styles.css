@@ -5130,10 +5130,10 @@ footer>h1{
 
     body>main>section:nth-child(4)>div:nth-child(4){
         position: relative;
-        top:-70px;
+        top:-150px;
         left: 41vw;
         width: 6vw;
-        height: 8vh;
+        height: 6vh;
         border: 1px solid rgba(51, 145, 255, 0.47);
         border-radius: 8px;
         box-shadow: 0 0 20px 3px rgba(51, 145, 255, 0.4);
@@ -5144,10 +5144,10 @@ footer>h1{
 
     body>main>section:nth-child(4)>div:nth-child(4):hover{
         position: relative;
-        top:-70px;
+        top:-150px;
         left: 41vw;
         width: 6vw;
-        height: 8vh;
+        height: 6vh;
         border: 1px solid rgba(51, 145, 255, 4);
         border-radius: 8px;
         box-shadow: 0 0 20px 0 rgba(51, 145, 255, 4);
@@ -5175,9 +5175,9 @@ footer>h1{
     body>main>section:nth-child(4)>div:nth-child(5){
         position: relative;
         left: 57vw;
-        top: -150px;
+        top: -205px;
         width: 6vw;
-        height: 8vh;
+        height: 6vh;
         border: 1px solid rgba(51, 145, 255, 0.47);
         border-radius: 8px;
         box-shadow: 0 0 20px 3px rgba(51, 145, 255, 0.4);
@@ -5189,7 +5189,7 @@ footer>h1{
     body>main>section:nth-child(4)>div:nth-child(5):hover{
         position: relative;
         left: 57vw;
-        top: -150px;
+        top: -205px;
         width: 6vw;
         height: 8vh;
         border: 1px solid rgba(51, 145, 255, 4);
@@ -5201,7 +5201,7 @@ footer>h1{
 
     body>main>section:nth-child(4)>div:nth-child(5):hover>img{
         width: 4vw;
-        height: 6vh;
+        height: 4vh;
         position: relative;
         top: 10px;
         left: 0.9vw;
@@ -5210,7 +5210,7 @@ footer>h1{
 
     body>main>section:nth-child(4)>div:nth-child(5)>img{
         width: 4vw;
-        height: 6vh;
+        height: 4vh;
         position: relative;
         top: 10px;
         left: 0.9vw;
