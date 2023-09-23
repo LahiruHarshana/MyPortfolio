@@ -4773,7 +4773,7 @@ footer>h1{
     body>main>section:nth-child(2)>section>div {
         border: 2px solid rgba(90, 139, 197, 0.28);
         width: 32vw;
-        height: 65vh;
+        height: 55vh;
         border-radius: 10px;
         box-shadow: 0 0 20px 2px rgba(51, 145, 255, 0.31);
         transition: all 1s;
@@ -4782,7 +4782,7 @@ footer>h1{
     body>main>section:nth-child(2)>section>div:hover{
         border: 3px solid rgba(90, 139, 197, 0.28);
         width: 32vw;
-        height: 65vh;
+        height: 45vh;
         border-radius: 10px;
         box-shadow: 0 0 40px 2px rgba(51, 145, 255, 7);
         transition: all 1s;
@@ -4790,14 +4790,14 @@ footer>h1{
 
     body>main>section:nth-child(2)>section>div>h1{
         font-family: 'League Spartan', sans-serif;
-        font-size: 50px;
+        font-size: 4vw;
         font-weight: lighter;
 
     }
 
     body>main>section:nth-child(2)>section>div:nth-child(1)>button{
         width: 20vw;
-        height: 6vh;
+        height: 5vh;
         background-color: white;
         color: #3391FF;
         border-radius: 8px;
@@ -4813,13 +4813,13 @@ footer>h1{
 
     body>main>section:nth-child(2)>section>div>p{
         font-family: Arial;
-        font-size: 2vw;
+        font-size: 1.7vw;
         font-weight: lighter;
     }
 
     body>main>section:nth-child(2)>section>div:nth-child(2)>p{
         text-align: left;
-        margin-left: 60px;
+        margin-left: 40px;
         font-weight: lighter;
     }
 
