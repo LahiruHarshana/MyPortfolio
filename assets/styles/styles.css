@@ -5585,11 +5585,11 @@ footer>h1{
     body>main>section:nth-child(8)>section{
         display: flex;
         justify-content: space-around;
-        height: 100vh;
+        height: 75vh;
     }
     body>main>section:nth-child(8)>section>div:nth-child(2){
         width: 70%;
-        height: 85vh;
+        height: 70vh;
         background-color:white;
         border-radius: 20px;
         border :1px solid #3391FF;
@@ -5671,7 +5671,7 @@ footer>h1{
     body>main>section:nth-child(8)>section>div:nth-child(1){
         width: 28vw;
         box-shadow:  0 4px 10px rgba(51, 145, 255, 0.5);
-        height: 85vh;
+        height: 70vh;
         border-radius: 12px;
         border: 1px solid #3391FF;
     }
