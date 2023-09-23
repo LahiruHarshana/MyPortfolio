@@ -6701,7 +6701,7 @@ footer>h1{
     body>main>section:nth-child(8)>section>div:nth-child(2)>input,label,textarea{
         margin-top: 10px;
         position: relative;
-        left: 70px;
+        left: 50px;
         top:30px
     }
 
@@ -6744,7 +6744,7 @@ footer>h1{
         top: 50px;
         width: 60vw;
         height: 5vh;
-        left: 4.7vw;
+        left: 5vw;
         border-radius: 8px;
         box-shadow:  0 4px 10px rgba(51, 145, 255, 0.5);
         border: none;
