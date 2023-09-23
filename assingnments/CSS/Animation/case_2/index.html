@@ -7,6 +7,49 @@
     body{
         background: linear-gradient(to left,black,darkblue);
     }
+
+    body>main>div:nth-child(2){
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 400px;
+        height: 400px;
+        border-radius: 100%;
+        background: red;
+    }
+
+    body>main>div:nth-child(1){
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 400px;
+        height: 400px;
+        border-radius: 100%;
+        background: yellow;
+        animation: anima linear 2s;
+    }
+
+    @keyframes anima {
+        0%{
+            left: 0px;
+            bottom: 0px;
+        }
+        10%{
+            right: 100px;
+            top: 100px;
+
+        }
+
+        20%{
+
+        }
+    }
   </style>
 </head>
 <body>
