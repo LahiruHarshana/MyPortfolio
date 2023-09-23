@@ -45,6 +45,7 @@
       bottom: 0;
       width: 300%;
       height: 30vh;
+      animation: anima1 infinite 2s linear;
     }
 
     main>section>div:nth-child(3)>div{
@@ -119,12 +120,12 @@
       }
     }
 
-    @keyframes anima {
+    @keyframes anima1 {
       0% {
         transform: translateX(0px);
       }
       25% {
-        transform: translateX(calc((-100%/3)*1));
+        transform: translateX(calc((-100%/3)*0.5));
       }
       50% {
         transform: translateX(calc((-100%/3)*2));
@@ -133,7 +134,7 @@
         transform: translateX(calc((-100%/3)*3));
       }
       100% {
-        transform: translateX(calc((-100%/3)*4));
+        transform: translateX(calc((-100%/3)*1));
       }
     }
   </style>
