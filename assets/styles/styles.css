@@ -5635,7 +5635,7 @@ footer>h1{
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(2)>label:nth-child(2){
-        left: 270px;
+        left: 100px;
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(2)>button:nth-child(21){
@@ -5678,7 +5678,7 @@ footer>h1{
 
     body>main>section:nth-child(8)>section>div:nth-child(1)>img,article{
         position: relative;
-        left: 30px;
+        left: 15px;
         top: 30px;
         font-size: 1.5vw;
     }
