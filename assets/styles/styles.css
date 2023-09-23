@@ -6515,7 +6515,7 @@ footer>h1{
         color: #3391FF;
         font-weight: 500;
         border: 2px solid #3391FF;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 1); /* Add a shadow to the button */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     }
 
     body>main>section:nth-child(6)>h1:nth-child(1){
