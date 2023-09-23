@@ -7800,6 +7800,7 @@ footer>h1{
     body>main>section:nth-child(8)>section{
         display: flex;
         justify-content: space-around;
+        height: 100vh;
     }
     body>main>section:nth-child(8)>section>div:nth-child(2){
         width: 70%;
