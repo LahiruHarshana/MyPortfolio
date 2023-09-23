@@ -5242,20 +5242,20 @@ footer>h1{
     body>main>section:nth-child(5)>aside>div>img{
         position: relative;
         width: 40vw;
-        top: -50px;
+        top: -72px;
         left: -7vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(2){
         position: relative;
         left: 45vw;
-        top: -10vh;
+        top: 5vh;
         display: inline-block;
     }
 
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(1){
         width: 0.2vw;
-        height: 60vh;
+        height: 40vh;
         background-color: #3391FF;
         display: inline-block;
 
@@ -5263,8 +5263,8 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(2){
         position: absolute;
-        width: 1.4vw;
-        height: 1.7vh;
+        width: 1.5vw;
+        height: 1.5vh;
         background-color: #3391FF;
         border-radius: 100%;
         top: 0;
@@ -5274,11 +5274,11 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(3){
         position: relative;
-        width: 1.4vw;
-        height: 1.7vh;
+        width: 1.5vw;
+        height: 1.5vh;
         background-color: #3391FF;
         border-radius: 100%;
-        bottom: 27.5vh;
+        bottom: 18.5vh;
         left: -1.2vw;
         display: inline-block;
     }
