@@ -5268,7 +5268,7 @@ footer>h1{
         background-color: #3391FF;
         border-radius: 100%;
         top: 0;
-        left: -0.5vw;
+        left: -0.6vw;
         display: inline-block;
     }
 
@@ -5279,14 +5279,14 @@ footer>h1{
         background-color: #3391FF;
         border-radius: 100%;
         bottom: 18.5vh;
-        left: -1.2vw;
+        left: -1.4vw;
         display: inline-block;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3){
         position: relative;
         display: inline-block;
-        top: -20vh;
+        top: 5vh;
         left: 43vw;
     }
 
@@ -5329,7 +5329,7 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(1){
         position: relative;
-        top: -30px;
+        top: -75px;
         font-size: 2vw;
         color:#3391FF;
     }
