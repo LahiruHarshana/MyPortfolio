@@ -4819,7 +4819,7 @@ footer>h1{
 
     body>main>section:nth-child(2)>section>div:nth-child(2)>p{
         text-align: left;
-        margin-left: 40px;
+        margin-left: 30px;
         font-weight: lighter;
     }
 
@@ -4828,12 +4828,12 @@ footer>h1{
     }
 
     body>main>section:nth-child(2)>section>div:nth-child(3)>div:nth-child(3){
-        margin-top: 30px;
-        margin-left: 20px;
+        margin-top: 20px;
+        margin-left: -10px;
     }
 
     body>main>section:nth-child(2)>section>div:nth-child(3)>div:nth-child(4){
-        margin-top: 30px;
+        margin-top: -40px;
         margin-left: 40px;
     }
 
@@ -4861,7 +4861,7 @@ footer>h1{
 
     body>main>section:nth-child(2)>section>div:nth-child(3)>div:nth-child(3)>img{
         display: block;
-        margin-top: 30px;
+        margin-top: 20px;
         margin-left: 40px;
     }
 
@@ -4880,19 +4880,24 @@ footer>h1{
         position: relative;
         left: 10px ;
         font-size: 2vw;
-        margin-top: 40px;
+        margin-top: 45px;
     }
 
     body>main>section:nth-child(2)>section>div:nth-child(3)>div:nth-child(4)>p:nth-child(1){
+        position: relative;
+        top: 20px;
         margin-left: -50px;
     }
 
 
     body>main>section:nth-child(2)>section>div:nth-child(3)>div:nth-child(4)>p:nth-child(2){
+        position: relative;
+        top: 15px;
         margin-left: 10px;
     }
 
     body>main>section:nth-child(2)>section>div:nth-child(3)>div:nth-child(4)>p:nth-child(3){
+
         margin-left: 40px;
     }
 
