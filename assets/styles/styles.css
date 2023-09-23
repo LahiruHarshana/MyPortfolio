@@ -4673,11 +4673,11 @@ footer>h1{
     }
 
     body>main>section:nth-child(1)>img:nth-child(4){
-        top:-55.5vh;
+        top:-50.5vh;
         left: 62vw;
         position: relative;
         width: 35vw;
-        height: 55vh;
+        height: 50vh;
     }
 
     body>main>section:nth-child(1)>hgroup{
