@@ -6245,7 +6245,7 @@ footer>h1{
 
     body>main>section:nth-child(4)>div:nth-child(4):hover{
         position: relative;
-        top:-50px;
+        top:-70px;
         left: 41vw;
         width: 6vw;
         height: 8vh;
@@ -6334,7 +6334,7 @@ footer>h1{
         position: relative;
         top: 400px;
         width: 35vw;
-        height: 80vh;
+        height: 50vh;
         background-color: #0D1E32;
         border-radius: 12px;
         left: 40px;
@@ -6343,14 +6343,14 @@ footer>h1{
     body>main>section:nth-child(5)>aside>div>img{
         position: relative;
         width: 40vw;
-        top: -23px;
+        top: -123px;
         left: -7vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(2){
         position: relative;
         left: 45vw;
-        top: -58vh;
+        top: -10vh;
         display: inline-block;
     }
 
@@ -6364,12 +6364,12 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(2){
         position: absolute;
-        width: 1.1vw;
+        width: 1.4vw;
         height: 1.7vh;
         background-color: #3391FF;
         border-radius: 100%;
         top: 0;
-        left: -0.4vw;
+        left: -0.5vw;
         display: inline-block;
     }
 
@@ -6387,7 +6387,7 @@ footer>h1{
     body>main>section:nth-child(5)>div:nth-child(3){
         position: relative;
         display: inline-block;
-        top: -57vh;
+        top: -20vh;
         left: 43vw;
     }
 
