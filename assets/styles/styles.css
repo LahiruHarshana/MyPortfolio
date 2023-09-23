@@ -5716,7 +5716,7 @@ footer>h1{
     header{
         position: fixed;
         width: 100%;
-        height: 5vh;
+        height: 10vh;
         opacity: 0.7;
         background-color: #3391FF;
         border: 1px solid blue;
@@ -5768,7 +5768,7 @@ footer>h1{
     body>main>section:nth-child(1){
         margin-top: 0;
         width: 100%;
-        height: 50vh;
+        height: 120vh;
     }
 
     body>main>section:nth-child(1)>img:nth-child(3){
@@ -5780,11 +5780,11 @@ footer>h1{
     }
 
     body>main>section:nth-child(1)>img:nth-child(4){
-        top:-30.5vh;
-        left: 69vw;
+        top:-70.5vh;
+        left: 62vw;
         position: relative;
-        width: 30vw;
-        height: 30vh;
+        width: 35vw;
+        height: 70vh;
     }
 
     body>main>section:nth-child(1)>hgroup{
@@ -5796,34 +5796,32 @@ footer>h1{
     body>main>section:nth-child(1)>hgroup>p:nth-child(1){
         font-family: Arial;
         margin-bottom: 80px;
-        font-size: 5vw;
+        font-size: 4vw;
         -webkit-text-fill-color: white;
         margin-top: -50px;
         font-weight: 0.1;
         letter-spacing: 0.2em;
-        text-shadow: 2px 2px 10px rgba(0, 0, 0, 4); /* Add a small dark shadow */
-
-
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 4);
     }
 
     body>main>section:nth-child(1)>hgroup>h2{
         font-family: 'League Spartan', sans-serif;
-        font-size: 8vw;
+        font-size: 7vw;
         font-weight: bolder;
         -webkit-text-fill-color: white;
         margin-top: -70px;
-        text-shadow: 2px 2px 10px rgba(0, 0, 0, 4); /* Add a small dark shadow */
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 4);
 
     }
 
     body>main>section:nth-child(1)>hgroup>p:nth-child(4){
         font-family: 'Nunito Sans', sans-serif;
-        font-size: 3vw;
+        font-size: 2.7vw;
         -webkit-text-fill-color: white;
-        margin-top: -50px;
+        margin-top: -60px;
         letter-spacing: 0.3em;
         font-weight: 1;
-        text-shadow: 2px 2px 10px rgba(0, 0, 0, 4); /* Add a small dark shadow */
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 4);
 
     }
 
@@ -5834,7 +5832,7 @@ footer>h1{
         font-size: 1.5vw;
         width: 20vw;
         height: 5vh;
-        box-shadow: 2px 2px 20px rgba(0, 0, 0, 4); /* Add a small dark shadow */
+        box-shadow: 2px 2px 20px rgba(0, 0, 0, 4);
 
 
     }
@@ -5849,13 +5847,13 @@ footer>h1{
     body>main>section:nth-child(2){
         text-align: center;
         width: 100vw;
-        height: 70vh;
+        height: 100vh;
         margin-top: -100px;
     }
 
     body>main>section:nth-child(2)>p{
         font-family: 'Poppins', sans-serif;
-        font-size: 16px;
+        font-size: 22px;
         color: #3391FF;
     }
 
@@ -5863,27 +5861,26 @@ footer>h1{
         font-family: 'Poppins', sans-serif;
         font-weight: 900;
         margin-top: -20px;
-        font-size: 8vw;
+        font-size: 6vw;
         color: black;
     }
 
     body>main>section:nth-child(2)>section{
         display: flex;
         width: 99vw;
-        height: 40vh;
+        height: 90vh;
         justify-content: space-around;
 
     }
 
     body>main>section:nth-child(2){
-        height: 50vh;
-
+        height: 120vh;
     }
 
     body>main>section:nth-child(2)>section>div {
         border: 2px solid rgba(90, 139, 197, 0.28);
         width: 32vw;
-        height: 30vh;
+        height: 75vh;
         border-radius: 10px;
         box-shadow: 0 0 20px 2px rgba(51, 145, 255, 0.31);
         transition: all 1s;
@@ -5892,7 +5889,7 @@ footer>h1{
     body>main>section:nth-child(2)>section>div:hover{
         border: 3px solid rgba(90, 139, 197, 0.28);
         width: 32vw;
-        height: 30vh;
+        height: 75vh;
         border-radius: 10px;
         box-shadow: 0 0 40px 2px rgba(51, 145, 255, 7);
         transition: all 1s;
@@ -5907,7 +5904,7 @@ footer>h1{
 
     body>main>section:nth-child(2)>section>div:nth-child(1)>button{
         width: 20vw;
-        height: 3vh;
+        height: 6vh;
         background-color: white;
         color: #3391FF;
         border-radius: 8px;
@@ -6035,8 +6032,8 @@ footer>h1{
         margin-left: 5vw;
         position: relative;
         display: inline-block;
-        width: 42vw;
-        height: 20vh;
+        width: 43vw;
+        height: 40vh;
         left: 1vw;
         transition: all 1s;
 
@@ -6046,8 +6043,8 @@ footer>h1{
         margin-left: 5vw;
         position: relative;
         display: inline-block;
-        width: 42vw;
-        height: 20vh;
+        width: 43vw;
+        height: 40vh;
         left: 1vw;
         box-shadow: 0 0 30px 0 rgba(51, 145, 255, 4);
         border-radius: 10px;
@@ -6057,12 +6054,13 @@ footer>h1{
     body>main>section:nth-child(3)>h1{
         font-family: 'Poppins' , sans-serif;
         text-align: center;
-        font-size: 8vw;
+        font-size: 6vw;
+
     }
 
     body>main>section:nth-child(3)>section>div>div{
         width: 5vw;
-        height: 5vh;
+        height: 7vh;
         display: inline-block;
         box-shadow: 0 0 10px 2px rgba(51, 145, 255, 0.4);
         border-radius: 10px;
@@ -6072,7 +6070,7 @@ footer>h1{
 
     body>main>section:nth-child(3)>section>div>div:hover{
         width: 5vw;
-        height: 5vh;
+        height: 10vh;
         display: inline-block;
         box-shadow: 0 0 20px 2px rgba(51, 145, 255, 4);
         border-radius: 10px;
@@ -6082,7 +6080,7 @@ footer>h1{
 
     body>main>section:nth-child(3)>section>div>div>img{
         width: 3vw;
-        height: 3vh;
+        height: 6vh;
         margin-top: 10px;
         margin-left: 10px;
         display: inline-block;
@@ -6096,6 +6094,7 @@ footer>h1{
     }
 
     body>main>section:nth-child(3){
+        margin-top: 200px;
         margin-bottom: 100px;
     }
 
@@ -6146,7 +6145,7 @@ footer>h1{
     body>main>section:nth-child(3)>section>div:nth-child(4)>p{
         font-family: 'Poppins', sans-serif;
         position: relative;
-        left: 2vw;
+        left: 1vw;
         top: 1vh;
         font-size: 1.6vw;
         display: inline-block;
@@ -6155,7 +6154,7 @@ footer>h1{
     body>main>section:nth-child(3)>section>div:nth-child(3)>p{
         font-family: 'Poppins', sans-serif;
         position: relative;
-        left: 2vw;
+        left: 1vw;
         top: 1vh;
         font-size: 1.6vw;
         display: inline-block;
@@ -6164,7 +6163,7 @@ footer>h1{
     body>main>section:nth-child(3)>section>div:nth-child(2)>p{
         font-family: 'Poppins', sans-serif;
         position: relative;
-        left: 2vw;
+        left: 1vw;
         top: 1vh;
         font-size: 1.6vw;
         display: inline-block;
@@ -6173,7 +6172,7 @@ footer>h1{
     body>main>section:nth-child(3)>section>div:nth-child(1)>p{
         font-family: 'Poppins', sans-serif;
         position: relative;
-        left: 2vw;
+        left: 1vw;
         top: 1vh;
         font-size: 1.6vw;
         display: inline-block;
@@ -6182,7 +6181,7 @@ footer>h1{
     body>main>section:nth-child(4)>h1{
         font-family: 'Poppins', sans-serif;
         text-align: center;
-        font-size: 8vw;
+        font-size: 6vw;
         margin-top: -20px;
     }
 
@@ -6190,13 +6189,13 @@ footer>h1{
         margin-top: 100px;
         display: flex;
         width: 100vw;
-        height: 10vh;
+        height: 30vh;
         justify-content: space-around;
     }
 
     body>main>section:nth-child(4)>section>div{
         width: 6vw;
-        height: 4vh;
+        height: 10vh;
         border: 1px solid rgba(51, 145, 255, 0.47);
         border-radius: 8px;
         box-shadow: 0 0 20px 3px rgba(51, 145, 255, 0.4);
@@ -6205,7 +6204,7 @@ footer>h1{
 
     body>main>section:nth-child(4)>section>div:hover{
         width: 6vw;
-        height: 4vh;
+        height: 10vh;
         border: 1px solid rgba(51, 145, 255, 4);
         border-radius: 8px;
         box-shadow: 0 0 30px 0 rgba(51, 145, 255, 4);
@@ -6231,10 +6230,10 @@ footer>h1{
 
     body>main>section:nth-child(4)>div:nth-child(4){
         position: relative;
-        top:0px;
+        top:-30px;
         left: 41vw;
         width: 6vw;
-        height: 4vh;
+        height: 10vh;
         border: 1px solid rgba(51, 145, 255, 0.47);
         border-radius: 8px;
         box-shadow: 0 0 20px 3px rgba(51, 145, 255, 0.4);
@@ -6245,10 +6244,10 @@ footer>h1{
 
     body>main>section:nth-child(4)>div:nth-child(4):hover{
         position: relative;
-        top:0px;
+        top:-30px;
         left: 41vw;
         width: 6vw;
-        height: 4vh;
+        height: 10vh;
         border: 1px solid rgba(51, 145, 255, 4);
         border-radius: 8px;
         box-shadow: 0 0 20px 0 rgba(51, 145, 255, 4);
@@ -6259,7 +6258,7 @@ footer>h1{
     body>main>section:nth-child(4)>div:nth-child(4):hover>img{
         width: 5vw;
         position: relative;
-        top: 5px;
+        top: 15px;
         left: 0.5vw;
         transition: all 0.5s;
 
@@ -6268,7 +6267,7 @@ footer>h1{
     body>main>section:nth-child(4)>div:nth-child(4)>img{
         width: 5vw;
         position: relative;
-        top: 5px;
+        top: 8px;
         left: 0.5vw;
         transition: all 0.5s;
 
@@ -6276,9 +6275,9 @@ footer>h1{
     body>main>section:nth-child(4)>div:nth-child(5){
         position: relative;
         left: 57vw;
-        top: -75px;
-        width: 5vw;
-        height: 4vh;
+        top: -120px;
+        width: 6vw;
+        height: 10vh;
         border: 1px solid rgba(51, 145, 255, 0.47);
         border-radius: 8px;
         box-shadow: 0 0 20px 3px rgba(51, 145, 255, 0.4);
@@ -6290,9 +6289,9 @@ footer>h1{
     body>main>section:nth-child(4)>div:nth-child(5):hover{
         position: relative;
         left: 57vw;
-        top: -75px;
-        width: 5.2vw;
-        height: 4vh;
+        top: -120px;
+        width: 6vw;
+        height: 10vh;
         border: 1px solid rgba(51, 145, 255, 4);
         border-radius: 8px;
         box-shadow: 0 0 20px 0 rgba(51, 145, 255, 4);
@@ -6301,7 +6300,8 @@ footer>h1{
     }
 
     body>main>section:nth-child(4)>div:nth-child(5):hover>img{
-        width: 3.2vw;
+        width: 4vw;
+        height: 6vh;
         position: relative;
         top: 10px;
         left: 0.9vw;
@@ -6309,7 +6309,8 @@ footer>h1{
     }
 
     body>main>section:nth-child(4)>div:nth-child(5)>img{
-        width: 3vw;
+        width: 4vw;
+        height: 6vh;
         position: relative;
         top: 10px;
         left: 0.9vw;
@@ -6320,43 +6321,41 @@ footer>h1{
 
     body>main>section:nth-child(4)>p{
         font-family: 'Poppins', sans-serif;
-
         text-align: center;
         color: #3391FF;
-        font-size: 1.4vw;
+        font-size: 2vw;
     }
     body>main>section:nth-child(5){
-        margin-top: 400px;
+        margin-top: -100px;
     }
 
     body>main>section:nth-child(5)>aside>div{
         position: relative;
+        top: 400px;
         width: 35vw;
-        height: 30vh;
+        height: 80vh;
         background-color: #0D1E32;
         border-radius: 12px;
-        left: 50px;
+        left: 40px;
         box-shadow: 0 4px 40px 0 rgba(51, 145, 255, 100);
     }
     body>main>section:nth-child(5)>aside>div>img{
         position: relative;
         width: 40vw;
-        top: -45px;
+        top: -23px;
         left: -7vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(2){
         position: relative;
         left: 45vw;
-        top: -45.5vh;
+        top: -58vh;
         display: inline-block;
     }
 
-
-
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(1){
         width: 0.2vw;
-        height: 30vh;
+        height: 60vh;
         background-color: #3391FF;
         display: inline-block;
 
@@ -6364,8 +6363,8 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(2){
         position: absolute;
-        width: 1vw;
-        height: 0.9vh;
+        width: 1.1vw;
+        height: 1.7vh;
         background-color: #3391FF;
         border-radius: 100%;
         top: 0;
@@ -6375,29 +6374,27 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(2)>div:nth-child(3){
         position: relative;
-        width: 1vw;
-        height: 0.9vh;
+        width: 1.1vw;
+        height: 1.7vh;
         background-color: #3391FF;
         border-radius: 100%;
-        bottom: 13vh;
+        bottom: 21.5vh;
         left: -0.9vw;
         display: inline-block;
-
-
     }
 
     body>main>section:nth-child(5)>div:nth-child(3){
         position: relative;
         display: inline-block;
-        top: -50vh;
+        top: -57vh;
         left: 43vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>h1{
         font-family: 'Poppins', sans-serif;
         position: relative;
-        font-size: 7vw;
-        top: 1vh;
+        font-size: 6vw;
+        top: -15vh;
         left: -40vw;
     }
 
@@ -6407,98 +6404,99 @@ footer>h1{
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(1){
         position: relative;
-        top: -40px;
+        top: -100px;
         font-size: 2vw;
         color: #3391FF;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(2){
         position: relative;
-        top: -50px;
-        font-size: 3vw;
+        top: -100px;
+        font-size: 2.5vw;
         font-weight: bolder;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(3){
         position: relative;
-        top: -50px;
+        top: -100px;
         font-size: 2vw;
     }
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(4){
         position: relative;
-        top: -50px;
+        top: -100px;
         font-size: 2vw;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(1){
         position: relative;
-        top: 25px;
+        top: -30px;
         font-size: 2vw;
         color:#3391FF;
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(2){
         position: relative;
-        top: 0px;
-        font-size: 3vw;
+        top: -35px;
+        font-size: 2.5vw;
         font-weight: bolder;
 
     }
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(3){
         position: relative;
-        top: 0px;
+        top: -55px;
         font-size: 2vw;
 
     }
 
     body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-child(4){
         position: relative;
-        top: 0px;
+        top: -55px;
         font-size: 2vw;
-
     }
 
     body>main>section:nth-child(5)>div:nth-child(3){
         position: relative;
-        width: 470px;
+        width: 700px;
     }
 
     body>main>section:nth-child(6){
-        margin-top: -450px;
+        margin-top: 0px;
+        height: 130vh;
     }
 
     body>main>section:nth-child(6)>{
-        margin-top: -300px;
+        margin-top: 100px;
     }
 
     body>main>section:nth-child(6)>h1:nth-child(2){
         text-align: center;
-        font-size: 8vw;
+        font-size: 6vw;
         z-index: 500;
         position: relative;
+        margin-top: -10px;
         margin-bottom: 150px;
     }
 
     body>main>section:nth-child(6)>div:nth-child(4){
         position: relative;
-        left: 25vw;
+        left: 15vw;
         width: 50vw;
         height: 50vh;
         display: inline-block;
     }
 
     body>main>section:nth-child(6)>div:nth-child(4)>img{
-        width: 50vw;
-        height: 30vh;
+        width: 70vw;
+        height: 60vh;
     }
 
     body>main>section:nth-child(6)>button:nth-child(5){
         position: relative;
-        width: 3vw;
-        height: 4vh;
+        width: 4vw;
+        height: 5vh;
         border-radius: 100%;
-        left: 18vw;
-        top: -15vh;
+        left: 28vw;
+        top: -30vh;
         color: #3391FF;
         font-weight: 500;
         border: 2px solid #3391FF;
@@ -6508,11 +6506,11 @@ footer>h1{
 
     body>main>section:nth-child(6)>button:nth-child(6){
         position: relative;
-        width: 3vw;
-        height: 4vh;
+        width: 4vw;
+        height: 5vh;
         border-radius: 100%;
-        top: -15vh;
-        left: -25vw;
+        top: -30vh;
+        left: -35vw;
         color: #3391FF;
         font-weight: 500;
         border: 2px solid #3391FF;
@@ -6542,37 +6540,42 @@ footer>h1{
 
     body>main>section:nth-child(7)>h1:nth-child(2){
         text-align: center;
-        font-size: 8vw;
+        font-size: 6vw;
         z-index: 500;
         position: relative;
+        margin-top: -10px;
         margin-bottom: 150px;
     }
 
     body>main>section:nth-child(6)>button:nth-child(7){
 
-        height: 4vh;
-        width: 22vw;
+        height: 7vh;
+        width: 29vw;
         position: relative;
         border: 2px solid #3391FF;
         box-shadow: 0 5px 10px 0 rgba(51, 145, 255, 1);
         border-radius: 12px;
-        top:10vh;
-        left: -12vw;
+        top:13vh;
+        left: -22vw;
         background-color: white;
+        color: #3391FF;
+    }
+
+    body>main>section:nth-child(6)>button:nth-child(7)>a{
+        font-size: 2vw;
         color: #3391FF;
     }
 
 
     body>main>section:nth-child(6)>button:nth-child(7):hover{
-
-        height: 4vh;
-        width: 22vw;
+        height: 7vh;
+        width: 29vw;
         position: relative;
         border: 2px solid white;
         box-shadow: 0 5px 10px 0 rgba(51, 145, 255, 1);
         border-radius: 12px;
-        top:10vh;
-        left: -12vw;
+        top:13vh;
+        left: -22vw;
         background-color: #3391FF;
         color: white;
     }
@@ -6586,9 +6589,9 @@ footer>h1{
 
     body>main>section:nth-child(7)>section{
         position: relative;
-        left: 5vw;
-        width: 90vw;
-        height: 40vh;
+        left: 1vw;
+        width: 98vw;
+        height: 90vh;
         display: grid;
         grid-template-rows: repeat(3,1fr);
         grid-template-columns: repeat(3,1fr);
@@ -6669,7 +6672,9 @@ footer>h1{
         display: inline-block;
     }
 
+
     body>main>section:nth-child(8)>h1:nth-child(2){
+        margin-top: -10px;
         text-align: center;
         font-size: 8vw;
         z-index: 500;
@@ -6680,10 +6685,11 @@ footer>h1{
     body>main>section:nth-child(8)>section{
         display: flex;
         justify-content: space-around;
+        height: 100vh;
     }
     body>main>section:nth-child(8)>section>div:nth-child(2){
         width: 70%;
-        height: 60vh;
+        height: 85vh;
         background-color:white;
         border-radius: 20px;
         border :1px solid #3391FF;
@@ -6729,7 +6735,7 @@ footer>h1{
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(2)>label:nth-child(2){
-        left: 150px;
+        left: 270px;
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(2)>button:nth-child(21){
@@ -6737,7 +6743,7 @@ footer>h1{
         top: 50px;
         width: 60vw;
         height: 5vh;
-        left: 7vw;
+        left: 4.7vw;
         border-radius: 8px;
         box-shadow:  0 4px 10px rgba(51, 145, 255, 0.5);
         border: none;
@@ -6752,7 +6758,7 @@ footer>h1{
         top: 50px;
         width: 60vw;
         height: 5vh;
-        left: 7vw;
+        left: 4.7vw;
         border-radius: 8px;
         box-shadow:  0 4px 10px rgba(51, 145, 255, 0.5);
         border: none;
@@ -6763,10 +6769,9 @@ footer>h1{
 
 
     body>main>section:nth-child(8)>section>div:nth-child(1){
-
         width: 28vw;
         box-shadow:  0 4px 10px rgba(51, 145, 255, 0.5);
-        height: 60vh;
+        height: 85vh;
         border-radius: 12px;
         border: 1px solid #3391FF;
     }
@@ -6775,15 +6780,16 @@ footer>h1{
         position: relative;
         left: 30px;
         top: 30px;
-        font-size: 1.1vw;
+        font-size: 1.5vw;
     }
 
+
     body>main>section:nth-child(8)>section>div:nth-child(1)>article>h4{
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(1)>img:nth-child(3){
-        margin-right: 10px;
+        margin-right: 15px;
         margin-left: 0px;
 
     }
@@ -6796,14 +6802,14 @@ footer>h1{
 
     }
     body>main>section:nth-child(8)>section>div:nth-child(1)>img:nth-child(4){
-        margin-right: 10px;
+        margin-right: 15px;
     }
     body>main>section:nth-child(8)>section>div:nth-child(1)>img:nth-child(5){
-        margin-right: 10px;
+        margin-right: 15px;
     }
 
     body>main>section:nth-child(8)>section>div:nth-child(1)>img:nth-child(6){
-        margin-right: 10px;
+        margin-right: 15px;
     }
 
     footer{
@@ -6823,9 +6829,6 @@ footer>h1{
         letter-spacing: 1em;
         font-size: 1vw;
     }
-
-
-}
 
 @media all and (min-width: 1025px) and (max-width: 1440px){
     header{
