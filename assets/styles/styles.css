@@ -109,7 +109,7 @@ body>main>section:nth-child(1)>hgroup>p:nth-child(4){
     margin-top: -50px;
     letter-spacing: 0.3em;
     font-weight: 1;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 4); /* Add a small dark shadow */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 4);
 
 }
 
