@@ -110,6 +110,12 @@ body>main>section:nth-child(1)>hgroup>p:nth-child(4){
     letter-spacing: 0.3em;
     font-weight: 1;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 4);
+    animation: typing 5s steps(30, end), cursor .5s steps(30, end) infinite;
+    overflow: hidden;
+    width: 800px;
+    white-space: nowrap;
+    border-right: 2px solid #7E2EA0;
+
 
 }
 
@@ -396,6 +402,7 @@ body>main>section:nth-child(3)>hr{
 
 body>main>section:nth-child(3)>section{
     margin-top: 70px;
+    margin-bottom: 100px;
 }
 
 body>main>section:nth-child(3)>section>div:nth-child(2)>h1{
