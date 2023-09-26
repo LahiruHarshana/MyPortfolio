@@ -712,6 +712,10 @@ body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-c
     font-weight: bolder;
 }
 
+body>main>section:nth-child(5)>div:nth-child(3)>article{
+    overflow: hidden;
+}
+
 body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(1)>p:nth-child(3){
     position: relative;
     top: -50px;
