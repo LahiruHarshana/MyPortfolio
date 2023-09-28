@@ -2023,7 +2023,7 @@ footer>h1{
 
     body>main>section:nth-child(7){
         margin-top: 0px;
-        width: 95%;
+        width: 100%;
         height: 100%;
     }
 
@@ -2115,6 +2115,7 @@ footer>h1{
 
     body>main>section:nth-child(8){
         width: 100%;
+        height: 100vh;
         display: inline-block;
     }
 
