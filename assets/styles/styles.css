@@ -628,6 +628,7 @@ body>main>section:nth-child(5)>aside>div>img{
     width: 27vw;
     top: -91px;
     left: -2vw;
+    z-index: 1;
 }
 
 body>main>section:nth-child(5)>div:nth-child(2){
@@ -2113,7 +2114,7 @@ footer>h1{
     }
 
     body>main>section:nth-child(8){
-        width: 90%;
+        width: 100%;
         display: inline-block;
     }
 
@@ -2132,7 +2133,7 @@ footer>h1{
     body>main>section:nth-child(8)>section>div:nth-child(2){
         position: relative;
         left: 10px;
-        width: 100%;
+        width: 95%;
         height: 70vh;
         background-color:white;
         border-radius: 20px;
@@ -2145,7 +2146,7 @@ footer>h1{
     body>main>section:nth-child(8)>section>div:nth-child(2)>input,label,textarea{
         margin-top: 5px;
         position: relative;
-        left: 20px;
+        left: 30px;
         top:30px
     }
 
