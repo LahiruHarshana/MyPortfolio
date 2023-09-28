@@ -748,6 +748,7 @@ body>main>section:nth-child(5)>div:nth-child(3)>article>div:nth-child(2)>p:nth-c
 
 body>main>section:nth-child(6){
     overflow: hidden;
+    height: 120vh;
     margin-top: -300px;
 }
 
@@ -839,7 +840,7 @@ body>main>section:nth-child(6)>button:nth-child(7){
     border: 2px solid #3391FF;
     box-shadow: 0 5px 10px 0 rgba(51, 145, 255, 1);
     border-radius: 12px;
-    top:10vh;
+    top:7vh;
     left: -12vw;
     background-color: white;
     color: #3391FF;
@@ -854,7 +855,7 @@ body>main>section:nth-child(6)>button:nth-child(7):hover{
     border: 2px solid white;
     box-shadow: 0 5px 10px 0 rgba(51, 145, 255, 1);
     border-radius: 12px;
-    top:10vh;
+    top:7vh;
     left: -12vw;
     background-color: #3391FF;
     color: white;
