@@ -5,18 +5,32 @@
     <title>dash_Board</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
 </head>
+<header>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Customer</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Orders</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Items</a>
+        </li>
+    </ul>
+</header>
+
 <body>
-<ul class="nav nav-tabs">
-    <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Customer</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Orders</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Items</a>
-    </li>
-</ul>
+
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
 <script src="assets/bootstrap/js/bootstrap.js"></script>
 
 </body>
