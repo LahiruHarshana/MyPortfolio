@@ -22,79 +22,94 @@
 
 <body>
 
+<section class="container-fluid justify-content-center">
+    <section class="row justify-content-center">
+        <section class="col-9">
+
+
+            <div class="container-fluid">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 mb-5 mt-5" type="search" placeholder="Customer ID" aria-label="Search">
+                    <button class="btn btn-outline-success mt-5 mb-5"   type="submit">Search</button>
+                </form>
+            </div>
+
+            <!--input bars-->
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Customer ID :</span>
+                <input type="text" class="form-control" placeholder="Customer ID" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Name" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2">: Customer Name</span>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Customer Address :</span>
+                <input type="text" class="form-control" placeholder="Address" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Salary" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2">: Customer Salary</span>
+            </div>
+
+
+            <!--btn groups-->
+
+
+            <div class="btn-group mt-5 mb-5" role="group" aria-label="Basic outlined example">
+                <button type="button" class="btn btn-outline-primary">Save</button>
+                <button type="button" class="btn btn-outline-primary">Update</button>
+                <button type="button" class="btn btn-outline-primary">Delete</button>
+            </div>
+
+
+            <!--table-->
+
+            <table class="table">
+                <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Customer Name</th>
+                    <th scope="col">Customer ID</th>
+                    <th scope="col">Customer Address</th>
+                    <th scope="col">Salary</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+                </tbody>
+            </table>
+
+
+        </section>
+
+    </section>
+
+</section>
+
 <!--search Bar-->
 
-    <div class="container-fluid">
-        <form class="d-flex" role="search">
-            <input class="form-control me-2 mb-5 mt-5" type="search" placeholder="Customer ID" aria-label="Search">
-            <button class="btn btn-outline-success mt-5 mb-5"   type="submit">Search</button>
-        </form>
-    </div>
-
-<!--input bars-->
-
-<div class="input-group mb-3">
-    <span class="input-group-text" id="basic-addon1">Customer ID :</span>
-    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-</div>
-
-<div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-    <span class="input-group-text" id="basic-addon2">: Customer Name</span>
-</div>
-<div class="input-group mb-3">
-    <span class="input-group-text" id="basic-addon1">Customer Address :</span>
-    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-</div>
-
-<div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-    <span class="input-group-text" id="basic-addon2">Customer Salary</span>
-</div>
 
 
-<!--btn groups-->
-
-
-    <div class="btn-group mt-5 mb-5" role="group" aria-label="Basic outlined example">
-        <button type="button" class="btn btn-outline-primary">Save</button>
-        <button type="button" class="btn btn-outline-primary">Update</button>
-        <button type="button" class="btn btn-outline-primary">Delete</button>
-    </div>
-
-
-<!--table-->
-
-<table class="table">
-    <thead class="thead-dark">
-    <tr>
-        <th scope="col">#</th>
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-    </tr>
-    <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-    </tr>
-    <tr>
-        <th scope="row">3</th>
-        <td>Larry</td>
-        <td>the Bird</td>
-        <td>@twitter</td>
-    </tr>
-    </tbody>
-</table>
 <script src="assets/bootstrap/js/bootstrap.js"></script>
 
 </body>
