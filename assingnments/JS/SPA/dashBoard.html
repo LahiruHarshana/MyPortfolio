@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+</head>
+<header>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" id="customerNav" style="cursor: pointer">Customer</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="itemNav" style="cursor: pointer">Items</a>
+        </li>
+        <li class="nav-item">
+            <a id="orderNav" class="nav-link" style="cursor: pointer">Orders</a>
+        </li>
+    </ul>
+</header>
+
+<body style="background: #2b3035;width: 100%;height: 130vh;">
+
+
+<!--customerForm-->
+
+<section id="customerForm" style="position:absolute; top:10vh;width: 100%; height:99vh;">
+    <section class="container-fluid justify-content-center">
+        <section class="row justify-content-center">
+            <section class="col-12 col-sm-12 col-md-10 col-lg-9 col-xl-8 mt-3" style="border: 1px solid #3dd5f3; border-radius: 12px;-webkit-box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);
+-moz-box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);
+box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
+
+
+                <div class="container-fluid">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 mb-5 mt-5" type="search" placeholder="Customer ID" style="background: transparent;border: 1px solid #3dd5f3; color: #3dd5f3"aria-label="Search">
+                        <button class="btn btn-outline-success mt-5 mb-5"   type="submit">Search</button>
+                    </form>
+                </div>
+
+                <!--input bars-->
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="cId">Customer ID :</span>
+                    <input type="text" class="form-control" placeholder="Customer ID" aria-label="Username" aria-describedby="cId">
+                </div>
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Name" aria-label="Recipient's username" aria-describedby="cName">
+                    <span class="input-group-text" id="cName">: Customer Name</span>
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="cAddress">Customer Address :</span>
+                    <input type="text" class="form-control" placeholder="Address" aria-label="Username" aria-describedby="cAddress">
+                </div>
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Salary" aria-label="Recipient's username" aria-describedby="cSalary">
+                    <span class="input-group-text" id="cSalary">: Customer Salary</span>
+                </div>
+
+
+                <!--btn groups-->
+
+
+                <div class="btn-group mt-5 mb-5" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-primary">Save</button>
+                    <button type="button" class="btn btn-outline-primary">Update</button>
+                    <button type="button" class="btn btn-outline-primary">Delete</button>
+                </div>
+
+
+                <!--table-->
+
+                <table class="table col-12 col-sm-12 col-md-10 col-lg-9 col-xl-8">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Customer Name</th>
+                        <th scope="col">Customer ID</th>
+                        <th scope="col">Customer Address</th>
+                        <th scope="col">Salary</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+
+            </section>
+
+        </section>
+
+    </section>
+
+</section>
+
+<!--itemForm-->
+<section id="itemForm" style="width: 100%; height:99vh;position:absolute; top:10vh;opacity: 0" ; >
+
+    <section class="container-fluid justify-content-center">
+        <section class="row justify-content-center">
+            <section class="col-12 col-sm-12 col-md-10 col-lg-9 col-xl-8 mt-3" style="border: 1px solid #3dd5f3; border-radius: 12px;-webkit-box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);
+-moz-box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);
+box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
+
+
+                <div class="container-fluid">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 mb-5 mt-5" type="search"  style="background: transparent;border: 1px solid #3dd5f3; color: white;" placeholder="Item Code" aria-label="Search">
+                        <button class="btn btn-outline-success mt-5 mb-5"   type="submit">Search</button>
+                    </form>
+                </div>
+
+                <!--input bars-->
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="Icode">Item Code :</span>
+                    <input type="text" class="form-control" placeholder="Item Code" aria-label="Username" aria-describedby="Icode">
+                </div>
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Item Name" aria-label="Recipient's username" aria-describedby="IIName">
+                    <span class="input-group-text" id="IIName">: Item Name</span>
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="Iprice">Item Price :</span>
+                    <input type="text" class="form-control" placeholder="Price" aria-label="Username" aria-describedby="Iprice">
+                </div>
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Quantity" aria-label="Recipient's username" aria-describedby="Iqty">
+                    <span class="input-group-text" id="Iqty">: Item Quantity</span>
+                </div>
+
+
+                <!--btn groups-->
+
+
+                <div class="btn-group mt-5 mb-5" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-primary">Save</button>
+                    <button type="button" class="btn btn-outline-primary">Update</button>
+                    <button type="button" class="btn btn-outline-primary">Delete</button>
+                </div>
+
+
+                <!--table-->
+
+                <table class="table col-12 col-sm-12 col-md-10 col-lg-9 col-xl-8">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Customer Name</th>
+                        <th scope="col">Customer ID</th>
+                        <th scope="col">Customer Address</th>
+                        <th scope="col">Salary</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+
+            </section>
+
+        </section>
+
+    </section>
+
+</section>
+
+
+<!--orderForm-->
+<section id="orderForm" style="width: 100%; height:120vh;position:absolute; top:10vh;opacity: 0";>
+
+    <section class="container-fluid mt-5">
+        <section class="row justify-content-center" style="border: 1px solid #3dd5f3; border-radius: 12px;-webkit-box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);
+-moz-box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);
+box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
+            <section class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-4 col-xxl-3">
+                <select class="form-select mt-4" aria-label="Default select example">
+                    <option selected>Customer ID</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <select class="form-select mt-4" aria-label="Default select example">
+                    <option selected>Item Code</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+
+                <form>
+                    <div class="mb-3 mt-4">
+                        <label for="exampleInputPassword1" style="color: #3dd5f3" class="form-label">Qty.on Hand</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                </form>
+
+            </section>
+
+
+
+            <section class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-4 col-xxl-3">
+                <form>
+                    <div class="mb-3">
+                        <label for="COName" style="color: #3dd5f3" class="form-label">Customer Name</label>
+                        <input type="password" class="form-control" id="COName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="IName" style="color: #3dd5f3" class="form-label">Item Name</label>
+                        <input type="password" class="form-control" id="IName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Price" style="color: #3dd5f3" class="form-label">Price</label>
+                        <input type="password" class="form-control" id="Price">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Qty" style="color: #3dd5f3" class="form-label">Qty</label>
+                        <input type="password" class="form-control" id="Qty">
+                    </div>
+                </form>
+            </section>
+
+
+
+            <section class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4 col-xxl-3">
+                <form>
+                    <div class="mb-3">
+                        <label for="OrderID" style="color: #3dd5f3" class="form-label">Order ID</label>
+                        <input type="password" class="form-control" id="OrderID">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Date" style="color: #3dd5f3" class="form-label">Date</label>
+                        <input type="password" class="form-control" id="Date">
+                    </div>
+                </form>
+
+                <button type="button" class="btn btn-outline-primary">ADD</button>
+
+
+            </section>
+
+
+
+        </section>
+
+    </section>
+
+    <section class="container-fluid mt-5">
+        <section class="row justify-content-center">
+            <section class="col-12 col-sm-12 col-md-11 col-lg-10 col-xl-9" >
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Code</th>
+                        <th scope="col">Item Name</th>
+                        <th scope="col">Qty</th>
+                        <th scope="col">Unit Price</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>Otto</td>
+                        <td><button type="button" class="btn btn-outline-primary">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                        <td>Otto</td>
+                        <td><button type="button" class="btn btn-outline-primary">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                        <td>Otto</td>
+                        <td>      <button type="button" class="btn btn-outline-primary">Delete</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </section>
+
+    </section>
+</section>
+
+
+<script src="assets/bootstrap/js/bootstrap.js"></script>
+
+<script>
+        document.querySelector("#customerNav").addEventListener("click",function () {
+            document.querySelector("#customerForm").style.opacity="1";
+            document.querySelector("#itemForm").style.opacity="0";
+            document.querySelector("#orderForm").style.opacity="0";
+        });
+
+        document.querySelector("#itemNav").addEventListener("click",function () {
+            document.querySelector("#customerForm").style.opacity="0";
+            document.querySelector("#itemForm").style.opacity="1";
+            document.querySelector("#orderForm").style.opacity="0";
+        });
+
+        document.querySelector("#orderNav").addEventListener("click",function () {
+            document.querySelector("#customerForm").style.opacity="0";
+            document.querySelector("#itemForm").style.opacity="0";
+            document.querySelector("#orderForm").style.opacity="1";
+        });
+</script>
+
+</body>
+</html>
