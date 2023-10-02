@@ -9,13 +9,13 @@
 
     <ul class="nav nav-tabs">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="dashBoard.html">Customer</a>
+            <a class="nav-link active" aria-current="page" id="customerNav" href="">Customer</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="orderPage.html">Orders</a>
+            <a id="orderNav" class="nav-link" href="">Orders</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="itemPage.html">Items</a>
+            <a class="nav-link" id="itemNav" href="">Items</a>
         </li>
     </ul>
 </header>
@@ -25,7 +25,7 @@
 
 <!--customerForm-->
 
-<section id="customerForm" style="width: 100%; height:99vh;">
+<section id="customerForm" style="position:absolute; top:10vh;width: 100%; height:99vh;">
     <section class="container-fluid justify-content-center">
         <section class="row justify-content-center">
             <section class="col-12 col-sm-12 col-md-10 col-lg-9 col-xl-8 mt-3" style="border: 1px solid #3dd5f3; border-radius: 12px;-webkit-box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);
@@ -115,7 +115,7 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
 </section>
 
 <!--itemForm-->
-<section id="itemForm" style="width: 100%; height:99vh";>
+<section id="itemForm" style="width: 100%; height:99vh;position:absolute; top:10vh;opacity: 0" ; >
 
     <section class="container-fluid justify-content-center">
         <section class="row justify-content-center">
@@ -207,7 +207,7 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
 
 
 <!--orderForm-->
-<section id="orderForm" style="width: 100%; height:99vh";>
+<section id="orderForm" style="width: 100%; height:99vh;position:absolute; top:10vh;opacity: 0";>
 
     <section class="container-fluid justify-content-center">
         <section class="row justify-content-center">
@@ -299,6 +299,15 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
 
 
 <script src="assets/bootstrap/js/bootstrap.js"></script>
+
+<script>
+        document.querySelector("#customerNav").addEventListener("click",function () {
+            document.querySelector("#customerForm").style.opacity="1";
+            document.querySelector("#customerForm").style.opacity="1";
+
+
+        })
+</script>
 
 </body>
 </html>
