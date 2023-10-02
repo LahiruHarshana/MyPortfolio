@@ -9,13 +9,13 @@
 
     <ul class="nav nav-tabs">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" id="customerNav" href="">Customer</a>
+            <a class="nav-link active" aria-current="page" id="customerNav">Customer</a>
         </li>
         <li class="nav-item">
-            <a id="orderNav" class="nav-link" href="">Orders</a>
+            <a id="orderNav" class="nav-link">Orders</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" id="itemNav" href="">Items</a>
+            <a class="nav-link" id="itemNav" >Items</a>
         </li>
     </ul>
 </header>
@@ -311,6 +311,12 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
             document.querySelector("#customerForm").style.opacity="0";
             document.querySelector("#itemForm").style.opacity="1";
             document.querySelector("#orderForm").style.opacity="0";
+        });
+
+        document.querySelector("#orderNav").addEventListener("click",function () {
+            document.querySelector("#customerForm").style.opacity="0";
+            document.querySelector("#itemForm").style.opacity="0";
+            document.querySelector("#orderForm").style.opacity="1";
         });
 </script>
 
