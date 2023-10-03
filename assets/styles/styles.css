@@ -625,9 +625,9 @@ body>main>section:nth-child(5)>aside>div{
 }
 body>main>section:nth-child(5)>aside>div>img{
     position: relative;
-    width: 27vw;
-    top: -91px;
-    left: -2vw;
+    width: 22vw;
+    top: 20px;
+    left: 0vw;
     z-index: 1;
 }
 
