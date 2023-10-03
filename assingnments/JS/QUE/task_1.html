@@ -62,21 +62,20 @@
 
 <script>
 
-  var colors = ["red",'yellow',"pink","orange","black"];
+  var colors = ["red",'yellow',"pink","blue","green"];
 
 setInterval(function () {
 
-    for (let i = 0; i < colors.length; i++) {
+    var colorLast = colors[colors.length-1];
+    colors.pop();
+    colors.unshift(colorLast);
 
-        var colorLast = colors[colors.length];
-        colors.pop();
-        colors.unshift(colorLast);
-        console.log(colors[i]);
+    for (let i = 0; i < colors.length; i++) {
 
         document.querySelectorAll("div")[i].style.background =colors[i];
 
     }
-},1000);
+},100);
 
 
 
