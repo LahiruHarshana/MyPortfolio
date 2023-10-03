@@ -846,6 +846,13 @@ body>main>section:nth-child(6)>button:nth-child(7){
     color: #3391FF;
 }
 
+body>main>section:nth-child(6)>button:nth-child(7)>a{
+    text-decoration: none;
+}
+
+body>main>section:nth-child(6)>button:nth-child(7):hover>a{
+    color: white;
+}
 
 body>main>section:nth-child(6)>button:nth-child(7):hover{
 
