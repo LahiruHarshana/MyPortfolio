@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task_1</title>
+</head>
+<style>
+  section{
+    display: flex;
+  }
+
+  section:nth-child(1){
+    margin-top: 350px;
+  }
+
+  section:nth-child(1)>div{
+    width:200px;
+    height: 50px;
+    position: relative;
+    left: 330px;
+  }
+
+  section:nth-child(2){
+    justify-content: center;
+  }
+
+  section:nth-child(2)>div:nth-child(1){
+    width:200px;
+    height: 50px;
+  }
+  section:nth-child(2)>div:nth-child(2){
+    width:200px;
+    height: 50px;
+  }
+  section:nth-child(2)>div:nth-child(3){
+    width:200px;
+    height: 50px;
+  }
+
+  section:nth-child(3)>div{
+    width:200px;
+    height: 50px;
+    position: relative;
+    left: 1130px;
+  }
+</style>
+<body>
+<section>
+  <div class="div" id="div1"></div>
+</section>
+
+<section>
+  <div class="div" id="div2"></div>
+  <div class="div" id="div3"></div>
+  <div class="div" id="div4"></div>
+</section>
+
+
+<section>
+  <div class="div" id="div5"></div>
+</section>
+
+<script>
+
+  var colors = ["red","blue","pink","orange","black"];
+
+  for (let i = 0; i < colors.length; i++) {
+      document.querySelectorAll("div")[i].style.background =colors[i];
+  }
+
+
+
+
+</script>
+</body>
+</html>
