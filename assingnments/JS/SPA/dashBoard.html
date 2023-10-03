@@ -36,7 +36,7 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                 <div class="container-fluid">
                     <form class="d-flex" role="search">
                         <input class="form-control me-2 mb-5 mt-5" type="search" placeholder="Customer ID" style="background: transparent;border: 1px solid #3dd5f3; color: #3dd5f3"aria-label="Search">
-                        <button class="btn btn-outline-success mt-5 mb-5"   type="submit">Search</button>
+                        <button class="btn btn-outline-success mt-5 mb-5"  type="submit">Search</button>
                     </form>
                 </div>
 
@@ -115,7 +115,7 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
 </section>
 
 <!--itemForm-->
-<section id="itemForm" style="width: 100%; height:99vh;position:absolute; top:10vh;opacity: 0" ; >
+<section id="itemForm" style="width: 100%; height:99vh;position:absolute; top:10vh;" ; >
 
     <section class="container-fluid justify-content-center">
         <section class="row justify-content-center">
@@ -135,7 +135,7 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
 
                 <div class="input-group mb-3">
                     <span class="input-group-text" id="Icode">Item Code :</span>
-                    <input type="text" class="form-control" placeholder="Item Code" aria-label="Username" aria-describedby="Icode">
+                    <input class="form-control" placeholder="Item Code" aria-label="Username" aria-describedby="Icode">
                 </div>
 
                 <div class="input-group mb-3">
@@ -207,7 +207,7 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
 
 
 <!--orderForm-->
-<section id="orderForm" style="width: 100%; height:120vh;position:absolute; top:10vh;opacity: 0";>
+<section id="orderForm" style="width: 100%; height:120vh;position:absolute; top:10vh;";>
 
     <section class="container-fluid mt-5">
         <section class="row justify-content-center" style="border: 1px solid #3dd5f3; border-radius: 12px;-webkit-box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);
@@ -230,7 +230,7 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                 <form>
                     <div class="mb-3 mt-4">
                         <label for="exampleInputPassword1" style="color: #3dd5f3" class="form-label">Qty.on Hand</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        <input  class="form-control" id="exampleInputPassword1">
                     </div>
                 </form>
 
@@ -242,19 +242,19 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                 <form>
                     <div class="mb-3">
                         <label for="COName" style="color: #3dd5f3" class="form-label">Customer Name</label>
-                        <input type="password" class="form-control" id="COName">
+                        <input  class="form-control" id="COName">
                     </div>
                     <div class="mb-3">
                         <label for="IName" style="color: #3dd5f3" class="form-label">Item Name</label>
-                        <input type="password" class="form-control" id="IName">
+                        <input  class="form-control" id="IName">
                     </div>
                     <div class="mb-3">
                         <label for="Price" style="color: #3dd5f3" class="form-label">Price</label>
-                        <input type="password" class="form-control" id="Price">
+                        <input  class="form-control" id="Price">
                     </div>
                     <div class="mb-3">
                         <label for="Qty" style="color: #3dd5f3" class="form-label">Qty</label>
-                        <input type="password" class="form-control" id="Qty">
+                        <input  class="form-control" id="Qty">
                     </div>
                 </form>
             </section>
@@ -265,11 +265,11 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                 <form>
                     <div class="mb-3">
                         <label for="OrderID" style="color: #3dd5f3" class="form-label">Order ID</label>
-                        <input type="password" class="form-control" id="OrderID">
+                        <input  class="form-control" id="OrderID">
                     </div>
                     <div class="mb-3">
                         <label for="Date" style="color: #3dd5f3" class="form-label">Date</label>
-                        <input type="password" class="form-control" id="Date">
+                        <input  class="form-control" id="Date">
                     </div>
                 </form>
 
@@ -337,22 +337,28 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
 <script src="assets/bootstrap/js/bootstrap.js"></script>
 
 <script>
+
+    document.querySelector("#customerForm").style.display='inline';
+    document.querySelector("#itemForm").style.display='none';
+    document.querySelector("#orderForm").style.display='none';
+
+
         document.querySelector("#customerNav").addEventListener("click",function () {
-            document.querySelector("#customerForm").style.opacity="1";
-            document.querySelector("#itemForm").style.opacity="0";
-            document.querySelector("#orderForm").style.opacity="0";
+            document.querySelector("#customerForm").style.display='inline';
+            document.querySelector("#itemForm").style.display='none';
+            document.querySelector("#orderForm").style.display='none';
         });
 
         document.querySelector("#itemNav").addEventListener("click",function () {
-            document.querySelector("#customerForm").style.opacity="0";
-            document.querySelector("#itemForm").style.opacity="1";
-            document.querySelector("#orderForm").style.opacity="0";
+            document.querySelector("#customerForm").style.display='none';
+            document.querySelector("#itemForm").style.display='inline';
+            document.querySelector("#orderForm").style.display='none';
         });
 
         document.querySelector("#orderNav").addEventListener("click",function () {
-            document.querySelector("#customerForm").style.opacity="0";
-            document.querySelector("#itemForm").style.opacity="0";
-            document.querySelector("#orderForm").style.opacity="1";
+            document.querySelector("#customerForm").style.display="none";
+            document.querySelector("#itemForm").style.display="none";
+            document.querySelector("#orderForm").style.display="inline";
         });
 </script>
 
