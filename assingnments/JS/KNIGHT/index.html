@@ -109,7 +109,8 @@
 </section>
 <script>
 
-    var colors = ["white","white",'#DA7C7C',"red","#DA7C7C","white","white"];
+    var colors = ['#DA7C7C',"red","#DA7C7C","white","white","white","white"];
+    var white = ['white','white','white','white','white','white','white']
 
     let count = 0;
 
@@ -128,16 +129,24 @@
                 document.querySelectorAll("div")[i].style.background =colors[i];
             }
 
-            if (count==6){
+            if (count==5){
                 clearInterval(Interval1);
+                Interval2();
                 count=0;
             }
         },500);
 
-        setTimeout(function (){
+        var Interval2=setInterval(function (){
+            count++;
             for (let i = 0; i < colors.length; i++) {
-
                 document.querySelectorAll("div")[6-i].style.background =colors[i];
+
+            }
+
+            if (count==5){
+                clearInterval(Interval2);
+                Interval1();
+                count=0;
             }
         },500);
 
