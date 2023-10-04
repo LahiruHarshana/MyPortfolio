@@ -109,23 +109,41 @@
 </section>
 <script>
 
-    var colors = ["white","white",'white',"red","white","white","white"];
+    var colors = ["white","white",'#DA7C7C',"red","#DA7C7C","white","white"];
+
+    let count = 0;
+
 
     setInterval(function () {
 
-        var colorLast = colors[colors.length-1];
-        colors.pop();
-        colors.unshift(colorLast);
 
-        for (let i = 0; i < colors.length; i++) {
+       var Interval1 =  setInterval(function (){
+            var colorLast = colors[colors.length-1];
+            colors.pop();
+            colors.unshift(colorLast);
 
-            document.querySelectorAll("div")[i].style.background =colors[i];
-        }
+            count++;
 
-        for (let i = 0; i < colors.length; i++) {
+            for (let i = 0; i < colors.length; i++) {
+                document.querySelectorAll("div")[i].style.background =colors[i];
+            }
 
-            document.querySelectorAll("div")[6-i].style.background =colors[i];
-        }
+            if (count==6){
+                clearInterval(Interval1);
+                count=0;
+            }
+        },500);
+
+        setTimeout(function (){
+            for (let i = 0; i < colors.length; i++) {
+
+                document.querySelectorAll("div")[6-i].style.background =colors[i];
+            }
+        },500);
+
+
+
+
     },500);
 
 </script>
