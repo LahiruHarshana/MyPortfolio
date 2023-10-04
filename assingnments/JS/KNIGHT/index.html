@@ -11,7 +11,7 @@
             top: -150px;
             color: red;
         }
-        hr:nth-child(3){
+        hr:nth-child(4){
             position: absolute;
             top: -50px;
             width: 1150px;
@@ -52,6 +52,14 @@
             color: white;
         }
 
+        #p{
+            position: absolute;
+            top: -90px;
+            left: 750px;
+            font-size: 20px;
+            color: white;
+        }
+
         hr:nth-child(11){
             position: absolute;
             top: 60px;
@@ -81,7 +89,8 @@
 <section>
 
     <h1>JavaScript Knight Rider</h1>
-    <p>Speed</p>
+    <p>Speed &nbsp; &nbsp;= &nbsp;</p>
+    <p id="p">100</p>
     <hr>
   <div></div>
   <div></div>
@@ -93,7 +102,7 @@
     <hr>
     <button type="button" class="btn btn-outline-primary">Start</button>
     <button id="stop" type="button" class="btn btn-outline-primary">Stop</button>
-    <label id="lbl" for="customRange3" class="form-label">Speed</label>
+    <label id="lbl" for="customRange3" class="form-label">Speed =</label>
     <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
 
 
