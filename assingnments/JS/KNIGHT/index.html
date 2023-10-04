@@ -8,9 +8,46 @@
 
         h1{
             position: absolute;
-            top: -100px;
+            top: -150px;
+            color: red;
         }
-        hr{
+        hr:nth-child(3){
+            position: absolute;
+            top: -50px;
+            width: 1150px;
+            height: 1vh;
+            background: #3dd5f3;
+        }
+
+        #customRange3{
+            position: absolute;
+            top: 130px;
+            width: 100px;
+        }
+
+        #lbl{
+            position: absolute;
+            top: 130px;
+            left: 700px;
+            color: red;
+        }
+
+        button{
+            position: absolute;
+            top: 120px;
+            left: 400px;
+
+        }
+
+        p{
+            position: absolute;
+            top: -90px;
+            left: 650px;
+            font-size: 20px;
+            color: white;
+        }
+
+        hr:nth-child(11){
             position: absolute;
             top: -50px;
             width: 1150px;
@@ -38,6 +75,7 @@
 <section>
 
     <h1>JavaScript Knight Rider</h1>
+    <p>Speed</p>
     <hr>
   <div></div>
   <div></div>
@@ -46,6 +84,13 @@
   <div></div>
   <div></div>
   <div></div>
+    <hr>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <label id="lbl" for="customRange3" class="form-label">Speed</label>
+    <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+
+
 </section>
 <script src="  ../SPA/assets/bootstrap/js/bootstrap.js"></script>
 </body>
