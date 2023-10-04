@@ -113,6 +113,7 @@
     var white = ['white','white','white','white','white','white','white']
 
     let count = 0;
+    let count2=0;
 
 
     setInterval(function () {
@@ -133,33 +134,35 @@
                 clearInterval(Interval1);
                 Interval2();
                 count=0;
+                count2=0;
                 for (let i = 0; i < white.length; i++) {
                     document.querySelectorAll("div")[i].style.background =white[i];
                 }
             }
-        },500);
+        },1000);
 
         var Interval2=setInterval(function (){
-            count++;
+            count2++;
             for (let i = 0; i < colors.length; i++) {
                 document.querySelectorAll("div")[6-i].style.background =colors[i];
 
             }
 
-            if (count==5){
+            if (count2==5){
                 clearInterval(Interval2);
                 Interval1();
+                count2=0;
                 count=0;
                 for (let i = 0; i < white.length; i++) {
                     document.querySelectorAll("div")[i].style.background =white[i];
                 }
             }
-        },500);
+        },1000);
 
 
 
 
-    },500);
+    },1000);
 
 </script>
 <script src="  ../SPA/assets/bootstrap/js/bootstrap.js"></script>
