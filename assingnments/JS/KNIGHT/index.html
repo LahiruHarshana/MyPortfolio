@@ -107,6 +107,28 @@
 
 
 </section>
+<script>
+
+    var colors = ["white","white",'white',"red","white","white","white"];
+
+    setInterval(function () {
+
+        var colorLast = colors[colors.length-1];
+        colors.pop();
+        colors.unshift(colorLast);
+
+        for (let i = 0; i < colors.length; i++) {
+
+            document.querySelectorAll("div")[i].style.background =colors[i];
+        }
+
+        for (let i = 0; i < colors.length; i++) {
+
+            document.querySelectorAll("div")[6-i].style.background =colors[i];
+        }
+    },500);
+
+</script>
 <script src="  ../SPA/assets/bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
