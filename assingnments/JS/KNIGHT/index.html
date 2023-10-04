@@ -133,6 +133,9 @@
                 clearInterval(Interval1);
                 Interval2();
                 count=0;
+                for (let i = 0; i < white.length; i++) {
+                    document.querySelectorAll("div")[i].style.background =white[i];
+                }
             }
         },500);
 
@@ -147,6 +150,9 @@
                 clearInterval(Interval2);
                 Interval1();
                 count=0;
+                for (let i = 0; i < white.length; i++) {
+                    document.querySelectorAll("div")[i].style.background =white[i];
+                }
             }
         },500);
 
