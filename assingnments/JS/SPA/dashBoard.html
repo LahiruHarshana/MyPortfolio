@@ -84,7 +84,6 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                     </tr>
                     </thead>
                     <tbody id="tblCustomer">
-                    <td>Hi</td>
 
                     </tbody>
                 </table>
@@ -352,17 +351,20 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
         document.getElementById("cSavebtn").addEventListener("click",function (){
 
             var customer={
-                id :document.getElementById("cIdTxt").value,
-                name :document.getElementById("cNameTxt").value,
-                address:document.getElementById("cAddressTxt").value,
-                salary:document.getElementById("cSalaryText").value
+
+                id:$("#cIdTxt").val(),
+                name:$("#cNameTxt").val(),
+                address:$("#cAddressTxt").val(),
+                salary:$("#cSalaryText").val()
+
+
             }
 
             Customers.push(customer);
 
             for (let i = 0; i < Customers.length; i++) {
-                $("#tblCustomer").append("<tr></tr>")
-                $("tr").append("<td>"+Customers[i].name+"</td>","<td>"+Customers[i].id+"</td>","<td>"+Customers[i].address+"</td>","<td>"+Customers[i].salary+"</td>",)
+                $("#tblCustomer").append("<tr id='tr'> </tr>")
+                $("#tr").append("<td>"+Customers[i].name+"</td>","<td>"+Customers[i].id+"</td>","<td>"+Customers[i].address+"</td>","<td>"+Customers[i].salary+"</td>")
 
             }
 
