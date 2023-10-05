@@ -109,9 +109,9 @@
 </section>
 <script>
 
-    var colors = ["red","#DA7C7C","white","white","white","white",'#DA7C7C'];
+    var colors = ["#DA7C7C","red","white","white","white","white",'white'];
     var white = ['white','white','white','white','white','white','white'];
-    var colors1 = ["red","#DA7C7C","white","white","white","white",'#DA7C7C'];
+    var colors1 = ["#DA7C7C","red","white","white","white","white","white"];
 
 
     let count = 0;
@@ -135,7 +135,7 @@
                 document.querySelectorAll("div")[i].style.background =colors[i];
             }
 
-            if (count >= 5) {
+            if (count >= 6) {
                 clearInterval(Interval1);
                 for (let i = 0; i < colors.length; i++) {
                     document.querySelectorAll("div")[i].style.background ="white";
@@ -149,7 +149,7 @@
 
 
         var Interval2 = setInterval(function () {
-            var colorLast = colors[colors1.length - 1];
+            var colorLast = colors1[colors1.length - 1];
             colors1.pop();
             colors1.unshift(colorLast);
             count2++;
