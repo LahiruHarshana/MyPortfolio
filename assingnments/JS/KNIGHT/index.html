@@ -112,79 +112,81 @@
 
 <script>
 
-    var colors = ["#DA7C7C","red","white","white","white","white",'white'];
-    var white = ['white','white','white','white','white','white','white'];
-    var colors1 = ["#DA7C7C","red","white","white","white","white","white"];
-
+    var colors = ["red", "white", "white", "white", "white", "white", "white"];
+    var colors1 = ["white", "white", "white", "white", "white", "white", "red"];
 
     let count = 0;
-    let count2=0;
+    let count2 = 0;
     var Interval1;
     var Interval2;
+    var direction = 1;
 
+    function startAnimation() {
+        clearInterval(Interval1);
+        clearInterval(Interval2);
 
-    $("#start").click(function () {
-        let funCount=0;
-        clearInterval(main);
-        var main = setInterval(function () {
-
-                function1();
-
-        },1000);
-    });
-
-
-
-
-    function function1(){
-        Interval1 =  setInterval(function (){
-            var colorLast = colors[colors.length-1];
-            colors.pop();
-            colors.unshift(colorLast);
-
+        Interval1 = setInterval(function () {
+            updateColors(colors);
             count++;
-
-            for (let i = 0; i < colors.length; i++) {
-                document.querySelectorAll("div")[i].style.background =colors[i];
-            }
 
             if (count >= 6) {
                 clearInterval(Interval1);
-                for (let i = 0; i < colors.length; i++) {
-                    document.querySelectorAll("div")[i].style.background ="white";
-                    function2();
-                    clearInterval(Interval1);
-                }
+                direction = -1;
+                count2 = 0;
+                startReverseAnimation();
             }
-        },1000);
+        }, 1000);
     }
 
+    function startReverseAnimation() {
+        clearInterval(Interval1);
+        clearInterval(Interval2);
 
-    function function2() {
-
-
-         Interval2 = setInterval(function () {
-            var colorLast = colors1[colors1.length - 1];
-            colors1.pop();
-            colors1.unshift(colorLast);
+        Interval2 = setInterval(function () {
+            updateColors1(colors1);
             count2++;
-
-            for (let i = 0; i < colors1.length; i++) {
-                document.querySelectorAll("div")[6-i].style.background = colors1[i];
-            }
 
             if (count2 >= 6) {
                 clearInterval(Interval2);
-                for (let i = 0; i < colors1.length; i++) {
-                    document.querySelectorAll("div")[i].style.background = "white";
-                    function1();
-                    clearInterval(Interval2);
-                }
+                direction = 1;
+                count = 0;
+                startAnimation();
             }
-
         }, 1000);
-
     }
+
+    function updateColors(colorArray) {
+        var colorLast = colorArray[colorArray.length - 1];
+        colorArray.pop();
+        colorArray.unshift(colorLast);
+
+        for (let i = 0; i < colorArray.length; i++) {
+            document.querySelectorAll("div")[i].style.background = colorArray[i];
+        }
+    }
+
+    function updateColors1(colorArray) {
+        var colorLast = colorArray[colorArray.length - 1];
+        colorArray.pop();
+        colorArray.unshift(colorLast);
+
+        for (let i = 0; i < colorArray.length; i++) {
+            document.querySelectorAll("div")[6-i].style.background = colorArray[i];
+        }
+    }
+
+    $("#start").click(function () {
+        startAnimation();
+    });
+
+    $("#stop").click(function () {
+        clearInterval(Interval1);
+        clearInterval(Interval2);
+    });
+
+    // Initial start
+    startAnimation();
+
 </script>
 <script src="  ../SPA/assets/bootstrap/js/bootstrap.js"></script>
 </body>
