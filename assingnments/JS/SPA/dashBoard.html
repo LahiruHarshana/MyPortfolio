@@ -84,6 +84,7 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                     </tr>
                     </thead>
                     <tbody id="tblCustomer">
+                    <td>Hi</td>
 
                     </tbody>
                 </table>
@@ -318,6 +319,8 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
 
 
 <script src="assets/bootstrap/js/bootstrap.js"></script>
+<script src="assets/bootstrap/js/jquery-3.7.1.min.js"></script>
+
 
 <script>
 
@@ -358,18 +361,8 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
             Customers.push(customer);
 
             for (let i = 0; i < Customers.length; i++) {
-                document.querySelectorAll()
-                let tr = document.createElement("tr");
-                let td1 = document.createElement("td");
-                td1.innerText = Customers[i].name;
-                let td2 = document.createElement("td");
-                td2.innerText = Customers[i].id;
-                let td3 = document.createElement("td");
-                td3.innerText = Customers[i].address;
-                let td4 = document.createElement("td");
-                td4.innerText = Customers[i].salary;
-                tr.append(td1,td2,td3,td4);
-                document.getElementById("tblCustomer").append(tr);
+                $("#tblCustomer").append("<tr></tr>")
+                $("tr").append("<td>"+Customers[i].name+"</td>","<td>"+Customers[i].id+"</td>","<td>"+Customers[i].address+"</td>","<td>"+Customers[i].salary+"</td>",)
 
             }
 
