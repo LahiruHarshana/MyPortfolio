@@ -109,9 +109,9 @@
 </section>
 <script>
 
-    var colors = ['#DA7C7C',"red","#DA7C7C","white","white","white","white"];
-    var white = ['white','white','white','white','white','white','white']
-    var colors1 = ["white","white","white","white",'#DA7C7C',"red","#DA7C7C"];
+    var colors = ["red","#DA7C7C","white","white","white","white",'#DA7C7C'];
+    var white = ['white','white','white','white','white','white','white'];
+    var colors1 = ["red","#DA7C7C","white","white","white","white",'#DA7C7C'];
 
 
     let count = 0;
@@ -158,7 +158,7 @@
                 document.querySelectorAll("div")[6-i].style.background = colors1[i];
             }
 
-            if (count2 >= 5) {
+            if (count2 >= 6) {
                 clearInterval(Interval2);
                 for (let i = 0; i < colors1.length; i++) {
                     document.querySelectorAll("div")[i].style.background = "white";
