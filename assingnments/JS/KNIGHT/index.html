@@ -127,8 +127,11 @@
                 document.querySelectorAll("div")[i].style.background =colors[i];
             }
 
-           if (count >= 6) {
+           if (count >= 5) {
                clearInterval(Interval1);
+               for (let i = 0; i < colors.length; i++) {
+                   document.querySelectorAll("div")[i].style.background ="white";
+               }
            }
         },1000);
 
