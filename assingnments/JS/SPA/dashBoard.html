@@ -325,31 +325,40 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
 
     var Customers =[];
 
-    document.querySelector("#customerForm").style.display='inline';
-    document.querySelector("#itemForm").style.display='none';
-    document.querySelector("#orderForm").style.display='none';
+    var customerFormVar =document.querySelector("#customerForm");
+    var itemFormVar =document.querySelector("#itemForm");
+    var orderrFormVar =document.querySelector("#orderForm");
+
+    customerFormVar.style.display='inline';
+    itemFormVar.style.display='none';
+    orderrFormVar.style.display='none';
 
 
-        document.querySelector("#customerNav").addEventListener("click",function () {
-            document.querySelector("#customerForm").style.display='inline';
-            document.querySelector("#itemForm").style.display='none';
-            document.querySelector("#orderForm").style.display='none';
+
+    $("#customerNav").click(function (){
+            customerFormVar.style.display='inline';
+            itemFormVar.style.display='none';
+            orderrFormVar.style.display='none';
         });
 
-        document.querySelector("#itemNav").addEventListener("click",function () {
-            document.querySelector("#customerForm").style.display='none';
-            document.querySelector("#itemForm").style.display='inline';
-            document.querySelector("#orderForm").style.display='none';
+
+    $("#itemNav").click(function (){
+            customerFormVar.style.display='none';
+            itemFormVar.style.display='inline';
+            orderrFormVar.style.display='none';
         });
 
-        document.querySelector("#orderNav").addEventListener("click",function () {
-            document.querySelector("#customerForm").style.display="none";
-            document.querySelector("#itemForm").style.display="none";
-            document.querySelector("#orderForm").style.display="inline";
+
+    $("#orderNav").click(function (){
+            customerFormVar.style.display="none";
+            itemFormVar.style.display="none";
+           orderrFormVar.style.display="inline";
         });
 
 
             $("#cSavebtn").click(function () {
+
+                $("tr").remove();
 
             var customer={
 
