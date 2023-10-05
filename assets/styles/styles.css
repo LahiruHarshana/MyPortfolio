@@ -5,8 +5,32 @@ header{
     opacity: 0.7;
     background-color: #3391FF;
     border: 1px solid blue;
+    z-index: 10;
+
+}
+#loading {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid white;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     z-index: 100000;
 
+}
+
+#loading > div {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 header>img{
