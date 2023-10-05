@@ -116,9 +116,6 @@
     let count2=0;
 
 
-    setInterval(function () {
-
-
        var Interval1 =  setInterval(function (){
             var colorLast = colors[colors.length-1];
             colors.pop();
@@ -130,39 +127,10 @@
                 document.querySelectorAll("div")[i].style.background =colors[i];
             }
 
-            if (count==5){
-                clearInterval(Interval1);
-                Interval2();
-                count=0;
-                count2=0;
-                for (let i = 0; i < white.length; i++) {
-                    document.querySelectorAll("div")[i].style.background =white[i];
-                }
-            }
+           if (count >= 6) {
+               clearInterval(Interval1);
+           }
         },1000);
-
-        var Interval2=setInterval(function (){
-            count2++;
-            for (let i = 0; i < colors.length; i++) {
-                document.querySelectorAll("div")[6-i].style.background =colors[i];
-
-            }
-
-            if (count2==5){
-                clearInterval(Interval2);
-                Interval1();
-                count2=0;
-                count=0;
-                for (let i = 0; i < white.length; i++) {
-                    document.querySelectorAll("div")[i].style.background =white[i];
-                }
-            }
-        },1000);
-
-
-
-
-    },1000);
 
 </script>
 <script src="  ../SPA/assets/bootstrap/js/bootstrap.js"></script>
