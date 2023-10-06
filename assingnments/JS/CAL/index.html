@@ -350,6 +350,10 @@
   });
 
   $("#equalTo").click(function () {
+    $(this).addClass("button-clicked");
+    setTimeout(function () {
+      $(".Normal_btn").removeClass("button-clicked");
+    }, 200);
 
     let value;
 
