@@ -283,7 +283,7 @@
       case 1:
         var number = parseFloat(res.val());
         if (number===0){
-          value=num1;
+          res.val("Error: Division by zero");
         }else {
           value = num1/number;
         }
