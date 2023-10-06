@@ -266,6 +266,10 @@
 
   $("#btn105").click(function () {
     res.val(res.val() + ".");
+    $(this).addClass("button-clicked");
+    setTimeout(function () {
+      $(".Normal_btn").removeClass("button-clicked");
+    }, 200);
 
   });
 
