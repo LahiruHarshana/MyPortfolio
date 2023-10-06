@@ -112,6 +112,9 @@
 
 <script>
 
+
+    var audio = new Audio('audio.mp3');
+
     var colors = ["white", "white", "white", "white", "white", "white", "red"];
 
     let count = 0;
@@ -176,11 +179,13 @@
 
     $("#start").click(function () {
         startAnimation();
+        audio.play();
     });
 
     $("#stop").click(function () {
         clearInterval(Interval1);
         clearInterval(Interval2);
+        audio.pause();
     });
 
 </script>
