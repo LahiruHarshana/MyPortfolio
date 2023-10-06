@@ -248,6 +248,10 @@
 
   $("#btn8").click(function () {
     res.val(res.val() + "8");
+    $(this).addClass("button-clicked");
+    setTimeout(function () {
+      $(".Normal_btn").removeClass("button-clicked");
+    }, 200);
 
   });
 
