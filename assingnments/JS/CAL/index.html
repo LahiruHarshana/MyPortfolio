@@ -279,20 +279,20 @@
 
 
     switch (option) {
-
       case 1:
-        var number = parseFloat(res.val());
-        if (number===0){
+        var denominator = parseFloat(res.val());
+        if (denominator === 0) {
+          res.css({
+            "font-size":"20px"
+          });
           res.val("Error: Division by zero");
-        }else {
-          value = num1/number;
+        } else {
+          value = num1 / denominator;
+          res.val(value);
+          value = 0;
+          option = 0;
         }
-      res.val(value);
-      value=0;
-      option=0;
-      break;
-
-
+        break;
       case 2: value = num1*parseFloat(res.val());
         res.val(value);
         value=0;
