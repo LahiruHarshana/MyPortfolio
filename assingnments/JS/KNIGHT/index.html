@@ -112,8 +112,7 @@
 
 <script>
 
-    var colors = ["red", "white", "white", "white", "white", "white", "white"];
-    var colors1 = ["white", "white", "white", "white", "white", "white", "red"];
+    var colors = ["white", "white", "white", "white", "white", "white", "red"];
 
     let count = 0;
     let count2 = 0;
@@ -129,7 +128,7 @@
             updateColors(colors);
             count++;
 
-            if (count >= 6) {
+            if (count >= 7) {
                 clearInterval(Interval1);
                 direction = -1;
                 count2 = 0;
@@ -143,10 +142,10 @@
         clearInterval(Interval2);
 
         Interval2 = setInterval(function () {
-            updateColors1(colors1);
+            updateColors1(colors);
             count2++;
 
-            if (count2 >= 6) {
+            if (count2 >= 7) {
                 clearInterval(Interval2);
                 direction = 1;
                 count = 0;
