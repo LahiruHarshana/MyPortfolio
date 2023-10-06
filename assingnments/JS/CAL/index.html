@@ -121,6 +121,11 @@
 
     }
 
+    .button-clicked {
+      transform: translateY(5px);
+      transition: transform 0.2s ease;
+    }
+
 
   </style>
 </head>
@@ -182,7 +187,10 @@
   var value;
   $("#btn1").click(function () {
     res.val(res.val() + "1");
-
+    $(this).addClass("button-clicked");
+    setTimeout(function () {
+      $(".Normal_btn").removeClass("button-clicked");
+    }, 200);
   });
 
   $("#btn2").click(function () {
@@ -282,10 +290,7 @@
       case 1:
         var denominator = parseFloat(res.val());
         if (denominator === 0) {
-          res.css({
-            "font-size":"20px"
-          });
-          res.val("Error: Division by zero");
+          res.val("Error!");
         } else {
           value = num1 / denominator;
           res.val(value);
