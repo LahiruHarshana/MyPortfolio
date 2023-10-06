@@ -91,6 +91,10 @@
      color: #000
    }
 
+   #result:hover{
+     border: 2px solid red;
+   }
+
 
     #result{
       color: #ffffff;
@@ -100,17 +104,21 @@
       margin-top: 30px;
       margin-left: -10px;
       border-radius: 20px;
-      box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2), inset -5px -5px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.3), -5px -5px 15px rgba(255,255,255,0.1)
+      box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2), inset -5px -5px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.3), -5px -5px 15px rgba(255,255,255,0.1);
 
     }
 
     #btn101,#btn102,#btn103,#btn104,#btn105{
       background: #a6b5cc;
+      box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2), inset -5px -5px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.3), -5px -5px 15px rgba(255,255,255,0.1);
+
     }
 
     #btn101:hover, #btn102:hover, #btn103:hover, #btn104:hover, #btn105:hover {
+      box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2), inset -5px -5px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.3), -5px -5px 15px rgba(255,255,255,0.1);
       background: black;
       color: white;
+
     }
 
 
@@ -120,8 +128,7 @@
 <main>
   <section class="display">
 
-    <h2 id="result"></h2>
-
+    <input id="result">
   </section>
 
   <div class="buttons">
@@ -133,29 +140,94 @@
 
 </div>
   <div class="buttons">
-  <button class="Normal_btn">7</button>
-    <button class="Normal_btn">8</button>
-    <button class="Normal_btn">9</button>
+  <button id="btn7" class="Normal_btn">7</button>
+    <button id="btn8"class="Normal_btn">8</button>
+    <button id="btn9" class="Normal_btn">9</button>
     <button id="btn103" class="Normal_btn">-</button>
   </div>
   <div class="buttons">
-    <button class="Normal_btn">4</button>
-    <button class="Normal_btn">5</button>
-    <button class="Normal_btn">6</button>
+    <button id="btn4" class="Normal_btn">4</button>
+    <button id="btn5" class="Normal_btn">5</button>
+    <button id="btn6" class="Normal_btn">6</button>
     <button id="btn104" class="Normal_btn">+</button>
   </div>
   <div class="buttons">
-    <button class="Normal_btn">1</button>
-    <button class="Normal_btn">2</button>
-    <button class="Normal_btn">3</button>
+    <button id="btn1" class="Normal_btn">1</button>
+    <button id="btn2" class="Normal_btn">2</button>
+    <button id="btn3"class="Normal_btn">3</button>
     <button id="btn105" class="Normal_btn">.</button>
   </div> <div class="buttons">
-  <button class="Normal_btn">0</button>
-  <button class="Normal_btn">00</button>
+  <button id="btn0"class="Normal_btn">0</button>
+  <button id="btn00"class="Normal_btn">00</button>
   <button id="equalTo">=</button>
 </div>
 </main>
 <script src="../SPA/assets/bootstrap/js/bootstrap.bundle.js"></script>
 <script src="../SPA/assets/bootstrap/js/jquery-3.7.1.min.js"></script>
+
+
+
+<script>
+
+
+  var value;
+  $("#btn1").click(function () {
+    value = $("#result").val();
+    $("#result").val(value+"1");
+  });
+
+  $("#btn2").click(function () {
+    value1 = $("#result").val();
+    $("#result").val(value1+"2");
+  });
+
+  $("#btn3").click(function () {
+    value = $("#result").val();
+    $("#result").val(value+"3");
+  });
+
+  $("#btn4").click(function () {
+    value = $("#result").val();
+    $("#result").val(value+"4");
+  });
+
+  $("#btn5").click(function () {
+    value = $("#result").val();
+    $("#result").val(value+"5");
+  });
+
+  $("#btn6").click(function () {
+    value = $("#result").val();
+    $("#result").val(value+"6");
+  });
+
+  $("#btn7").click(function () {
+    value = $("#result").val();
+    $("#result").val(value+"7");
+  });
+
+  $("#btn8").click(function () {
+    value = $("#result").val();
+    $("#result").val(value+"8");
+  });
+
+  $("#btn9").click(function () {
+    value = $("#result").val();
+    $("#result").val(value+"9");
+  });
+
+  $("#btn0").click(function () {
+    value = $("#result").val();
+    $("#result").val(value+"0");
+  });
+
+
+  $("#btn00").click(function () {
+    value = $("#result").val();
+    $("#result").val(value+"00");
+  });
+
+
+</script>
 </body>
 </html>
