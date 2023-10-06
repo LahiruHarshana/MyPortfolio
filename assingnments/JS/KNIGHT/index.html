@@ -110,7 +110,6 @@
         Your browser does not support the audio element.
     </audio>
 
-
 </section>
 <script src="../SPA/assets/bootstrap/js/jquery-3.7.1.min.js"></script>
 
@@ -127,18 +126,17 @@
 
 
 
-    speed =1100-parseInt($("#customRange3").val());
+    speed =350-parseInt($("#customRange3").val());
     ultraSpeed =3000-parseInt($("#customRange3").val());
     $("#customRange3").on("input", function () {
-        speed =200-parseInt($(this).val());
+        speed =350-parseInt($(this).val());
+        ultraSpeed =3000-parseInt($("#customRange3").val());
         if (20>$(this).val()) {
             $("#p").text(20);
         }else{
             $("#p").text(Math.floor(parseInt($("#customRange3").val())/3));
         }
     });
-
-
     $("#p").text(20+parseInt($("#customRange3").val()));
 
 
