@@ -239,6 +239,10 @@
 
   $("#btn7").click(function () {
     res.val(res.val() + "7");
+    $(this).addClass("button-clicked");
+    setTimeout(function () {
+      $(".Normal_btn").removeClass("button-clicked");
+    }, 200);
 
   });
 
