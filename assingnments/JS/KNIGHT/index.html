@@ -117,17 +117,21 @@
 
 <script>
 
+    let ultraSpeed;
+    let mainKnight=0;
     var knight = 0;
     let sudu=0;
 
     var audio = document.getElementById("myAudio");
     var speed;
 
-    speed =200-parseInt($("#customRange3").val());
+
+
+    speed =1100-parseInt($("#customRange3").val());
+    ultraSpeed =3000-parseInt($("#customRange3").val());
     $("#customRange3").on("input", function () {
         speed =200-parseInt($(this).val());
         if (20>$(this).val()) {
-
             $("#p").text(20);
         }else{
             $("#p").text(Math.floor(parseInt($("#customRange3").val())/3));
@@ -161,9 +165,13 @@
 
             if (count >= 7) {
                 knight=1;
+                mainKnight++;
                 clearInterval(Interval1);
                 direction = -1;
                 count2 = 0;
+                for (let i = 0; i < whites.length; i++) {
+                    document.querySelectorAll("div")[i].style.background = whites[i];
+                }
                 reset();
             }
         }, speed);
@@ -181,9 +189,13 @@
 
             if (count2 >= 7) {
                 knight=0;
+                mainKnight++;
                 clearInterval(Interval2);
                 direction = 1;
                 count = 0;
+                for (let i = 0; i < whites.length; i++) {
+                    document.querySelectorAll("div")[i].style.background = whites[i];
+                }
             reset();
             }
         }, speed);
@@ -203,12 +215,15 @@
 
     function reset() {
 
+        if (mainKnight===4){
+            mainKnight=0;
          resetRed = setInterval(function () {
              clearInterval(Interval1);
              clearInterval(Interval2);
              clearInterval(resetRed);
             sudu++;
             for (let i = 0; i < whites.length; i++) {
+                document.querySelectorAll("div")[i].style.background = whites[i];
                 document.querySelectorAll("div")[i].style.background = whites[i];
             }
             if (sudu===1){
@@ -224,7 +239,17 @@
                 }
             }
 
-        },2000);
+        },ultraSpeed);
+
+
+        }else if (knight===1){
+            startReverseAnimation();
+            knight=0;
+
+        }else {
+            startAnimation();
+            knight=0;
+        }
 
     }
 
@@ -242,7 +267,7 @@
     }
 
     $("#start").click(function () {
-        startAnimation();
+        startReverseAnimation();
         audio.play();
     });
 
