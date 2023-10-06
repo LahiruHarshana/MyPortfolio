@@ -204,6 +204,10 @@
 
   $("#btn3").click(function () {
     res.val(res.val() + "3");
+    $(this).addClass("button-clicked");
+    setTimeout(function () {
+      $(".Normal_btn").removeClass("button-clicked");
+    }, 200);
 
   });
 
