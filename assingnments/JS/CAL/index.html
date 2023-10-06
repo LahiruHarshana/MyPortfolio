@@ -33,6 +33,50 @@
       height: 80px;
       margin-bottom: 10px
     }
+    .display #result{
+      font-size: 2em
+    }
+    .buttons{
+      margin-top: 20px;
+      width: 100%
+    }
+    .buttons button{
+      height: 50px;
+      width: 50px;
+      padding: 10px;
+      border-radius: 10px;
+      background: none;
+      border:none;
+      outline: none;
+      margin: 0 10px;
+      cursor: pointer;
+      font-size: 1.3em;
+      box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2), inset -5px -5px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.3), -5px -5px 15px rgba(255,255,255,0.1)
+    }
+
+    .buttons button:hover {
+      background: rgba(0,0,0,0.2)
+    }
+
+    #equalTo{
+      width: 125px;
+      background: #58D68D
+    }
+
+
+    #clear{
+      background: #FF8A65
+    }
+
+   #clear, #equalTo{
+     color: #000
+   }
+
+
+    #result{
+      color: #ddd
+    }
+
 
   </style>
 </head>
@@ -40,9 +84,6 @@
 <main>
   <section class="display">
 
-    <button class="dark_mode_btn">
-      <i class="fa fa-moon-o" aria-hidden="true"></i>
-    </button>
     <h2 id="result"></h2>
 
   </section>
@@ -75,7 +116,7 @@
   </div> <div class="buttons">
   <button class="Normal_btn">0</button>
   <button class="Normal_btn">00</button>
-  <button class="equalTo">=</button>
+  <button id="equalTo">=</button>
 </div>
 </main>
 <script src="../SPA/assets/bootstrap/js/bootstrap.bundle.js"></script>
