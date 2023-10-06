@@ -127,7 +127,7 @@
 
             $("#p").text(20);
         }else{
-            $("#p").text(parseInt($("#customRange3").val())/3);
+            $("#p").text(Math.floor(parseInt($("#customRange3").val())/3));
         }
     });
 
