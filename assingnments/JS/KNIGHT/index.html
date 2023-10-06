@@ -201,10 +201,12 @@
     }
 
 
-
     function reset() {
 
          resetRed = setInterval(function () {
+             clearInterval(Interval1);
+             clearInterval(Interval2);
+             clearInterval(resetRed);
             sudu++;
             for (let i = 0; i < whites.length; i++) {
                 document.querySelectorAll("div")[i].style.background = whites[i];
@@ -222,7 +224,7 @@
                 }
             }
 
-        },1000);
+        },2000);
 
     }
 
