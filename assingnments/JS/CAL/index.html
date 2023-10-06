@@ -323,6 +323,10 @@
     num1=parseFloat(res.val());
     res.val("");
     option=2;
+    $(this).addClass("button-clicked");
+    setTimeout(function () {
+      $(".Normal_btn").removeClass("button-clicked");
+    }, 200);
   });
 
   $("#btn103").click(function () {
