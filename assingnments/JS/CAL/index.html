@@ -305,7 +305,7 @@
     result.value = newValue;
     $(this).addClass("button-clicked");
     setTimeout(function () {
-      $(".Normal_btn").removeClass("button-clicked");
+      $("#deleteSNum").removeClass("button-clicked");
     }, 200);
   });
 
@@ -350,10 +350,6 @@
   });
 
   $("#equalTo").click(function () {
-    $(this).addClass("button-clicked");
-    setTimeout(function () {
-      $(".Normal_btn").removeClass("button-clicked");
-    }, 200);
 
     let value;
 
@@ -388,6 +384,12 @@
         option=0;
         break;
     }
+
+
+    $(this).addClass("button-clicked");
+    setTimeout(function () {
+      $("#equalTo").removeClass("button-clicked");
+    }, 200);
   });
 
 
