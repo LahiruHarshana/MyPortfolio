@@ -293,6 +293,10 @@
 
   $("#clear").click(function (){
     res.val("");
+    $(this).addClass("button-clicked");
+    setTimeout(function () {
+      $(".Normal_btn").removeClass("button-clicked");
+    }, 200);
   });
 
   dlt.addEventListener('click', function(){
