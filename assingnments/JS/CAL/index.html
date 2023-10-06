@@ -252,12 +252,50 @@
     option=1;
   });
 
+  $("#btn102").click(function () {
+    num1=parseInt(res.val());
+    res.val("");
+    option=2;
+  });
+
+  $("#btn103").click(function () {
+    num1=parseInt(res.val());
+    res.val("");
+    option=2;
+  });
+
   $("#equalTo").click(function () {
 
+    let value;
+
+
     switch (option) {
-      case 1:num1/parseInt(res.val());
+      case 1: value = num1/parseInt(res.val());
+      res.val(value);
+      value=0;
+      option=0;
+      break;
+
+
+      case 2: value = num1*parseInt(res.val());
+        res.val(value);
+        value=0;
+        option=0;
+        break;
+
+      case 3: value = num1+parseInt(res.val());
+        res.val(value);
+        value=0;
+        option=0;
+        break;
+
+      case 4: value = num1-parseInt(res.val());
+        res.val(value);
+        value=0;
+        option=0;
+        break;
     }
-  })
+  });
 
 
 
