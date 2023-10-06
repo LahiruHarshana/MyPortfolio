@@ -283,9 +283,10 @@
       case 1:
         var number = parseFloat(res.val());
         if (number===0){
-
+          value=num1;
+        }else {
+          value = num1/number;
         }
-        value = num1/
       res.val(value);
       value=0;
       option=0;
