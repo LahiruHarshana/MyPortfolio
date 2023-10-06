@@ -103,7 +103,7 @@
     <button id="start" type="button" class="btn btn-outline-primary">Start</button>
     <button id="stop" type="button" class="btn btn-outline-primary">Stop</button>
     <label id="lbl" for="customRange3" class="form-label">Speed =</label>
-    <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+    <input type="range" class="form-range" min="0" max="5000" step="1" id="customRange3" value="0">
 
 
 </section>
@@ -112,6 +112,17 @@
 
 <script>
 
+    var customeSpeesd = 1000;
+    var speed;
+
+    $("#customRange3").on("input", function () {
+
+
+        speed =parseInt($("#customRange3").val());
+
+    });
+
+    customeSpeesd-speed;
 
     var audio = new Audio('audio.mp3');
 
@@ -137,7 +148,7 @@
                 count2 = 0;
                 startReverseAnimation();
             }
-        }, 1000);
+        }, customeSpeesd);
     }
 
     function startReverseAnimation() {
@@ -154,7 +165,7 @@
                 count = 0;
                 startAnimation();
             }
-        }, 1000);
+        }, customeSpeesd);
     }
 
     function updateColors(colorArray) {
