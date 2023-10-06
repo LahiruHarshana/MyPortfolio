@@ -13,7 +13,7 @@
         }
         hr:nth-child(4){
             position: absolute;
-            top: -50px;
+            top: -30px;
             width: 1150px;
             height: 1vh;
             background: #3dd5f3;
@@ -70,13 +70,13 @@
         body>section{
             position: relative;
             top: 400px;
-            gap: 1vw;
+            gap: 0.5vw;
             display: flex;
             justify-content: center;
         }
         body>section>div{
-            width: 150px;
-            height: 50px;
+            width: 160px;
+            height: 70px;
             border-radius: 12px;
             background: #3dd5f3;
         }
@@ -103,7 +103,7 @@
     <button id="start" type="button" class="btn btn-outline-danger">Start</button>
     <button id="stop" type="button" class="btn btn-outline-danger">Stop</button>
     <label id="lbl" for="customRange3" class="form-label">Speed =</label>
-    <input type="range" class="form-range" min="0" max="500" step="1" id="customRange3" value="0">
+    <input type="range" class="form-range" min="0" max="300" step="1" id="customRange3" value="0">
 
     <audio id="myAudio" loop>
         <source src="audio.mp3" type="audio/mpeg">
@@ -120,9 +120,9 @@
     var audio = document.getElementById("myAudio");
     var speed;
 
-    speed =500-parseInt($("#customRange3").val());
+    speed =200-parseInt($("#customRange3").val());
     $("#customRange3").on("input", function () {
-        speed =500-parseInt($(this).val());
+        speed =200-parseInt($(this).val());
         if (20>$(this).val()) {
 
             $("#p").text(20);
@@ -136,6 +136,7 @@
 
 
     var colors = ["white", "white", "white", "white", "white", "white", "red"];
+    var whites = ["white", "white", "white", "white", "white", "white", "white"];
 
     let count = 0;
     let count2 = 0;
@@ -155,6 +156,7 @@
                 clearInterval(Interval1);
                 direction = -1;
                 count2 = 0;
+                resetRed(whites);
                 startReverseAnimation();
             }
         }, speed);
@@ -172,6 +174,7 @@
                 clearInterval(Interval2);
                 direction = 1;
                 count = 0;
+                resetRed(whites);
                 startAnimation();
             }
         }, speed);
@@ -185,7 +188,16 @@
         for (let i = 0; i < colorArray.length; i++) {
             document.querySelectorAll("div")[i].style.background = colorArray[i];
         }
+
     }
+
+
+    function resetRed (colorArray){
+        for (let i = 0; i < colorArray.length; i++) {
+            document.querySelectorAll("div")[i].style.background = colorArray[i];
+        }
+    }
+
 
     function updateColors1(colorArray) {
         var colorLast = colorArray[colorArray.length - 1];
