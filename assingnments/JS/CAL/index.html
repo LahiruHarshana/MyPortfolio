@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+  <link rel="stylesheet" href="../SPA/assets/bootstrap/css/bootstrap.css">
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: 'poppins', sans-serif
+    }
+    body{
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: rgba(10,10,10,0.1)
+    }
+
+    main{
+      position: relative;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      min-width: 300px;
+      padding: 15px 10px;box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.18);
+      background: rgba(255,255,255,0.05);border-radius: 10px
+    }
+    .display{
+      position: relative;
+      width: 80%;
+      height: 80px;
+      margin-bottom: 10px
+    }
+
+  </style>
+</head>
+<body>
+<main>
+  <section class="display">
+
+    <button class="dark_mode_btn">
+      <i class="fa fa-moon-o" aria-hidden="true"></i>
+    </button>
+    <h2 id="result"></h2>
+
+  </section>
+
+  <div class="buttons">
+
+  <button id="clear">C</button>
+  <button id="delete_single_num"><i class="fa fa-scissors" aria-hidden="true"></i></button>
+  <button class="Normal_btn">/</button>
+  <button class="Normal_btn">*</button>
+
+</div>
+  <div class="buttons">
+  <button class="Normal_btn">7</button>
+    <button class="Normal_btn">8</button>
+    <button class="Normal_btn">9</button>
+    <button class="Normal_btn">-</button>
+  </div>
+  <div class="buttons">
+    <button class="Normal_btn">4</button>
+    <button class="Normal_btn">5</button>
+    <button class="Normal_btn">6</button>
+    <button class="Normal_btn">+</button>
+  </div>
+  <div class="buttons">
+    <button class="Normal_btn">1</button>
+    <button class="Normal_btn">2</button>
+    <button class="Normal_btn">3</button>
+    <button class="Normal_btn">.</button>
+  </div> <div class="buttons">
+  <button class="Normal_btn">0</button>
+  <button class="Normal_btn">00</button>
+  <button class="equalTo">=</button>
+</div>
+</main>
+<script src="../SPA/assets/bootstrap/js/bootstrap.bundle.js"></script>
+<script src="../SPA/assets/bootstrap/js/jquery-3.7.1.min.js"></script>
+</body>
+</html>
