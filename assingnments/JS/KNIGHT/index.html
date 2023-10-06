@@ -123,10 +123,16 @@
     speed =500-parseInt($("#customRange3").val());
     $("#customRange3").on("input", function () {
         speed =500-parseInt($(this).val());
+        if (20>$(this).val()) {
+
+            $("#p").text(20);
+        }else{
+            $("#p").text(parseInt($("#customRange3").val())/3);
+        }
     });
 
 
-    $("#p").innerText =parseInt($("#customRange3").val());
+    $("#p").text(20+parseInt($("#customRange3").val()));
 
 
     var colors = ["white", "white", "white", "white", "white", "white", "red"];
