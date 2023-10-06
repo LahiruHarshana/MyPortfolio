@@ -169,8 +169,14 @@
 
 <script>
 
+  let option;
+
+  let num1;
+  let num2;
   let result = document.querySelector('#result');
   let dlt = document.querySelector('#deleteSNum');
+
+  let res = $("#result");
 
 
   var value;
@@ -239,6 +245,20 @@
     let newValue = currentValue.slice(0, -1);
     result.value = newValue;
   });
+
+  $("#btn101").click(function () {
+    num1=parseInt(res.val());
+    res.val("");
+    option=1;
+  });
+
+  $("#equalTo").click(function () {
+
+    switch (option) {
+      case 1:num1/parseInt(res.val());
+    }
+  })
+
 
 
 
