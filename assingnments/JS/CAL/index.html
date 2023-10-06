@@ -225,6 +225,11 @@
     $("#result").val(value+"9");
   });
 
+  $("#btn105").click(function () {
+    value = $("#result").val();
+    $("#result").val(value+".");
+  });
+
   $("#btn0").click(function () {
     value = $("#result").val();
     $("#result").val(value+"0");
@@ -261,7 +266,13 @@
   $("#btn103").click(function () {
     num1=parseInt(res.val());
     res.val("");
-    option=2;
+    option=4;
+  });
+
+  $("#btn104").click(function () {
+    num1=parseInt(res.val());
+    res.val("");
+    option=3;
   });
 
   $("#equalTo").click(function () {
@@ -283,13 +294,13 @@
         option=0;
         break;
 
-      case 3: value = num1+parseInt(res.val());
+      case 3: value = num1+parseFloat(res.val());
         res.val(value);
         value=0;
         option=0;
         break;
 
-      case 4: value = num1-parseInt(res.val());
+      case 4: value = num1-parseFloat(res.val());
         res.val(value);
         value=0;
         option=0;
