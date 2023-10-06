@@ -117,6 +117,9 @@
 
 <script>
 
+    var knight = 0;
+    let sudu=0;
+
     var audio = document.getElementById("myAudio");
     var speed;
 
@@ -142,22 +145,26 @@
     let count2 = 0;
     var Interval1;
     var Interval2;
+    var resetRed;
     var direction = 1;
 
     function startAnimation() {
         clearInterval(Interval1);
         clearInterval(Interval2);
+        clearInterval(resetRed);
+
+
 
         Interval1 = setInterval(function () {
             updateColors(colors);
             count++;
 
             if (count >= 7) {
+                knight=1;
                 clearInterval(Interval1);
                 direction = -1;
                 count2 = 0;
-                resetRed(whites);
-                startReverseAnimation();
+                reset();
             }
         }, speed);
     }
@@ -165,17 +172,19 @@
     function startReverseAnimation() {
         clearInterval(Interval1);
         clearInterval(Interval2);
+        clearInterval(resetRed);
+
 
         Interval2 = setInterval(function () {
             updateColors1(colors);
             count2++;
 
             if (count2 >= 7) {
+                knight=0;
                 clearInterval(Interval2);
                 direction = 1;
                 count = 0;
-                resetRed(whites);
-                startAnimation();
+            reset();
             }
         }, speed);
     }
@@ -192,11 +201,32 @@
     }
 
 
-    function resetRed (colorArray){
-        for (let i = 0; i < colorArray.length; i++) {
-            document.querySelectorAll("div")[i].style.background = colorArray[i];
-        }
+
+    function reset() {
+
+         resetRed = setInterval(function () {
+            sudu++;
+            for (let i = 0; i < whites.length; i++) {
+                document.querySelectorAll("div")[i].style.background = whites[i];
+            }
+            if (sudu===1){
+                sudu=0;
+                if (knight===1){
+                    startReverseAnimation();
+                    clearInterval(resetRed);
+                    knight=0;
+                }else {
+                    startAnimation();
+                    clearInterval(resetRed);
+                    knight=1;
+                }
+            }
+
+        },1000);
+
     }
+
+
 
 
     function updateColors1(colorArray) {
@@ -217,6 +247,7 @@
     $("#stop").click(function () {
         clearInterval(Interval1);
         clearInterval(Interval2);
+        clearInterval(resetRed);
         audio.pause();
     });
 
