@@ -343,6 +343,10 @@
     num1=parseFloat(res.val());
     res.val("");
     option=3;
+    $(this).addClass("button-clicked");
+    setTimeout(function () {
+      $(".Normal_btn").removeClass("button-clicked");
+    }, 200);
   });
 
   $("#equalTo").click(function () {
