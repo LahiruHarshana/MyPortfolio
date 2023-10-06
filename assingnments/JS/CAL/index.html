@@ -170,7 +170,7 @@
 <script>
 
   let result = document.querySelector('#result');
-  let delete_single_num = document.querySelector('#deleteSNum');
+  let dlt = document.querySelector('#deleteSNum');
 
 
   var value;
@@ -234,7 +234,7 @@
     $("#result").val("");
   });
 
-  delete_single_num.addEventListener('click', function(){
+  dlt.addEventListener('click', function(){
     let currentValue = result.value;
     let newValue = currentValue.slice(0, -1);
     result.value = newValue;
