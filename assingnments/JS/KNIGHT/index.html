@@ -120,9 +120,14 @@
     var audio = document.getElementById("myAudio");
     var speed;
 
+    speed =500-parseInt($("#customRange3").val());
     $("#customRange3").on("input", function () {
         speed =500-parseInt($(this).val());
     });
+
+
+    $("#p").innerText =speed =500-parseInt($("#customRange3").val());
+
 
     var colors = ["white", "white", "white", "white", "white", "white", "red"];
 
