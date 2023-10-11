@@ -33,9 +33,9 @@ $("#orderNav").click(function (){
 
 var $tblItem = $("#itemTbl");
 var $iIdTxt = $("#iID");
-var $iNameTxt = $("#iName");
+var $iNameTxt = $("#IIName");
 var $iPrice = $("#i-Price");
-var $iQty = $("#i-qty");
+var $iQty = $("#Iqty");
 
 
 $("#iSaveBtn").click(() => {
@@ -80,18 +80,18 @@ $("#iUpdateBtn").click(() => {
 function updateItemTable() {
     $tblItem.empty();
 
-    Items.forEach((item) => { // Use Items array, not Customers
+    Items.forEach((item) => {
         $tblItem.append(`<tr><td>${item.id}</td><td>${item.name}</td><td>${item.price}</td><td>${item.Qty}</td></tr>`); // Corrected table structure
     });
 
     $tblItem.find("tr").click(function () {
         const row = $(this);
-        const id = row.find("td:eq(0)").text(); // Changed to get item ID
-        const name = row.find("td:eq(1)").text(); // Changed to get item name
+        const id = row.find("td:eq(0)").text();
+        const name = row.find("td:eq(1)").text();
         const price = row.find("td:eq(2)").text();
         const qty = row.find("td:eq(3)").text();
 
-        $iIdTxt.val(id); // Updated to set the correct values
+        $iIdTxt.val(id);
         $iNameTxt.val(name);
         $iPrice.val(price);
         $iQty.val(qty);
@@ -136,3 +136,5 @@ $("#iSearchBtn").click(function () {
         alert("Item not found.");
     }
 });
+
+export default Items;

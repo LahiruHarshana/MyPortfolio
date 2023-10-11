@@ -123,8 +123,8 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                 </div>
 
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" id="iName" placeholder="Item Name" aria-label="Recipient's username" aria-describedby="IIName">
-                    <span class="input-group-text" id="IIName">: Item Name</span>
+                    <input type="text" id="IIName" class="form-control" id="iName" placeholder="Item Name" aria-label="Recipient's username" aria-describedby="IIName">
+                    <span class="input-group-text" >: Item Name</span>
                 </div>
                 <div class="input-group mb-3">
                     <span class="input-group-text" id="IPrice">Item Price :</span>
@@ -132,8 +132,8 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                 </div>
 
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" id="i-qty" placeholder="Quantity" aria-label="Recipient's username" aria-describedby="Iqty">
-                    <span class="input-group-text" id="Iqty">: Item Quantity</span>
+                    <input type="text" class="form-control" id="Iqty" id="i-qty" placeholder="Quantity" aria-label="Recipient's username" aria-describedby="Iqty">
+                    <span class="input-group-text" >: Item Quantity</span>
                 </div>
 
 
@@ -190,7 +190,7 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                             <div class="col-6">
                                 <div class="mb-3">
                                     <label class="col-form-label col-form-label-sm">Order ID</label>
-                                    <input type="email" class="form-control input-sm" placeholder="ID">
+                                    <input type="email" id="oId" class="form-control input-sm" placeholder="ID">
                                 </div>
 
 
@@ -198,7 +198,7 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                             <div class="col-6">
                                 <div class="mb-3">
                                     <label class="col-form-label col-form-label-sm">Date</label>
-                                    <input type="date" class="form-control" placeholder="Name">
+                                    <input type="date" id="date" class="form-control" placeholder="Name">
                                 </div>
                             </div>
                         </div>
@@ -207,14 +207,14 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                             <div class="col-6">
                                 <div class="mb-3">
                                     <label class="col-form-label col-form-label-sm">Customer ID</label>
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected>Select Customer</option></select>
+                                    <select class="form-select"  id="selectCustomerId">
+                                    </select>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="mb-3">
                                     <label class="col-form-label col-form-label-sm">Customer Name</label>
-                                    <input type="email" class="form-control" placeholder="">
+                                    <input type="email" id="oCName" class="form-control" placeholder="">
                                 </div>
                             </div>
                         </div>
@@ -223,16 +223,26 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                             <div class="col-6">
                                 <div class="mb-3">
                                     <label class="col-form-label col-form-label-sm">Customer Address</label>
-                                    <input type="email" class="form-control" placeholder="">
+                                    <input type="email" id="oCAddress" class="form-control" placeholder="">
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="mb-3">
                                     <label class="col-form-label col-form-label-sm">Salary</label>
-                                    <input type="email" class="form-control" placeholder="">
+                                    <input type="email" id="oCSalary" class="form-control" placeholder="">
                                 </div>
                             </div>
                         </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="mb-3">
+                                    <label class="col-form-label col-form-label-sm">Customer ID</label>
+                                    <input type="email" id="CustomerIDORderForm" class="form-control" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+
 
                     </form>
                 </div>
@@ -250,14 +260,15 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                             <div class="col-6">
                                 <div class="mb-3">
                                     <label class="col-form-label col-form-label-sm">Item ID</label>
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected>Select Item</option></select>                            </div>
+                                    <select id="oSelectItem" class="form-select">
+                                    </select>
+                                </div>
                             </div>
 
                             <div class="col-6">
                                 <div class="mb-3">
-                                    <label class="col-form-label col-form-label-sm">Description</label>
-                                    <input type="email" class="form-control" placeholder="">
+                                    <label class="col-form-label col-form-label-sm">Item ID</label>
+                                    <input type="email" id="itemID" class="form-control" placeholder="">
                                 </div>
                             </div>
                         </div>
@@ -266,33 +277,33 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                             <div class="col-4">
                                 <div class="mb-3">
                                     <label class="col-form-label col-form-label-sm">Unit Price</label>
-                                    <input type="email" class="form-control" placeholder="">
+                                    <input type="email" id="iOPrice" class="form-control" placeholder="">
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="mb-3">
                                     <label class="col-form-label col-form-label-sm">QTY ON Hand</label>
-                                    <input type="email" class="form-control" placeholder="">
+                                    <input type="email" id="iOQty" class="form-control" placeholder="">
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="mb-3">
-                                    <label class="col-form-label col-form-label-sm">QTY</label>
-                                    <input type="number" class="form-control" placeholder="">
+                                    <label class="col-form-label col-form-label-sm">Order QTY</label>
+                                    <input type="number" id="oqty" class="form-control" placeholder="">
                                 </div>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="mb-3">
-                                <label class="col-form-label col-form-label-sm">QTY</label>
-                                <input type="email" class="form-control" placeholder="">
+                                <label class="col-form-label col-form-label-sm">Item Name</label>
+                                <input type="email" id="ItemNameOrder" class="form-control" placeholder="">
                             </div>
                         </div>
 
                         <div class="row d-flex justify-content-end">
                             <div class="col-3">
-                                <button type="button" class="btn btn-outline-primary">Add To Item</button>
+                                <button type="button" id="addToItemBtn" class="btn btn-outline-primary">Add To Item</button>
                             </div>
                         </div>
                     </form>
@@ -308,21 +319,21 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                     </div>
                     <form style="height: 45vh">
                         <div class="row">
-                            <label class="text-bg-danger d-flex"><h2>Total:<h2 class="text-black">1800.54</h2></h2></label>
-                            <label class="text-bg-info"><h3>SuBTotal:</h3></label>
+                            <label class="text-bg-danger d-flex"><h2>Total LKR:<h2 id="totalTxt" class="text-black">00</h2></h2></label>
+                            <label class="text-bg-info d-flex"><h3>SuBTotal LKR:<h3 id="OrderSubTotal" class="text-black">00</h3></h3></label>
                         </div>
 
                         <div class="row">
                             <div class="col-6">
                                 <div class="mb-3">
                                     <label class="col-form-label col-form-label-sm">Cash</label>
-                                    <input type="email" class="form-control" placeholder="">
+                                    <input type="email" id="orderCashTxt" class="form-control" placeholder="">
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="mb-3">
                                     <label class="col-form-label col-form-label-sm">Discount</label>
-                                    <input type="number" class="form-control" placeholder="%">
+                                    <input type="number" id="orderDiscountTxt" class="form-control" placeholder="%">
                                 </div>
                             </div>
                         </div>
@@ -330,13 +341,13 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                         <div class="row">
                             <div class="mb-3">
                                 <label class="col-form-label col-form-label-sm">Balance</label>
-                                <input type="email" class="form-control" placeholder="">
+                                <input type="email" id="orderBalanceTxt" class="form-control" placeholder="">
                             </div>
                         </div>
 
                         <div class="row d-flex justify-content-end">
                             <div class="col-3">
-                                <button type="button" class="btn btn-outline-primary">Save</button>
+                                <button type="button" id="oSaveBtn" class="btn btn-outline-primary">Save</button>
                             </div>
                         </div>
                     </form>
@@ -346,7 +357,7 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
         </div>
 
         <div class="row d-flex overflow-auto h-auto col-lg-11 col-12 m-auto z-0 mt-5">
-            <table class="table table-striped table-hover border" id="tblCustomer">
+            <table class="table table-striped table-hover border" id="tbloCustomer">
                 <thead class="table-bordered sticky-top overflow-auto table-info">
                 <tr>
                     <th scope="col">Item Code</th>
@@ -356,24 +367,20 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                     <th scope="col">Total</th>
                 </tr>
                 </thead>
-                <tbody id="body">
-                <tr>
-                    <td>I001</td>
-                    <td>Rice</td>
-                    <td>220</td>
-                    <td>4</td>
-                    <td>880</td>
-                </tr>
+                <tbody id="tblOrderBody">
                 </tbody>
             </table>
         </div>
 </section>
 
-
-<script src="assets/bootstrap/js/bootstrap.js"></script>
 <script src="assets/bootstrap/js/jquery-3.7.1.min.js"></script>
-<script src="controllers/CustomerController.js"></script>
-<script src="controllers/ItemController.js"></script>
+<script src="assets/bootstrap/js/bootstrap.js"></script>
+<script type="module" src="controllers/CustomerController.js"></script>
+<script type="module" src="controllers/validations/CustomerValidation.js"></script>
+<script type="module" src="controllers/ItemController.js"></script>
+<script type="module" src="controllers/validations/ItemValidation.js"></script>
+<script type="module" src="controllers/PurchaseOrderController.js"></script>
+
 
 
 </body>

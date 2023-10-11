@@ -24,12 +24,6 @@ $("#itemNav").click(function (){
 });
 
 
-$("#orderNav").click(function (){
-    customerFormVar.style.display="none";
-    itemFormVar.style.display="none";
-    orderrFormVar.style.display="inline";
-});
-
 
 var $tblCustomer = $("#tblCustomer");
 var $cIdTxt = $("#cIdTxt");
@@ -137,3 +131,5 @@ $("#cSearchBtn").click(function () {
         alert("Customer not found.");
     }
 });
+
+export default Customers;
