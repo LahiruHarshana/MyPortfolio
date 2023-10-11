@@ -234,22 +234,23 @@ $("#oqty").keyup(function (e) {
         }
     });
 
-    $("#orderCashTxt").keyup(function (e) {
-        let value = $("#orderCashTxt").val();
-        if (value.length == 0) {
-            $("#addToItemBtn").attr('disabled', true);
-            $("#oSaveBtn").attr('disabled', true);
-            $("#orderCashTxt").css('border', '1px solid #ced4da');
+$("#orderCashTxt").on("input", function (e) {
+    balanceCheck();
+    let value = $("#orderCashTxt").val();
+    if (value.length == 0) {
+        $("#addToItemBtn").attr('disabled', true);
+        $("#oSaveBtn").attr('disabled', true);
+        $("#orderCashTxt").css('border', '1px solid #ced4da');
+    } else {
+        let res = numbersOnlyRegex.test(value);
+        if (res) {
+            setBtn();
+            $("#orderCashTxt").css('border', '2px solid green');
         } else {
-            let res = numbersOnlyRegex.test(value);
-            if (res) {
-                setBtn();
-                $("#orderCashTxt").css('border', '2px solid green');
-            } else {
-                $("#orderCashTxt").css('border', '2px solid red');
-            }
+            $("#orderCashTxt").css('border', '2px solid red');
         }
-    });
+    }
+});
 
     $("#orderDiscountTxt").keyup(function (e) {
         let value = $("#orderDiscountTxt").val();
@@ -277,8 +278,12 @@ $("#oqty").keyup(function (e) {
         } else {
             let res = numbersOnlyRegex.test(value);
             if (res) {
+                if ($("#orderBalanceTxt").val()==0){
+                    $("#orderBalanceTxt").css('border', '2px solid green');
+                }else {
+                    $("#orderBalanceTxt").css('border', '2px solid red');
+                }
                 setBtn();
-                $("#orderBalanceTxt").css('border', '2px solid green');
             } else {
                 $("#orderBalanceTxt").css('border', '2px solid red');
             }
@@ -485,6 +490,18 @@ export function validated11() {
                 $("#ItemNameOrder").css('border', '2px solid red');
             }
         }
+    }
+
+
+    function balanceCheck() {
+
+        var balance = parseInt($("#orderBalanceTxt").val());
+        if (balance===0){
+            $("#orderBalanceTxt").css('border', '2px solid green');
+        }else {
+            $("#orderBalanceTxt").css('border', '2px solid red');
+        }
+
     }
 
 
