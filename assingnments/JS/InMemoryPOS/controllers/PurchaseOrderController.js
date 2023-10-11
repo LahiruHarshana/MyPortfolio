@@ -1,7 +1,6 @@
 import Customers from './CustomerController.js';
 import Items from "./ItemController.js";
-
-
+import { validated1, validated2, validated3, validated4, validated5, validated6, validated7, validated8, validated9, validated10, validated11 } from "./validations/OrderValidation.js";
 
 
 var Orders = [];
@@ -52,6 +51,17 @@ $(document).ready(function () {
 
             }
         }
+        validated1();
+        validated2();
+        validated3();
+        validated4();
+        validated5();
+        validated6();
+        validated7();
+        validated8();
+        validated9();
+        validated10();
+        validated11();
     });
 
     $("#oSelectItem").change(function () {
@@ -62,34 +72,87 @@ $(document).ready(function () {
                 $("#ItemNameOrder").val(Items[i].name);
                 $("#iOPrice").val(Items[i].price);
                 $("#iOQty").val(Items[i].Qty);
+
             }
         }
+        validated1();
+        validated2();
+        validated3();
+        validated4();
+        validated5();
+        validated6();
+        validated7();
+        validated8();
+        validated9();
+        validated10();
+        validated11();
     });
 
     $("#addToItemBtn").click(function () {
+        var price = parseInt($("#iOPrice").val());
+        var qty = parseInt($("#oqty").val());
+        var total = price * qty;
 
-        var price=$("#iOPrice").val();
-        var qty=$("#oqty").val();
-        var total = price*qty;
-        $("#totalTxt").text(total);
-        $("#OrderSubTotal").text(total);
+        var itemID = $("#itemID").val();
+        var found = false;
 
+        for (let i = 0; i < Orders.length; i++) {
+            if (Orders[i].itemID == itemID) {
+                let existingQty = parseInt(Orders[i].Qty);
+                existingQty += qty;
+                Orders[i].Qty = existingQty;
+                found = true;
+                break;
+            }
+        }
+
+        if (!found) {
+            const order = {
+                orderID: $("#oId").val(),
+                date: $("#date").val(),
+                customerID: $("#CustomerIDORderForm").val(),
+                itemID: itemID,
+                itemName: $("#ItemNameOrder").val(),
+                unitPrice: $("#iOPrice").val(),
+                Qty: qty,
+                total: total
+            };
+
+            Orders.push(order);
+        }
+
+        updateOrderTable();
+        loadTotal();
     });
+    function loadTotal() {
+        var fullTotal=0;
+        for (let i = 0; i < Orders.length; i++) {
+            fullTotal+=parseInt(Orders[i].total);
+        }
+        $("#totalTxt").text(fullTotal);
+        $("#OrderSubTotal").text(fullTotal);
+    }
 
     $("#oSaveBtn").click(function () {
-        const order = {
-            orderID:$("#oId").val(),
-            date: $("#date").val(),
-            customerID: $("#CustomerIDORderForm").val(),
-            itemID: $("#itemID").val(),
-            itemName: $("#ItemNameOrder").val(),
-            unitPrice: $("#iOPrice").val(),
-            Qty: $("#oqty").val(),
-            total: $("#OrderSubTotal").text()
-        };
+            $("#oId").val("");
+           $("#date").val("");
+             $("#CustomerIDORderForm").val("");
+            $("#itemID").val("");
+            $("#oCSalary").val("");
+            $("#ItemNameOrder").val("");
+            $("#iOPrice").val("");
+            $("#oqty").val("");
+            $("#iOQty").val("");
+            $("#oCName").val("");
+            $("#orderCashTxt").val("");
+            $("#orderDiscountTxt").val("");
+            $("#tblOrderBody").empty();
+            $("#orderBalanceTxt").val("");
+             $("#OrderSubTotal").text("");
+             $("#totalTxt").text("");
+            $("#selectCustomerId").children().remove();
+            $("#oSelectItem").children().remove();
 
-        Orders.push(order);
-        updateOrderTable();
 
     });
 
@@ -117,10 +180,6 @@ $(document).ready(function () {
         }
 
     });
-
-
-
-
 });
 
 function updateOrderTable() {
