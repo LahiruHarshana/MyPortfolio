@@ -72,6 +72,9 @@ header>ul>li{
 
 body{
     background-color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+
 }
 
 body>main>section:nth-child(1){
