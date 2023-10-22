@@ -150,21 +150,18 @@ body>main>section:nth-child(1)>hgroup>button{
 }
 
 body>main>section:nth-child(1)>hgroup>button:hover{
-    background-color: white;
+    background-color:#0dcaf0;
     border: 1px solid #3391FF;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 4);
+    transition: background-color;
 }
 
 
 body>main>section:nth-child(1)>hgroup>button>a{
     color: white;
     text-decoration: none;
-
 }
 
-body>main>section:nth-child(1)>hgroup>button:hover>a{
-    color: red;
-}
 
 body>main>section:nth-child(2){
     text-align: center;
