@@ -54,7 +54,15 @@ header>ul>li>a{
     text-decoration: none;
     color: white;
     opacity: 100;
+    animation: blurIn infinite 2s;
 
+}
+
+@keyframes blurIn {
+    from {
+        filter: blur(20px);
+        opacity: 0;
+    }
 }
 
 header>ul{
@@ -111,6 +119,7 @@ body>main>section:nth-child(1)>img:nth-child(3){
     }
     90% { transform: translate3d(0, -4px, 0) }
 }
+
 @keyframes zoomIn {
     from {
         transform: scale(10);
@@ -141,8 +150,7 @@ body>main>section:nth-child(1)>hgroup>p:nth-child(1){
     font-weight: 0.1;
     letter-spacing: 0.2em;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 4);
-
-
+    animation: bounceFromTop infinite 2s;
 }
 
 body>main>section:nth-child(1)>hgroup>h2{
