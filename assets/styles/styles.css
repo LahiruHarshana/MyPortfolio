@@ -153,7 +153,7 @@ body>main>section:nth-child(1)>hgroup>button:hover{
     background-color:#0dcaf0;
     border: 1px solid #3391FF;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 4);
-    transition: background-color;
+    transition: background-color 2s;
 }
 
 
