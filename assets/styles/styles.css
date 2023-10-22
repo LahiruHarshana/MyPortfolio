@@ -93,11 +93,15 @@ body>main>section:nth-child(1)>img:nth-child(3){
 }
 
 #myImg{
-    animation: hu__hu__ infinite 2s ease-in-out;
+    animation: zoomIn 2s ease-in-out;
 }
 
-@keyframes hu__hu__ {
-    50% { transform: translateY(30px) }
+@keyframes zoomIn {
+    from {
+        transform: scale(10);
+        opacity: 0;
+    }
+
 }
 body>main>section:nth-child(1)>img:nth-child(4){
     top:-74.5vh;
