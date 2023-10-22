@@ -162,8 +162,8 @@ body>main>section:nth-child(1)>hgroup>button>a{
 
 }
 
-body>main>section:nth-child(1)>hgroup>button:hover a{
-    color: #3391FF;
+body>main>section:nth-child(1)>hgroup>button:hover>a{
+    color: red;
 }
 
 body>main>section:nth-child(2){
