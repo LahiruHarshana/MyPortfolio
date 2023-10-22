@@ -147,8 +147,12 @@ body>main>section:nth-child(1)>hgroup>button{
     width: 15vw;
     height: 5vh;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 4);
+}
 
-
+body>main>section:nth-child(1)>hgroup>button:hover{
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 4);
 }
 
 body>main>section:nth-child(1)>hgroup>button>a{
