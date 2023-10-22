@@ -92,6 +92,9 @@ body>main>section:nth-child(1)>img:nth-child(3){
     z-index: -10;
 }
 
+#myImg{
+
+}
 body>main>section:nth-child(1)>img:nth-child(4){
     top:-74.5vh;
     left: 69vw;
