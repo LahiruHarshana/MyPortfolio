@@ -140,6 +140,9 @@ body>main>section:nth-child(1)>hgroup>p:nth-child(4){
 }
 
 body>main>section:nth-child(1)>hgroup>button{
+    position: relative;
+    left: 0;
+    top: 0;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid white;
     -webkit-text-fill-color: white;

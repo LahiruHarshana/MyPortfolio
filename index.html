@@ -69,7 +69,7 @@
         <p >Hello, I'am </p>
         <h2>Lahiru Harshana</h2>
         <h2>Jayasinghe</h2>
-        <p>FULL STACK DEVELOPER </p>
+        <p id="type">FULL STACK DEVELOPER </p>
         <button> <a href="#contact">  CONTACT ME</a> </button>
         <!--        <h4><a href="#contact">CONTACT ME</a></h4>-->
     </hgroup>
@@ -495,6 +495,26 @@
     <h1>    DEVELOPED BY LAHIRU HARSHANA JAYASINGHE</h1>
 
 </footer>
+
+<script>
+    let listTyping=["SOFTWARE ENGINEER","UI UX ENGINEER","SOFTWARE DEVELOPER"];
+    let i=0;
+    let j=0
+
+    setInterval(function () {
+        let aniPath=listTyping[i].substring(0,j);
+        $("#type").text(aniPath);
+        j++
+        if (j>listTyping[i].length){
+            j=0;
+            i++;
+        }
+        if (i==listTyping.length){
+            i=0;
+        }
+    },130)
+
+</script>
 
 
 <script>
