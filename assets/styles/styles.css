@@ -151,7 +151,7 @@ body>main>section:nth-child(1)>hgroup>button{
 
 body>main>section:nth-child(1)>hgroup>button:hover{
     background-color: white;
-    border: 1px solid white;
+    border: 1px solid #3391FF;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 4);
 }
 
