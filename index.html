@@ -488,11 +488,11 @@
         <div id="loadingImg"><img src="assets/images/Chunk-4s-200px.gif" height="100" width="100"/></div>
     </section>
 
-    <div class="header finisher-header" style="width: 100%; height: 300px;">
-        Logo, navigation, etc.
-    </div>
 
 </main>
+
+<div class="header finisher-header" style="width: 100%; height: 100vh;">
+</div>
 
 <footer>
     <h1>    DEVELOPED BY LAHIRU HARSHANA JAYASINGHE</h1>
@@ -519,6 +519,45 @@
 
 </script>
 
+<script src="assets/styles/finisher-header.es5.min (1).js"></script>
+
+<script type="text/javascript">
+    new FinisherHeader({
+        "count": 100,
+        "size": {
+            "min": 10,
+            "max": 20,
+            "pulse": 0
+        },
+        "speed": {
+            "x": {
+                "min": 0,
+                "max": 0.4
+            },
+            "y": {
+                "min": 0,
+                "max": 0.6
+            }
+        },
+        "colors": {
+            "background": "#ffffff",
+            "particles": [
+                "#a7ccff",
+                "#00b7ff",
+                "#0079f6"
+            ]
+        },
+        "blending": "overlay",
+        "opacity": {
+            "center": 1,
+            "edge": 0
+        },
+        "skew": -2,
+        "shapes": [
+            "c"
+        ]
+    });
+</script>
 
 <script>
     $(window).on('load',function (){
