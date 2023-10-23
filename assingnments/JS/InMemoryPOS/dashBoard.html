@@ -8,8 +8,14 @@
 <header>
 
     <ul class="nav nav-tabs">
+        <li>
+            <h1 style="color: white">&nbsp;&nbsp;තොග කඩේ</h1>
+        </li>
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" id="customerNav" style="cursor: pointer">Customer</a>
+            <a class="nav-link" aria-current="page" id="homeNav" style="cursor: pointer">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" id="customerNav" style="cursor: pointer">Customer</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" id="itemNav" style="cursor: pointer">Items</a>
@@ -22,10 +28,57 @@
 
 <body style="background: #2b3035;width: 100%;height: 130vh;">
 
+<!--homeForm-->
+<section id="homeeeeee"  style="width: 100%; height:99vh;position:absolute; top:10vh;">
+    <section class="container-fluid justify-content-center">
+        <section class="row justify-content-center">
+            <section class="col-10">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" style="height: 705px; border:2px solid white; border-radius: 20px">
+                    <div class="carousel-indicators">
+                        <button style="color: white" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button style="color: white" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button style="color: white" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner" style="height: 700px;border-radius: 20px">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="assets/images/interior-large-distribution-warehouse-with-shelves-stacked-with-palettes-goods-ready-market.jpg"class="d-block w-100" style="height: 700px;border-radius: 20px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="color: white">First slide label</h5>
+                                <p style="color: white">Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="assets/images/warehouse-storage-interior-with-shelves-loaded-with-goods.jpg"class="d-block w-100" style="height: 700px;border-radius: 20px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="color: white">Second slide label</h5>
+                                <p style="color: white">Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/african-american-worker-communicating-with-her-female-colleague-while-preparing-shipment-industrial-warehouse.jpg"class="d-block w-100" style="height: 700px;border-radius: 20px"alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="color: white">Third slide label</h5>
+                                <p style="color: white">Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
 
+            </section>
+        </section>
+    </section>
+</section>
 <!--customerForm-->
 
-<section id="customerForm" style="position:absolute; top:10vh;width: 100%; height:99vh;">
+<section id="customerForm" style="position:absolute; top:10vh;width: 100%; height:99vh;display: none">
     <section class="container-fluid justify-content-center">
         <section class="row justify-content-center">
             <section class="col-12 col-sm-12 col-md-10 col-lg-9 col-xl-8 mt-3" style="border: 1px solid #3dd5f3; border-radius: 12px;-webkit-box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);
@@ -319,8 +372,8 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
                     </div>
                     <form style="height: 45vh">
                         <div class="row">
-                            <label class="text-bg-danger d-flex"><h2>Total LKR:<h2 id="totalTxt" class="text-black">100</h2></h2></label>
-                            <label class="text-bg-info d-flex"><h3>SuBTotal LKR:<h3 id="OrderSubTotal" class="text-black">100</h3></h3></label>
+                            <label class="text-bg-danger d-flex"><h2>Total LKR:<h2 id="totalTxt" class="text-black">0</h2></h2></label>
+                            <label class="text-bg-info d-flex"><h3>SuBTotal LKR:<h3 id="OrderSubTotal" class="text-black">0</h3></h3></label>
                         </div>
 
                         <div class="row">
@@ -373,6 +426,19 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
         </div>
 </section>
 
+<script>
+    var customerFormVar =document.querySelector("#customerForm");
+    var itemFormVar =document.querySelector("#itemForm");
+    var orderrFormVar =document.querySelector("#orderForm");
+    var homeFormVar = document.querySelector("#homeeeeee");
+
+
+    homeFormVar.style.display='inline'
+    customerFormVar.style.display='none';
+    itemFormVar.style.display='none';
+    orderrFormVar.style.display='none';
+</script>
+
 <script src="assets/bootstrap/js/jquery-3.7.1.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap.js"></script>
 <script type="module" src="controllers/CustomerController.js"></script>
@@ -381,6 +447,7 @@ box-shadow: inset 10px 13px 110px -39px rgba(61,213,243,1);">
 <script type="module" src="controllers/validations/ItemValidation.js"></script>
 <script type="module" src="controllers/PurchaseOrderController.js"></script>
 <script type="module" src="controllers/validations/OrderValidation.js"></script>
+
 
 
 
