@@ -1002,7 +1002,7 @@ body>main>section:nth-child(7)>section>div:nth-child(5){
     grid-column: 3/4;
     grid-row: 2/4;
 
-    background: url("/assets/images/image_2.jpeg");
+    background: url("../images/image_2.jpeg");
     background-size: cover;
     background-position: center;
 }
