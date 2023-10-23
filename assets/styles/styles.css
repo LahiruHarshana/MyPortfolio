@@ -981,7 +981,7 @@ body>main>section:nth-child(7)>section>div:nth-child(3){
 }
 
 body>main>section:nth-child(7)>section>div:nth-child(2){
-    background: url("/assets/images/image_3.jpg");
+    background: url("../images/image_3.jpg");
     background-size: cover;
     background-position: center;
 }
